@@ -8,4 +8,8 @@ At the same time, neurual network also was introduced into reinforcement learnin
 [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 and
 [Human-level control through deep reinforcement learning](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf).
-These achievements made researchers consider the possibility of introducing reinforcement learning algorithms into CNN to add 'attention' to models. 
+These achievements made researchers consider the possibility of introducing reinforcement learning algorithms into CNN to add 'attention' to models.
+
+This is the motivation of recurrent attention model, a mixture of CNN, RNN and REINFORCE algorithm. The original creative paper is [Recurrent Models of Visual Attention](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf), which achieves great performence. This model can decrease computing hugely and ignore clutter in image.
+
+I spent effort and time studying and inplementing this model in tensorflow.  This is what this repository is for.
