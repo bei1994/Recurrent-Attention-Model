@@ -21,9 +21,7 @@ Model from this paper is as follow:
 
 Legends:
 
-* Glimpse Sensor:
-
-given input images, glimpse locations and scale number to extract image representation 
+* Glimpse Sensor:given input images, glimpse locations and scale number to extract retina representation 
 ![rho expression](https://latex.codecogs.com/gif.latex?%5Crho%20%28x_t%2C%20l_%7Bt-1%7D%29)
-* second
+* Glimpse Network ![glimpse network](https://latex.codecogs.com/gif.latex?f_g%28%5Ctheta%20_g%29): two fullly connected layers to output glimpse representation given input images and glimpse locations
 * third
