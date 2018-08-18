@@ -1,1 +1,3 @@
 # Recurrent Attention Model
+
+## Introduction
