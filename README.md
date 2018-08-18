@@ -1,1 +1,1 @@
-# Recurrent-Attention-Model
+# Recurrent Attention Model
