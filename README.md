@@ -21,7 +21,17 @@ Model from this paper is as follow:
 
 Legends:
 
-* Glimpse Sensor:given input images, glimpse locations and scale number to extract retina representation 
-![rho expression](https://latex.codecogs.com/gif.latex?%5Crho%20%28x_t%2C%20l_%7Bt-1%7D%29)
-* Glimpse Network ![glimpse network](https://latex.codecogs.com/gif.latex?f_g%28%5Ctheta%20_g%29): two fullly connected layers to output glimpse representation given input images and glimpse locations
-* third
+* Glimpse Sensor: given input images, glimpse locations and scale number to extract retina representation 
+![rho expression](https://latex.codecogs.com/gif.latex?%5Crho%20%28x_t%2C%20l_%7Bt-1%7D%29).
+* Glimpse Network ![glimpse network](https://latex.codecogs.com/gif.latex?f_g%28%5Ctheta%20_g%29): two fullly connected layers to output glimpse representation given input images and glimpse locations.
+* Action Network ![action network](https://latex.codecogs.com/gif.latex?f_a%28%5Ctheta%20_a%29) do image classification(only works at last step of LSTM).
+* Location Network ![location network](https://latex.codecogs.com/gif.latex?f_l%28%5Ctheta%20_l%29): is actor in actor-critic algorithm to decide next glimpse location.
+* Core Network: a LSTmM network to output hidden states and cell states given glimpse representation inputs and previous hidden states.
+
+
+
+
+
+
+
+
