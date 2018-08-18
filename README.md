@@ -14,4 +14,5 @@ This is the motivation of recurrent attention model, a mixture of CNN, RNN and R
 
 I spent effort and time studying and inplementing this model in tensorflow.  This is what this repository is for.
 
+## Model
 
