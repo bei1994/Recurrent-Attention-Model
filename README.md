@@ -16,3 +16,4 @@ I spent effort and time studying and inplementing this model in tensorflow.  Thi
 
 ## Model
 
+Model from this paper is as follow:
