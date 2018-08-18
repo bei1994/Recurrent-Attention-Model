@@ -16,4 +16,5 @@ I spent effort and time studying and inplementing this model in tensorflow.  Thi
 
 ## Model
 
-Model from this paper is as follow:
+Model from this paper is as follow: 
+![alt text](https://github.com/bei1994/Recurrent-Attention-Model/blob/master/images/model.png)
