@@ -29,7 +29,17 @@ Legends:
 * Critic Network ![baseline network](https://latex.codecogs.com/gif.latex?f_b%28%5Ctheta%20_b%29): one fully connected layer to act as critic in actor-critic algorithm to decide next glimpse location.
 * Core Network ![core network](https://latex.codecogs.com/gif.latex?f_h%28%5Ctheta%20_h%29): a LSTM network to output hidden states and cell states given glimpse representation inputs and previous hidden states.
 
+
 ## File List
+
+```
+.:
+lib/model/ram.py
+lib/helper/glimpse_gif.m
+lib/helper/image_gif.m
+```
+
+## Implemenation
 
 * The RAM mdoel is defined in [lib/model/ram.py](lib/model/ram.py).
 * The gif generator is defined in [lib/helper/](lib/helper/).
