@@ -32,7 +32,7 @@ Legends:
 ## Implementation
 
 * The RAM mdoel is defined in [lib/model/ram.py](lib/model/ram.py).
-
+* The gif generator is defined in [lib/helper/](lib/model/).
 
 
 
