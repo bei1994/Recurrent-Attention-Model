@@ -17,4 +17,10 @@ I spent effort and time studying and inplementing this model in tensorflow.  Thi
 ## Model
 
 Model from this paper is as follow: 
-![alt text](https://github.com/bei1994/Recurrent-Attention-Model/blob/master/images/model.png)
+![model.png](https://github.com/bei1994/Recurrent-Attention-Model/blob/master/images/model.png)
+
+Legends:
+
+* Glimpse Sensor: given input images, glimpse locations and scale number to extract image representation 
+* second
+* third
