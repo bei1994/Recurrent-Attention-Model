@@ -22,6 +22,7 @@ Model from this paper is as follow:
 Legends:
 
 * Glimpse Sensor:
+
 given input images, glimpse locations and scale number to extract image representation 
 ![rho expression](https://latex.codecogs.com/gif.latex?%5Crho%20%28x_t%2C%20l_%7Bt-1%7D%29)
 * second
