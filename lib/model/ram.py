@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 sys.path.append('../')
-DATA_PATH = '/Users/lorenzostudyroom/Desktop/result/data/MNIST_data/'
-SAVE_PATH = '/Users/lorenzostudyroom/Desktop/result/data/out/ram_centered/'
-RESULT_PATH = '/Users/lorenzostudyroom/Desktop/result/data/out/test_image_centered/'
+DATA_PATH = '/Users/lorenzostudyroom/Desktop/practice_1/data/MNIST_data/'
+SAVE_PATH = '/Users/lorenzostudyroom/Desktop/practice_1/data/out/ram_centered/'
+RESULT_PATH = '/Users/lorenzostudyroom/Desktop/practice_1/data/out/test_image_centered/'
 
 """parse parameters from terminal."""
 logging.getLogger().setLevel(logging.INFO)
@@ -48,17 +48,27 @@ flags.DEFINE_integer("load", 100, "Load pretrained parameters with id.")
 FLAGS = flags.FLAGS
 
 
-def _weight_variable(shape):
-  initial = tf.truncated_normal(shape=shape, stddev=0.01)
-  return tf.Variable(initial)
+def get_weight(shape):
+  weights = tf.get_variable(name='weights',
+                            shape=shape,
+                            initializer=tf.truncated_normal_initializer(mean=0.0, stddev=0.01),
+                            regularizer=None,
+                            trainable=True)
+
+  return weights
 
 
-def _bias_variable(shape):
-  initial = tf.constant(0.0, shape=shape)
-  return tf.Variable(initial)
+def get_bias(shape):
+  biases = tf.get_variable(name='biases',
+                           shape=shape,
+                           initializer=tf.constant_initializer(value=0.0),
+                           regularizer=None,
+                           trainable=True)
+
+  return biases
 
 
-def _log_likelihood(loc_means, locs, variance):
+def log_likelihood(loc_means, locs, variance):
   """implementation of policy ascent.
 
   By calculating log likelihood to get gradient over theta of policy network.
@@ -73,8 +83,8 @@ def _log_likelihood(loc_means, locs, variance):
   return tf.transpose(log_prob)  # [batch_size, num_glimpses]
 
 
-class RetinaSensor(object):
-  """RetinaSensor Network
+class GlimpseSensor(object):
+  """GlimpseSensor Network
 
   get retina representation ρ(x_t, l_t−1)
 
@@ -106,7 +116,8 @@ class RetinaSensor(object):
       img = tf.reshape(inputs, [tf.shape(inputs)[0],
                                 self.img_size,
                                 self.img_size,
-                                1])
+                                1],
+                       name='2D_2_4D')
 
       max_radius = int(self.patch_base_size * (2 ** (self.num_scales - 2)))
       inputs_pad = tf.pad(
@@ -144,17 +155,18 @@ class RetinaSensor(object):
         retina_reprsent.append(cur_patch)
 
       # [batch_size, self.patch_base_size, self.patch_base_size, channels*scale]
-      self.retina_reprsent = tf.concat(retina_reprsent, axis=-1)
+      self.retina_reprsent = tf.concat(retina_reprsent, axis=-1, name='concat')
       # reshape retina_reprsent as 2D tensor: [batch_size, patch_base_size^2*scale]
       reshaped_retina_reprsent = tf.reshape(self.retina_reprsent,
                                             [tf.shape(locs)[0],
-                                             self.patch_base_size ** 2 * self.num_scales])
+                                             self.patch_base_size ** 2 * self.num_scales],
+                                            name='4D_2_2D')
 
       return reshaped_retina_reprsent
 
 
 class GlimpseNetwork(object):
-  """Glimpse network.
+  """Glimpse Network
 
   Take glimpse location input and output features for RNN.
 
@@ -168,35 +180,44 @@ class GlimpseNetwork(object):
   """
 
   def __init__(self, config, is_translate=False):
-    self.retina_sensor = RetinaSensor(config=config, is_translate=is_translate)
+    self.config = config
+    self.retina_sensor = GlimpseSensor(config=config, is_translate=is_translate)
 
-    # fully connected layer 1
-    self.g1_w = _weight_variable((config.patch_base_size ** 2 * config.num_scales,
-                                  config.g_size))
-    self.g1_b = _bias_variable((config.g_size,))
-    self.l1_w = _weight_variable((config.loc_dim, config.l_size))
-    self.l1_b = _bias_variable((config.l_size,))
-
-    # fully connected layer 2
-    self.g2_w = _weight_variable((config.g_size, config.glimpse_output_size))
-    self.g2_b = _bias_variable((config.glimpse_output_size,))
-    self.l2_w = _weight_variable((config.l_size, config.glimpse_output_size))
-    self.l2_b = _bias_variable((config.glimpse_output_size,))
+    self._init_variables()
 
   def __call__(self, inputs, locs):
     rhos = self.retina_sensor(inputs, locs)
-
-    h_g = tf.nn.relu(tf.nn.xw_plus_b(rhos, self.g1_w, self.g1_b))
-    linear_h_g = tf.nn.xw_plus_b(h_g, self.g2_w, self.g2_b)
-    h_l = tf.nn.relu(tf.nn.xw_plus_b(locs, self.l1_w, self.l1_b))
-    linear_h_l = tf.nn.xw_plus_b(h_l, self.l2_w, self.l2_b)
-    g_t = tf.nn.relu(linear_h_g + linear_h_l)
+    h_g = tf.nn.relu(tf.nn.xw_plus_b(rhos, self.g1_w, self.g1_b, name='linear1'), name='relu1')
+    linear_h_g = tf.nn.xw_plus_b(h_g, self.g2_w, self.g2_b, name='h_g')
+    h_l = tf.nn.relu(tf.nn.xw_plus_b(locs, self.l1_w, self.l1_b, name='linear2'), name='relu2')
+    linear_h_l = tf.nn.xw_plus_b(h_l, self.l2_w, self.l2_b, name='h_l')
+    g_t = tf.nn.relu(linear_h_g + linear_h_l, name='relu3')
 
     return g_t
 
+  def _init_variables(self):
+     # fully connected layer 1
+    with tf.variable_scope('glimpse_net/g1', reuse=tf.AUTO_REUSE):
+      self.g1_w = get_weight((self.config.patch_base_size ** 2 * self.config.num_scales,
+                              self.config.g_size))
+      self.g1_b = get_bias((self.config.g_size,))
 
-class LocationNetwork(object):
-  """
+    with tf.variable_scope('glimpse_net/l1', reuse=tf.AUTO_REUSE):
+      self.l1_w = get_weight((self.config.loc_dim, self.config.l_size))
+      self.l1_b = get_bias((self.config.l_size,))
+
+    # fully connected layer 2
+    with tf.variable_scope('glimpse_net/g2', reuse=tf.AUTO_REUSE):
+      self.g2_w = get_weight((self.config.g_size, self.config.glimpse_output_size))
+      self.g2_b = get_bias((self.config.glimpse_output_size,))
+
+    with tf.variable_scope('glimpse_net/l2', reuse=tf.AUTO_REUSE):
+      self.l2_w = get_weight((self.config.l_size, self.config.glimpse_output_size))
+      self.l2_b = get_bias((self.config.glimpse_output_size,))
+
+
+class ActorNetwork(object):
+  """Actor Network
 
   This is one fully connected network only learns means of (x,y)
   Then use two component Gaussian model to sample next location.
@@ -205,42 +226,123 @@ class LocationNetwork(object):
 
   Args:
     loc_dim: 2
-    rnn_output_size means dimensionality of h_t
+    rnn_output_size: LSTM cell output size means dimensionality of h_t
     locs: [batch_size, 2]
     mean: [batch_size, 2]
-    cell_output: [batch_size, cell_size]
+    hidden_state: a tensor contains last step hidden states [batch_size, cell.output_size]
 
 
   """
 
   def __init__(self, config, rnn_output_size, is_sampling=False):
-    self.loc_dim = config.loc_dim
-    self.variance = config.variance
-    self.w = _weight_variable((rnn_output_size, config.loc_dim))
-    self.b = _bias_variable((config.loc_dim,))
+    self.config = config
+    self.rnn_output_size = rnn_output_size
     self.is_sampling = is_sampling
 
-  def __call__(self, cell_output):
-    mean = tf.nn.xw_plus_b(cell_output, self.w, self.b)
-    mean = tf.clip_by_value(mean, -1., 1.)
-    mean = tf.stop_gradient(mean)
+    self._init_variables()
+
+  def __call__(self, hidden_state):
+    mean = tf.nn.xw_plus_b(hidden_state, self.w, self.b, name='mean')
+    mean = tf.clip_by_value(mean, -1., 1., name='clip1')
+    # glimpse network and lstm not train through actor network.
+    mean = tf.stop_gradient(mean, name='stop1')
 
     if self.is_sampling:
-      locs = mean + tf.random_normal(
-          shape=[tf.shape(cell_output)[0], self.loc_dim],
-          stddev=self.variance)
-      locs = tf.clip_by_value(locs, -1., 1.)
+      locs = mean + tf.random_normal(shape=[tf.shape(hidden_state)[0],
+                                            self.config.loc_dim],
+                                     stddev=self.config.variance,
+                                     name='sampling')
+      locs = tf.clip_by_value(locs, -1., 1., name='clip2')
     else:
       locs = mean
 
-    locs = tf.stop_gradient(locs)
+    locs = tf.stop_gradient(locs, name='stop2')
     return locs, mean
+
+  def _init_variables(self):
+    with tf.variable_scope('actor_net', reuse=tf.AUTO_REUSE):
+      self.w = get_weight((self.rnn_output_size, self.config.loc_dim))
+      self.b = get_bias((self.config.loc_dim,))
+
+
+class CriticNetwork(object):
+  """Critic Network
+
+  Time independent baselines is actually state value function V(s).
+  This is network part to estimate state value function V(s) given actor pi.
+  This network is parallel to actor network and they have the same input h_t as current state.
+  The result is a scalar.
+
+  Args:
+    config: configurations for RAM model
+    rnn_output_size: LSTM cell output size means dimensionality of h_t
+    rnn_outputs: a tensor contains multi-step hidden states [num_steps, batch_size, cell.output_size]
+
+  """
+
+  def __init__(self, config, rnn_output_size):
+    self.config = config
+    self.rnn_output_size = rnn_output_size
+
+    self._init_variables()
+
+  def __call__(self, rnn_outputs):
+    # glimpse network and lstm not train through critic network.
+    stopped_rnn_outputs = tf.stop_gradient(rnn_outputs)
+    baselines = []
+    for step_id in range(self.config.num_glimpses):
+      output = stopped_rnn_outputs[step_id + 1]
+      baseline = tf.nn.xw_plus_b(output, self.w, self.b, name='baseline')  # [batch_size, 1]
+      baseline = tf.squeeze(baseline)  # [batch_size]
+      baselines.append(baseline)  # [[batch_size]*num_glimpses]
+
+    baselines = tf.stack(baselines)  # [num_glimpses, batch_size]
+    baselines = tf.transpose(baselines)  # [batch_size, num_glimpses]
+
+    return baselines
+
+  def _init_variables(self):
+    with tf.variable_scope('critic_net', reuse=tf.AUTO_REUSE):
+      self.w = get_weight((self.rnn_output_size, 1))
+      self.b = get_bias((1,))
+
+
+class ClassifyNetwork(object):
+  """Classify Network
+
+  Image Classification.
+  Only happens at the last step.
+
+  Args:
+    config: configurations for RAM model
+    rnn_output_size: LSTM cell output size means dimensionality of h_t
+    hidden_state: a tensor contains last step hidden states [batch_size, cell.output_size]
+
+  """
+
+  def __init__(self, config, rnn_output_size):
+    self.config = config
+    self.rnn_output_size = rnn_output_size
+
+    self._init_variables()
+
+  def __call__(self, hidden_state):
+    # logits: [batch_size, num_classes]
+    logits = tf.nn.xw_plus_b(hidden_state, self.w, self.b, name='logits')
+
+    return logits
+
+  def _init_variables(self):
+    with tf.variable_scope('classify_net', reuse=tf.AUTO_REUSE):
+      self.w = get_weight((self.rnn_output_size, self.config.num_classes))
+      self.b = get_bias((self.config.num_classes,))
 
 
 class RecurrentAttentionModel(object):
   """recurrent attention network
 
   build up a whole recurrent attention network.
+  stitch up all networks together.
 
 
   """
@@ -259,144 +361,131 @@ class RecurrentAttentionModel(object):
     self.is_translate = is_translate
 
     # input data placeholders
-    self.image = tf.placeholder(tf.float32, [None, config.input_img_size * config.input_img_size])
-    self.label = tf.placeholder(tf.int64, [None])
+    with tf.name_scope('input'):
+      self.image = tf.placeholder(tf.float32, [None, config.input_img_size * config.input_img_size])
+      self.label = tf.placeholder(tf.int64, [None])
 
-    # translate MNIST data if need
-    if self.is_translate:
-      img = tf.reshape(self.image, [tf.shape(self.image)[0],
-                                    config.input_img_size,
-                                    config.input_img_size,
-                                    1])
+    with tf.name_scope('image_translate'):
+      # translate MNIST data if need
+      if self.is_translate:
+        img = tf.reshape(self.image, [tf.shape(self.image)[0],
+                                      config.input_img_size,
+                                      config.input_img_size,
+                                      1],
+                         name='2D_2_4D')
 
-      self.proc_image = self._translate_image(img)
-      # reshape into 2D tensor: [batch_size, img_size^2]
-      # new_img_size = self.proc_image.get_shape().as_list()
-      # print(new_img_size)
-      self.proc_image = tf.reshape(self.proc_image, [tf.shape(self.image)[0],
-                                                     config.img_size * config.img_size])
-    else:
-      self.proc_image = self.image
+        self.proc_image = self._translate_image(img)
+        # reshape into 2D tensor: [batch_size, img_size^2]
+        # new_img_size = self.proc_image.get_shape().as_list()
+        # print(new_img_size)
+        self.proc_image = tf.reshape(self.proc_image,
+                                     [tf.shape(self.image)[0],
+                                      config.img_size * config.img_size],
+                                     name='4D_2_2D')
+      else:
+        self.proc_image = self.image
 
-    self.global_step = tf.Variable(0, trainable=False)
+    with tf.name_scope('global_step'):
+      self.global_step = tf.Variable(0, trainable=False)
 
     # define learning rate
-    self.learning_rate = tf.maximum(tf.train.exponential_decay(config.learning_rate,
-                                                               self.global_step,
-                                                               decay_step,
-                                                               config.decay_factor,
-                                                               staircase=True),
-                                    config.min_learning_rate)
+    with tf.name_scope('learning_rate'):
+      self.learning_rate = tf.maximum(tf.train.exponential_decay(config.learning_rate,
+                                                                 self.global_step,
+                                                                 decay_step,
+                                                                 config.decay_factor,
+                                                                 staircase=True),
+                                      config.min_learning_rate)
 
-    cell = BasicLSTMCell(config.cell_size)
+      tf.summary.scalar("learning_rate", self.learning_rate)
 
-    with tf.variable_scope('GlimpseNetwork'):
-      glimpse_network = GlimpseNetwork(config=config,
-                                       is_translate=self.is_translate)
+    # Glimpse Network
+    with tf.name_scope('glimpse_net'):
+      self.glimpse_network = GlimpseNetwork(config=config,
+                                            is_translate=self.is_translate)
 
-    with tf.variable_scope('LocationNetwork'):
-      location_network = LocationNetwork(config=config,
-                                         rnn_output_size=cell.output_size,
-                                         is_sampling=self.is_training)
+    # Actor Network
+    with tf.name_scope('actor_net'):
+      self.actor_network = ActorNetwork(config=config,
+                                        rnn_output_size=config.cell_size,
+                                        is_sampling=self.is_training)
 
-    # Core LSTM Network
-    with tf.name_scope('RNN'):
-      batch_size = tf.shape(self.image)[0]
-      init_locs = tf.random_uniform(shape=[batch_size, config.loc_dim],
-                                    minval=-1,
-                                    maxval=1)
-      init_state = cell.zero_state(batch_size, tf.float32)
+    # LSTM Network
+    with tf.name_scope('lstm'):
+      cell = BasicLSTMCell(config.cell_size, name='basic_lstm_cell')
 
-      # transfer glimpse network output into 2D list
-      # rnn_inputs: 3D list [[batch_size, 256], ...]
-      init_glimpse = glimpse_network(self.proc_image, init_locs)
-      rnn_inputs = [init_glimpse]
-      rnn_inputs.extend([0] * config.num_glimpses)
+      with tf.name_scope('initialization'):
+        with tf.name_scope('batch_size'):
+          batch_size = tf.shape(self.image)[0]
 
-      self.locs, loc_means, self.retina_reprsent = [], [], []
+        with tf.name_scope('init_locs'):
+          init_locs = tf.random_uniform(shape=[batch_size, config.loc_dim],
+                                        minval=-1,
+                                        maxval=1,
+                                        name='sampling')
 
+        with tf.name_scope('init_state'):
+          init_state = cell.zero_state(batch_size, tf.float32)
+
+        # transfer glimpse network output into 2D list
+        # rnn_inputs: 3D list [[batch_size, 256], ...]
+        with tf.name_scope('init_glimpse'):
+          init_glimpse = self.glimpse_network(self.proc_image, init_locs)
+
+        with tf.name_scope('rnn_inputs'):
+          rnn_inputs = [init_glimpse]
+          rnn_inputs.extend([0] * config.num_glimpses)
+
+        with tf.name_scope('init_list'):
+          self.locs, self.loc_means, self.retina_reprsent = [], [], []
+
+      # with tf.name_scope('rnn_decoder'):
       def loop_function(prev, _):
-        loc, loc_mean = location_network(prev)
+        loc, loc_mean = self.actor_network(prev)
         self.locs.append(loc)
-        loc_means.append(loc_mean)
-        glimpse = glimpse_network(self.proc_image, loc)
-        self.retina_reprsent.append(glimpse_network.retina_sensor.retina_reprsent)
+        self.loc_means.append(loc_mean)
+        glimpse = self.glimpse_network(self.proc_image, loc)
+        self.retina_reprsent.append(self.glimpse_network.retina_sensor.retina_reprsent)
         return glimpse
 
-      rnn_outputs, _ = rnn_decoder(rnn_inputs,
-                                   init_state,
-                                   cell,
-                                   loop_function=loop_function)
+      self.rnn_outputs, _ = rnn_decoder(rnn_inputs,
+                                        init_state,
+                                        cell,
+                                        loop_function=loop_function)
 
-    # Time independent baselines is actually state value function V(s).
-    # This is network part to estimate state value function V(s) given actor pi.
-    # This network is parallel to actor network and they have the same input h_t
-    # as current state.
-    # The result is a scalar.
-    with tf.variable_scope('Baseline'):
-      baseline_w = _weight_variable((cell.output_size, 1))
-      baseline_b = _bias_variable((1,))
-    # core net does not trained through baseline loss
-    stopped_rnn_outputs = tf.stop_gradient(rnn_outputs)
-    baselines = []
-    for step_id in range(config.num_glimpses):
-      output = stopped_rnn_outputs[step_id + 1]
-      baseline = tf.nn.xw_plus_b(output, baseline_w, baseline_b)  # [batch_size, 1]
-      baseline = tf.squeeze(baseline)  # [batch_size]
-      baselines.append(baseline)  # [[batch_size]*num_glimpses]
+    # Critic Network
+    with tf.name_scope('critic_net'):
+      self.critic_network = CriticNetwork(config=config,
+                                          rnn_output_size=cell.output_size)
 
-    baselines = tf.stack(baselines)  # [num_glimpses, batch_size]
-    baselines = tf.transpose(baselines)  # [batch_size, num_glimpses]
+    # Classify Network
+    with tf.name_scope('classify_net'):
+      self.classify_network = ClassifyNetwork(config=config,
+                                              rnn_output_size=cell.output_size)
 
-    # Classification. Take the last step only.
-    rnn_last_output = rnn_outputs[-1]
-    with tf.variable_scope('Classification'):
-      logit_w = _weight_variable((cell.output_size, config.num_classes))
-      logit_b = _bias_variable((config.num_classes,))
-    logits = tf.nn.xw_plus_b(rnn_last_output, logit_w, logit_b)  # [batch_size, num_classes]
-    self.prediction = tf.argmax(logits, 1)  # [batch_size]
-    self.softmax = tf.nn.softmax(logits)
+    rnn_last_output = self.rnn_outputs[-1]
+    self.logits = self.classify_network(rnn_last_output)
+    with tf.name_scope('argmax'):
+      self.prediction = tf.argmax(self.logits, 1)  # [batch_size]
+    with tf.name_scope('softmax'):
+      self.softmax = tf.nn.softmax(self.logits)
 
     if is_training:
-
-      # classification loss
-      self.cl_loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(
-          labels=self.label,
-          logits=logits))
-
-      # RL reward
-      reward = tf.cast(tf.equal(self.prediction, self.label), tf.float32)  # [batch_size]
-      rewards = tf.expand_dims(reward, 1)  # [batch_size, 1]
-      rewards = tf.tile(rewards, (1, config.num_glimpses))  # [batch_size, num_glimpses]
-      self.reward = tf.reduce_mean(reward)  # a scalar
-
-      # core net does not trained through REINFORCE reward
-      # actor net does not trained through state value net
-      advantages = rewards - tf.stop_gradient(baselines)  # [batch_size, num_glimpses]
-      log_prob = _log_likelihood(loc_means, self.locs, config.variance)  # [batch_size, num_glimpses]
-      REINFORCE_reward = tf.reduce_mean(log_prob * advantages)  # gradient over theta of policy
-      self.advantage = tf.reduce_mean(advantages)  # a scalar
-
-      # baseline loss to train state value function V(s)
-      # self.baselines_mse = tf.reduce_mean(tf.square((rewards - baselines)))
-      self.baselines_mse = tf.losses.mean_squared_error(labels=rewards,
-                                                        predictions=baselines)
-
       # hybrid loss: classification loss, RL reward, baseline loss
-      self.loss = -REINFORCE_reward + self.cl_loss + self.baselines_mse
+      with tf.name_scope('total_loss'):
+        self.loss = self.total_loss()
+        tf.summary.scalar("total_loss", self.loss)
 
-      var_list = tf.trainable_variables()
-      gradients = tf.gradients(self.loss, var_list)
-      # collect histogram of gradient
-      # [tf.summary.histogram('gradient/' + var.name, grad,
-      #                       collections=[tf.GraphKeys.SUMMARIES])
-      #  for grad, var in zip(gradients, var_list)]
+      with tf.name_scope('train'):
+        var_list = tf.trainable_variables()
+        gradients = tf.gradients(self.loss, var_list)
 
-      clipped_gradients, norm = tf.clip_by_global_norm(gradients, config.max_gradient_norm)
-      self.train_op = tf.train.AdamOptimizer(self.learning_rate).apply_gradients(
-          zip(clipped_gradients, var_list), global_step=self.global_step)
+        clipped_gradients, norm = tf.clip_by_global_norm(gradients, config.max_gradient_norm)
+        self.train_op = tf.train.AdamOptimizer(self.learning_rate).apply_gradients(
+            zip(clipped_gradients, var_list), global_step=self.global_step)
 
-    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=99999999)
+      with tf.name_scope('merge'):
+        self.merged = tf.summary.merge_all()
 
   def _translate_image(self, input_im):
     """
@@ -406,31 +495,73 @@ class RecurrentAttentionModel(object):
         input_im: [batch_size, in_height, in_width, channel]
 
     """
-    with tf.name_scope('ImageTranslation'):
-      trans_offset = int((self.config.img_size - 28) / 2)
-      pad_im = tf.pad(
-          input_im,
-          paddings=tf.constant(
-              [[0, 0],
-               [trans_offset, trans_offset],
-               [trans_offset, trans_offset],
-               [0, 0]]),
-          mode='CONSTANT',
-          name='pad_im',
-          constant_values=0
-      )
+    trans_offset = int((self.config.img_size - 28) / 2)
+    pad_im = tf.pad(
+        input_im,
+        paddings=tf.constant(
+            [[0, 0],
+             [trans_offset, trans_offset],
+             [trans_offset, trans_offset],
+             [0, 0]]),
+        mode='CONSTANT',
+        name='pad_im',
+        constant_values=0)
 
-      batch_size = tf.shape(input_im)[0]
-      translations = tf.random_uniform(
-          (batch_size, 2), minval=-trans_offset, maxval=trans_offset)  # [batch_size, 2]
-      trans_im = tf.contrib.image.translate(
-          pad_im,
-          translations,
-          interpolation='NEAREST',
-          name=None
-      )
+    batch_size = tf.shape(input_im)[0]
+    translations = tf.random_uniform((batch_size, 2),
+                                     minval=-trans_offset,
+                                     maxval=trans_offset,
+                                     name='sampling')  # [batch_size, 2]
+    trans_im = tf.contrib.image.translate(pad_im,
+                                          translations,
+                                          interpolation='NEAREST',
+                                          name='translate')
 
-      return trans_im
+    return trans_im
+
+  def total_loss(self):
+    self.loss = self._actor_critic() + self._cl_loss()
+    return self.loss
+
+  def _cl_loss(self):
+    with tf.name_scope('classify_cross_entropy'):
+      cross_entropy = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(
+          labels=self.label,
+          logits=self.logits))
+
+      self.cl_loss = cross_entropy
+      tf.summary.scalar("cl_loss", self.cl_loss)
+
+      return cross_entropy
+
+  def _actor_critic(self):
+    with tf.name_scope('actor_critic'):
+      # RL reward
+      reward = tf.cast(tf.equal(self.prediction, self.label), tf.float32)  # [batch_size]
+      self.reward = tf.reduce_mean(reward)  # a scalar
+      tf.summary.scalar("reward", self.reward)
+      rewards = tf.expand_dims(reward, 1)  # [batch_size, 1]
+      rewards = tf.tile(rewards, (1, self.config.num_glimpses))  # [batch_size, num_glimpses]
+
+      # core net does not trained through ActorCritic reward
+      # actor net does not trained through state value net
+      baselines = self.critic_network(self.rnn_outputs)
+      advantages = rewards - tf.stop_gradient(baselines)  # [batch_size, num_glimpses]
+      # log_prob: [batch_size, num_glimpses]
+      log_prob = log_likelihood(self.loc_means, self.locs, self.config.variance)
+      ActorCritic_reward = tf.reduce_mean(log_prob * advantages)  # gradient over theta of policy
+      self.advantage = tf.reduce_mean(advantages)  # a scalar
+      tf.summary.scalar("advantage", self.advantage)
+
+      # baseline loss to train state value function V(s)
+      # self.baselines_mse = tf.reduce_mean(tf.square((rewards - baselines)))
+      self.baselines_mse = tf.losses.mean_squared_error(labels=rewards,
+                                                        predictions=baselines)
+      tf.summary.scalar("baselines_mse", self.advantage)
+
+      hyper_loss = -ActorCritic_reward + self.baselines_mse
+
+      return hyper_loss
 
 
 class Trainer(object):
@@ -440,18 +571,19 @@ class Trainer(object):
     self.train_data = train_data
 
     self.train_op = model.train_op
-    self.loss = model.loss
-    self.cl_loss = model.cl_loss
-    self.reward = model.reward
-    self.advantage = model.advantage
-    self.baselines_mse = model.baselines_mse
+    self.avg_total_loss = model.loss
+    self.avg_cl_loss = model.cl_loss
+    self.avg_reward = model.reward
+    self.avg_advantage = model.advantage
+    self.avg_baselines_mse = model.baselines_mse
     self.lr_rate = model.learning_rate
+    self.merged = model.merged
 
     self.softmax = model.softmax
     self.sample_locs = model.locs
     self.predics = model.prediction
 
-  def train_epoch(self, sess, saver, name):
+  def train_epoch(self, sess, saver, name, writer=None):
     self.model.is_training = True
     for step in range(self.config.num_steps):
       # images:[batch_size, 784]
@@ -460,17 +592,19 @@ class Trainer(object):
       images = np.tile(images, [self.config.M, 1])  # [batch_size*FLAGS.M, 784]
       labels = np.tile(labels, [self.config.M])  # [batch_size*FLAGS.M]
 
-      output_feed = [self.train_op, self.loss, self.cl_loss, self.reward,
-                     self.advantage, self.baselines_mse, self.lr_rate]
+      output_feed = [self.train_op, self.avg_total_loss, self.avg_cl_loss, self.avg_reward,
+                     self.avg_advantage, self.avg_baselines_mse, self.lr_rate, self.merged]
 
-      _, loss, cl_loss, reward, advantage, baselines_mse, lr = sess.run(
+      _, avg_total_loss, avg_cl_loss, avg_reward, avg_advantage, avg_baselines_mse, lr, cur_summary = sess.run(
           output_feed,
           feed_dict={self.model.image: images, self.model.label: labels})
+
+      writer.add_summary(cur_summary, step)
 
       if step and step % 100 == 0:
         logging.info(
             'step {}: lr = {:3.6f}\tloss = {:3.4f}\tcl_loss = {:3.4f}\treward = {:3.4f}\tadvantage = {:3.4f}\tbaselines_mse = {:3.4f}'.format(
-                step, lr, loss, cl_loss, reward, advantage, baselines_mse))
+                step, lr, avg_total_loss, avg_cl_loss, avg_reward, avg_advantage, avg_baselines_mse))
 
         saver.save(sess,
                    '{}ram-{}-mnist-step-{}'
@@ -505,13 +639,6 @@ class Trainer(object):
           else:
             logging.info('test accuracy = {}'.format(accuracy))
 
-    # if summary_writer is not None:
-    #   s = tf.Summary()
-    #   s.value.add(tag='train_loss', simple_value=loss)
-    #   s.value.add(tag='train_accuracy', simple_value=accuracy)
-    #   summary_writer.add_summary(s, step)
-    #   summary_writer.add_summary(cur_summary, step)
-
   def test_batch(self, sess, batch_data, unit_pixel, size, scale, save_path=''):
     def draw_bbx(ax, x, y):
       rect = patches.Rectangle(
@@ -537,11 +664,6 @@ class Trainer(object):
     pad_radius = size * (2 ** (scale - 2))  # size: glimpse base size
     im_size = self.config.img_size
     loc_list = np.clip(np.array(loc_list), -1.0, 1.0)
-    # print(type(im_size))
-    # print(type(pad_radius))
-    # print(type(unit_pixel))
-    # print(type(input_im))
-    # print(input_im.shape)
     loc_list = loc_list * 1.0 * unit_pixel / (im_size / 2 + pad_radius)
     loc_list = (loc_list + 1.0) * 1.0 / 2 * (im_size + pad_radius * 2)
     offset = pad_radius
@@ -680,12 +802,16 @@ def main(_):
                                 is_translate=FLAGS.translate)
 
   trainer = Trainer(ram, mnist)
+  writer = tf.summary.FileWriter(SAVE_PATH)
   saver = tf.train.Saver(max_to_keep=99999999)
+
   with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
     if FLAGS.train:
-      trainer.train_epoch(sess, saver, name)
+      writer.add_graph(sess.graph)
+      trainer.train_epoch(sess, saver, name, writer=writer)
+      writer.close()
 
     if FLAGS.test:
       saver.restore(sess,
