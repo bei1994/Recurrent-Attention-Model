@@ -80,7 +80,7 @@ cd lib/model/
 python3 ram.py --train=True --center=True
 ```
 
-There are 3 supported model parameters configurations: 'center', 'translated' adnd 'custom'. You can set different hyperparameters to train your model using the same syntax in terminal. Details of hyperparameters can be found [here](lib/model/ram.py).
+There are 3 supported model parameters configurations: 'center', 'translated' adnd 'custom'. You can set different hyperparameters to train your model using the same syntax in terminal. And you can also test your trained models. Details of hyperparameters can be found [here](lib/model/ram.py).
 
  
 
