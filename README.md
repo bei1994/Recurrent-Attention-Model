@@ -69,6 +69,9 @@ Notes:
  
  * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
- ## Run the code
+## Run the code
+ 
+Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
+ 
  
 
