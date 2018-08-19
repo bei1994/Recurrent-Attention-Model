@@ -91,9 +91,25 @@ I experiment two different dataset: MNIST center dataset and MNIST translated da
 
 ![test image center](/images/gif/center/center.gif)
 
+#### Glimpse Scale 1 Process
+
+![glimpse center](/images/gif/center/glimpse_scale_1.gif)
+
 #### Translated MNIST
 
+![test image trans](/images/gif/translated/translated.gif)
 
+#### Glimpse Scale 1 Process
+
+![glimpse trans](/images/gif/center/glimpse_scale_1.gif)
+
+#### Glimpse Scale 2 Process
+
+![glimpse trans](/images/gif/center/glimpse_scale_2.gif)
+
+#### Glimpse Scale 3 Process
+
+![glimpse trans](/images/gif/center/glimpse_scale_3.gif)
 
 
 
