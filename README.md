@@ -101,15 +101,15 @@ I experiment two different dataset: MNIST center dataset and MNIST translated da
 
 #### Glimpse Scale 1 Process
 
-![glimpse trans](/images/gif/center/glimpse_scale_1.gif)
+![glimpse scale 1 trans](/images/gif/translated/glimpse_scale_1.gif)
 
 #### Glimpse Scale 2 Process
 
-![glimpse trans](/images/gif/center/glimpse_scale_2.gif)
+![glimpse scale 2 trans](/images/gif/translated/glimpse_scale_2.gif)
 
 #### Glimpse Scale 3 Process
 
-![glimpse trans](/images/gif/center/glimpse_scale_3.gif)
+![glimpse scale 3 trans](/images/gif/translated/glimpse_scale_3.gif)
 
 
 
