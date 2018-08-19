@@ -23,10 +23,15 @@ Legends:
 
 * Glimpse Sensor: given input images, glimpse locations and scale number to extract retina representation 
 ![rho expression](https://latex.codecogs.com/gif.latex?%5Crho%20%28x_t%2C%20l_%7Bt-1%7D%29).
+
 * Glimpse Network ![glimpse network](https://latex.codecogs.com/gif.latex?f_g%28%5Ctheta%20_g%29): two fully connected layers to output glimpse representation given input images and glimpse locations.
+
 * Action Network ![action network](https://latex.codecogs.com/gif.latex?f_a%28%5Ctheta%20_a%29): one fully connected layer doing image classification(only works at last step of LSTM).
+
 * Location Network ![location network](https://latex.codecogs.com/gif.latex?f_l%28%5Ctheta%20_l%29):  one fully connected layer to act as actor in actor-critic algorithm to decide next glimpse location.
+
 * Critic Network ![baseline network](https://latex.codecogs.com/gif.latex?f_b%28%5Ctheta%20_b%29): one fully connected layer to act as critic in actor-critic algorithm to decide next glimpse location.
+
 * Core Network ![core network](https://latex.codecogs.com/gif.latex?f_h%28%5Ctheta%20_h%29): a LSTM network to output hidden states and cell states given glimpse representation inputs and previous hidden states.
 
 
@@ -50,8 +55,10 @@ Notes:
 
 * Location network is trained through [Actor-Critic Algorithm Based on Policy Gradient](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf). According to policy gradient expression, we can just treat it as a classic classification problem to train location network practically. Details can be found [here](https://www.youtube.com/watch?v=y8UPGr36ccI&t=0s&list=PLvSdMJxMoHLtRjW2QFp3mRfzU02TgzrSV&index=3) (Apologies for no english substitles in this video :( ).
 
-*
+* Critic network is trained through mean square error between reward and baseline. Baseline is value function ![value function](https://latex.codecogs.com/gif.latex?V%5E%5Cpi%28s%29). In this implementation reward is estimated by just one trajectory reward, which is not accurate though. But it is enough for MNIST dataset. For more complicated tasks, you should choose more fancier methods to estimate reward. These are some choices: 
 
+   - First nested list item
+   - First nested list item
 
 
 
