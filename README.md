@@ -69,6 +69,8 @@ Notes:
  
  * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
+ * I implement center MNIST data and translated MNIST data. Due to the time constraint, I don't experiment with cluttered MNIST data.
+ 
 ## Run the code
  
 Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
