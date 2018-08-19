@@ -57,10 +57,15 @@ Notes:
 
 * Critic network is trained through mean square error between reward and baseline. Baseline is value function ![value function](https://latex.codecogs.com/gif.latex?V%5E%5Cpi%28s%29). In this implementation reward is estimated by just one trajectory reward, which is not accurate though. But it is enough for MNIST dataset. For more complicated tasks, you should choose more fancier methods to estimate reward. These are some choices: 
 
-   - First nested list item
-   - First nested list item
-
-
-
+   - [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+   - [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952?context=cs)
+   - [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
+   - [Parameter Space Noise for Exploration](https://arxiv.org/abs/1706.01905)
+   - [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf)
+   - [Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf)
+   - [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+   - [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+   - [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
+ 
 
 
