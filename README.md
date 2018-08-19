@@ -77,8 +77,6 @@ Notes:
 * Tensorflow 1.8+
 * Tensorboard 1.8+
 * Matlab R2017a+
- 
-Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
 
 ## Run the code
  
