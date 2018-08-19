@@ -82,9 +82,18 @@ Notes:
  
 Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
 
+### For training
+
 ```
 cd lib/model/
 python3 ram.py --train=True --center=True
+```
+
+### For testing
+
+```
+cd lib/model/
+python3 ram.py --test=True --center=True --load=SAVER.GLOBAL_STEP(DEFAULT = 100)
 ```
 
 There are 3 supported model parameters configurations: 'center', 'translated' and 'custom'. You can set different hyperparameters to train your model using the same syntax in terminal. And you can also test your trained models. Details of hyperparameters can be found [here](lib/model/ram.py).
