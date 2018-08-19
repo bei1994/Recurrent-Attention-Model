@@ -86,51 +86,59 @@ There are 3 supported model parameters configurations: 'center', 'translated' an
 
 I experiment two different dataset: MNIST center dataset and MNIST translated dataset. After getting results, I use [code](lib/helper/) to generate whole image gif and glimpse gif for model testing process.For center MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 8. The final valid error rate is 0.88%, test error rate is 0.78% which is much better than 1.29% in the original paper. For translated MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 12, glimpse scale is 3. The final valid error rate is 1.08%, test error rate is 1.19% which is also much better than 1.84% in the original paper. The training log files can be found [here](/results/), including saver and summary_writter. The tensorboard visualization are as follows:
 
-### Network Architecture
+### Training
+
+---
+
+#### Network Architecture
 
 ![network architecture](/images/tensorboard/network.png)
 
-### Center MNIST Training Process
+#### Centered MNIST Training Process
 
 ![scalars center](/images/tensorboard/scalars_center.png)
 
-### Translated MNIST Training Process
+#### Translated MNIST Training Process
 
 ![scalars translated](/images/tensorboard/scalars_translated.png)
 
 
 test generated images. If you want, you can directly reload my log file to use my trained models. One test batch size is 32, prediction accuracy is 100%. I use first 30 generated images to make gifs. These gifs are as follows:
 
-### Centered MNIST
+### Testing
 
 ---
 
-#### Image Testing Process
+#### Centered MNIST
+
+---
+
+##### Image Testing Process
 
 ![test image center](/images/gif/center/center.gif)
 
-#### Glimpse Scale 1 Process
+##### Glimpse Scale 1 Process
 
 ![glimpse center](/images/gif/center/glimpse_scale_1.gif)
 
 
-### Translated MNIST
+#### Translated MNIST
 
 ---
 
-#### Image Testing Process
+##### Image Testing Process
 
 ![test image trans](/images/gif/translated/translated.gif)
 
-#### Glimpse Scale 1 Process
+##### Glimpse Scale 1 Process
 
 ![glimpse scale 1 trans](/images/gif/translated/glimpse_scale_1.gif)
 
-#### Glimpse Scale 2 Process
+##### Glimpse Scale 2 Process
 
 ![glimpse scale 2 trans](/images/gif/translated/glimpse_scale_2.gif)
 
-#### Glimpse Scale 3 Process
+##### Glimpse Scale 3 Process
 
 ![glimpse scale 3 trans](/images/gif/translated/glimpse_scale_3.gif)
 
