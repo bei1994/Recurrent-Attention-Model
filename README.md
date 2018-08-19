@@ -67,7 +67,8 @@ Notes:
    - [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
    - [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
  
- * To estimate reward, I use Monte Carlo methond to sample different trajectory.
+ * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
+ ## Run the code
  
 
