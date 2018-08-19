@@ -1,0 +1,1115 @@
+INFO:root:step 100: lr = 0.001000   loss = 2.2101   cl_loss = 2.0917    reward = 0.1281 advantage = -0.0240 baselines_mse = 0.1162
+INFO:root:step 200: lr = 0.001000   loss = 1.9623   cl_loss = 1.7198    reward = 0.4219 advantage = 0.2527  baselines_mse = 0.2737
+INFO:root:step 300: lr = 0.001000   loss = 1.8905   cl_loss = 1.7223    reward = 0.2531 advantage = -0.0035 baselines_mse = 0.1695
+INFO:root:step 400: lr = 0.001000   loss = 1.5989   cl_loss = 1.4244    reward = 0.3469 advantage = 0.0242  baselines_mse = 0.1794
+INFO:root:step 500: lr = 0.001000   loss = 1.7658   cl_loss = 1.5458    reward = 0.3969 advantage = 0.0354  baselines_mse = 0.2150
+INFO:root:step 600: lr = 0.001000   loss = 1.7387   cl_loss = 1.5053    reward = 0.4812 advantage = 0.0757  baselines_mse = 0.2335
+INFO:root:step 700: lr = 0.001000   loss = 1.1107   cl_loss = 0.9394    reward = 0.6281 advantage = 0.1705  baselines_mse = 0.2188
+INFO:root:step 800: lr = 0.001000   loss = 1.2185   cl_loss = 1.0143    reward = 0.5813 advantage = 0.0671  baselines_mse = 0.2142
+INFO:root:step 900: lr = 0.001000   loss = 1.7017   cl_loss = 1.4912    reward = 0.3812 advantage = 0.0034  baselines_mse = 0.2114
+INFO:root:step 1000: lr = 0.001000  loss = 1.4770   cl_loss = 1.2120    reward = 0.5188 advantage = -0.0703 baselines_mse = 0.2343
+INFO:root:step 1100: lr = 0.001000  loss = 1.1145   cl_loss = 0.9105    reward = 0.6687 advantage = 0.0520  baselines_mse = 0.1971
+INFO:root:step 1200: lr = 0.001000  loss = 1.1431   cl_loss = 0.9298    reward = 0.6406 advantage = 0.0320  baselines_mse = 0.2101
+INFO:root:step 1300: lr = 0.001000  loss = 1.2003   cl_loss = 0.9914    reward = 0.6375 advantage = -0.0133 baselines_mse = 0.1970
+INFO:root:step 1400: lr = 0.001000  loss = 0.9117   cl_loss = 0.7054    reward = 0.7000 advantage = -0.0284 baselines_mse = 0.1837
+INFO:root:step 1500: lr = 0.001000  loss = 1.1112   cl_loss = 0.9078    reward = 0.6594 advantage = -0.0065 baselines_mse = 0.2035
+INFO:root:step 1600: lr = 0.001000  loss = 0.7471   cl_loss = 0.5754    reward = 0.7625 advantage = 0.0234  baselines_mse = 0.1619
+INFO:root:step 1700: lr = 0.001000  loss = 0.8677   cl_loss = 0.6759    reward = 0.7156 advantage = -0.0338 baselines_mse = 0.1835
+INFO:root:valid accuracy = 0.8375400641025641
+INFO:root:test accuracy = 0.8254206730769231
+INFO:root:step 1800: lr = 0.000970  loss = 1.2105   cl_loss = 0.9876    reward = 0.6469 advantage = -0.1158 baselines_mse = 0.2129
+INFO:root:step 1900: lr = 0.000970  loss = 0.9032   cl_loss = 0.7135    reward = 0.7281 advantage = 0.0327  baselines_mse = 0.1835
+INFO:root:step 2000: lr = 0.000970  loss = 0.5736   cl_loss = 0.4647    reward = 0.8281 advantage = 0.0542  baselines_mse = 0.1289
+INFO:root:step 2100: lr = 0.000970  loss = 0.9893   cl_loss = 0.7931    reward = 0.7125 advantage = -0.0173 baselines_mse = 0.1710
+INFO:root:step 2200: lr = 0.000970  loss = 0.9792   cl_loss = 0.8154    reward = 0.7531 advantage = 0.0131  baselines_mse = 0.1525
+INFO:root:step 2300: lr = 0.000970  loss = 0.8115   cl_loss = 0.6492    reward = 0.7781 advantage = 0.0155  baselines_mse = 0.1656
+INFO:root:step 2400: lr = 0.000970  loss = 1.0238   cl_loss = 0.8110    reward = 0.7094 advantage = -0.1224 baselines_mse = 0.1974
+INFO:root:step 2500: lr = 0.000970  loss = 1.1826   cl_loss = 0.9370    reward = 0.6781 advantage = -0.0909 baselines_mse = 0.2013
+INFO:root:step 2600: lr = 0.000970  loss = 0.5094   cl_loss = 0.3976    reward = 0.8594 advantage = 0.0462  baselines_mse = 0.1104
+INFO:root:step 2700: lr = 0.000970  loss = 1.0708   cl_loss = 0.8410    reward = 0.7063 advantage = -0.0735 baselines_mse = 0.2142
+INFO:root:step 2800: lr = 0.000970  loss = 0.5423   cl_loss = 0.4353    reward = 0.8562 advantage = 0.0434  baselines_mse = 0.1199
+INFO:root:step 2900: lr = 0.000970  loss = 0.5903   cl_loss = 0.4691    reward = 0.8375 advantage = 0.0031  baselines_mse = 0.1270
+INFO:root:step 3000: lr = 0.000970  loss = 0.4283   cl_loss = 0.3313    reward = 0.8906 advantage = 0.0553  baselines_mse = 0.0988
+INFO:root:step 3100: lr = 0.000970  loss = 0.4852   cl_loss = 0.3805    reward = 0.8781 advantage = 0.0564  baselines_mse = 0.1097
+INFO:root:step 3200: lr = 0.000970  loss = 0.6265   cl_loss = 0.4842    reward = 0.8219 advantage = -0.0115 baselines_mse = 0.1308
+INFO:root:step 3300: lr = 0.000970  loss = 0.6877   cl_loss = 0.5551    reward = 0.8250 advantage = -0.0191 baselines_mse = 0.1416
+INFO:root:step 3400: lr = 0.000970  loss = 0.4102   cl_loss = 0.3149    reward = 0.8938 advantage = 0.0730  baselines_mse = 0.0948
+INFO:root:valid accuracy = 0.9427083333333334
+INFO:root:test accuracy = 0.9348958333333334
+INFO:root:step 3500: lr = 0.000941  loss = 0.3876   cl_loss = 0.3140    reward = 0.9125 advantage = 0.0615  baselines_mse = 0.0770
+INFO:root:step 3600: lr = 0.000941  loss = 0.2838   cl_loss = 0.2218    reward = 0.9094 advantage = 0.0561  baselines_mse = 0.0802
+INFO:root:step 3700: lr = 0.000941  loss = 0.4034   cl_loss = 0.3301    reward = 0.9125 advantage = 0.0472  baselines_mse = 0.0809
+INFO:root:step 3800: lr = 0.000941  loss = 0.6015   cl_loss = 0.4731    reward = 0.8375 advantage = -0.0327 baselines_mse = 0.1257
+INFO:root:step 3900: lr = 0.000941  loss = 0.3063   cl_loss = 0.2299    reward = 0.9219 advantage = 0.0515  baselines_mse = 0.0755
+INFO:root:step 4000: lr = 0.000941  loss = 0.9734   cl_loss = 0.7686    reward = 0.7375 advantage = -0.0909 baselines_mse = 0.1945
+INFO:root:step 4100: lr = 0.000941  loss = 0.2900   cl_loss = 0.2386    reward = 0.9250 advantage = 0.0592  baselines_mse = 0.0681
+INFO:root:step 4200: lr = 0.000941  loss = 0.5344   cl_loss = 0.4067    reward = 0.8500 advantage = -0.0278 baselines_mse = 0.1174
+INFO:root:step 4300: lr = 0.000941  loss = 0.5851   cl_loss = 0.4557    reward = 0.8500 advantage = -0.0134 baselines_mse = 0.1155
+INFO:root:step 4400: lr = 0.000941  loss = 0.3037   cl_loss = 0.2423    reward = 0.9219 advantage = 0.0482  baselines_mse = 0.0735
+INFO:root:step 4500: lr = 0.000941  loss = 0.2676   cl_loss = 0.2131    reward = 0.9250 advantage = 0.0309  baselines_mse = 0.0680
+INFO:root:step 4600: lr = 0.000941  loss = 0.7813   cl_loss = 0.6061    reward = 0.7969 advantage = -0.0536 baselines_mse = 0.1530
+INFO:root:step 4700: lr = 0.000941  loss = 0.2563   cl_loss = 0.1982    reward = 0.9344 advantage = 0.0266  baselines_mse = 0.0601
+INFO:root:step 4800: lr = 0.000941  loss = 0.5256   cl_loss = 0.3854    reward = 0.8406 advantage = -0.0367 baselines_mse = 0.1244
+INFO:root:step 4900: lr = 0.000941  loss = 0.3429   cl_loss = 0.2656    reward = 0.9125 advantage = 0.0178  baselines_mse = 0.0778
+INFO:root:step 5000: lr = 0.000941  loss = 0.3645   cl_loss = 0.2890    reward = 0.9125 advantage = 0.0403  baselines_mse = 0.0779
+INFO:root:step 5100: lr = 0.000941  loss = 0.3702   cl_loss = 0.2892    reward = 0.9031 advantage = 0.0374  baselines_mse = 0.0839
+INFO:root:valid accuracy = 0.9457131410256411
+INFO:root:test accuracy = 0.9436097756410257
+INFO:root:step 5200: lr = 0.000913  loss = 0.3662   cl_loss = 0.2909    reward = 0.9000 advantage = 0.0159  baselines_mse = 0.0854
+INFO:root:step 5300: lr = 0.000913  loss = 0.5320   cl_loss = 0.4129    reward = 0.8594 advantage = -0.0275 baselines_mse = 0.1145
+INFO:root:step 5400: lr = 0.000913  loss = 0.4428   cl_loss = 0.3348    reward = 0.8750 advantage = -0.0158 baselines_mse = 0.1037
+INFO:root:step 5500: lr = 0.000913  loss = 0.3659   cl_loss = 0.2928    reward = 0.9062 advantage = 0.0247  baselines_mse = 0.0800
+INFO:root:step 5600: lr = 0.000913  loss = 0.2916   cl_loss = 0.2319    reward = 0.9344 advantage = 0.0504  baselines_mse = 0.0654
+INFO:root:step 5700: lr = 0.000913  loss = 0.2010   cl_loss = 0.1709    reward = 0.9656 advantage = 0.0801  baselines_mse = 0.0430
+INFO:root:step 5800: lr = 0.000913  loss = 0.5677   cl_loss = 0.4509    reward = 0.8594 advantage = 0.0010  baselines_mse = 0.1174
+INFO:root:step 5900: lr = 0.000913  loss = 0.4183   cl_loss = 0.3445    reward = 0.9125 advantage = 0.0055  baselines_mse = 0.0800
+INFO:root:step 6000: lr = 0.000913  loss = 0.2680   cl_loss = 0.2135    reward = 0.9312 advantage = 0.0362  baselines_mse = 0.0631
+INFO:root:step 6100: lr = 0.000913  loss = 0.6496   cl_loss = 0.5006    reward = 0.8281 advantage = -0.0573 baselines_mse = 0.1326
+INFO:root:step 6200: lr = 0.000913  loss = 0.7073   cl_loss = 0.5572    reward = 0.8281 advantage = -0.0465 baselines_mse = 0.1380
+INFO:root:step 6300: lr = 0.000913  loss = 0.6227   cl_loss = 0.4748    reward = 0.8313 advantage = -0.0638 baselines_mse = 0.1323
+INFO:root:step 6400: lr = 0.000913  loss = 0.3846   cl_loss = 0.2934    reward = 0.8906 advantage = -0.0071 baselines_mse = 0.0890
+INFO:root:step 6500: lr = 0.000913  loss = 0.3139   cl_loss = 0.2322    reward = 0.9031 advantage = 0.0169  baselines_mse = 0.0820
+INFO:root:step 6600: lr = 0.000913  loss = 0.5907   cl_loss = 0.4636    reward = 0.8625 advantage = -0.0234 baselines_mse = 0.1146
+INFO:root:step 6700: lr = 0.000913  loss = 0.5955   cl_loss = 0.4625    reward = 0.8594 advantage = -0.0324 baselines_mse = 0.1119
+INFO:root:step 6800: lr = 0.000913  loss = 0.1144   cl_loss = 0.0918    reward = 0.9781 advantage = 0.0607  baselines_mse = 0.0279
+INFO:root:valid accuracy = 0.9587339743589743
+INFO:root:test accuracy = 0.9583333333333334
+INFO:root:step 6900: lr = 0.000885  loss = 0.3686   cl_loss = 0.3059    reward = 0.9125 advantage = 0.0166  baselines_mse = 0.0764
+INFO:root:step 7000: lr = 0.000885  loss = 0.5412   cl_loss = 0.4172    reward = 0.8656 advantage = -0.0427 baselines_mse = 0.1120
+INFO:root:step 7100: lr = 0.000885  loss = 0.4242   cl_loss = 0.3410    reward = 0.8813 advantage = -0.0184 baselines_mse = 0.0962
+INFO:root:step 7200: lr = 0.000885  loss = 0.6429   cl_loss = 0.5034    reward = 0.8250 advantage = -0.0496 baselines_mse = 0.1369
+INFO:root:step 7300: lr = 0.000885  loss = 0.2879   cl_loss = 0.2202    reward = 0.9281 advantage = 0.0442  baselines_mse = 0.0643
+INFO:root:step 7400: lr = 0.000885  loss = 0.3073   cl_loss = 0.2481    reward = 0.9406 advantage = 0.0212  baselines_mse = 0.0570
+INFO:root:step 7500: lr = 0.000885  loss = 0.4966   cl_loss = 0.3891    reward = 0.8844 advantage = -0.0202 baselines_mse = 0.0954
+INFO:root:step 7600: lr = 0.000885  loss = 0.3923   cl_loss = 0.3052    reward = 0.8938 advantage = -0.0031 baselines_mse = 0.0857
+INFO:root:step 7700: lr = 0.000885  loss = 0.2847   cl_loss = 0.2201    reward = 0.9281 advantage = 0.0315  baselines_mse = 0.0646
+INFO:root:step 7800: lr = 0.000885  loss = 0.4422   cl_loss = 0.3286    reward = 0.8781 advantage = -0.0415 baselines_mse = 0.0988
+INFO:root:step 7900: lr = 0.000885  loss = 0.6135   cl_loss = 0.4956    reward = 0.8750 advantage = -0.0248 baselines_mse = 0.1042
+INFO:root:step 8000: lr = 0.000885  loss = 0.1699   cl_loss = 0.1242    reward = 0.9500 advantage = 0.0374  baselines_mse = 0.0467
+INFO:root:step 8100: lr = 0.000885  loss = 0.2798   cl_loss = 0.2025    reward = 0.9250 advantage = 0.0135  baselines_mse = 0.0684
+INFO:root:step 8200: lr = 0.000885  loss = 0.4462   cl_loss = 0.3434    reward = 0.8906 advantage = 0.0038  baselines_mse = 0.0912
+INFO:root:step 8300: lr = 0.000885  loss = 0.1882   cl_loss = 0.1462    reward = 0.9563 advantage = 0.0533  baselines_mse = 0.0455
+INFO:root:step 8400: lr = 0.000885  loss = 0.5835   cl_loss = 0.4694    reward = 0.8719 advantage = -0.0442 baselines_mse = 0.1014
+INFO:root:step 8500: lr = 0.000885  loss = 0.3568   cl_loss = 0.2716    reward = 0.9062 advantage = 0.0025  baselines_mse = 0.0807
+INFO:root:valid accuracy = 0.9597355769230769
+INFO:root:test accuracy = 0.9599358974358975
+INFO:root:step 8600: lr = 0.000859  loss = 0.6167   cl_loss = 0.4771    reward = 0.8500 advantage = -0.0458 baselines_mse = 0.1240
+INFO:root:step 8700: lr = 0.000859  loss = 0.4391   cl_loss = 0.3655    reward = 0.9187 advantage = 0.0070  baselines_mse = 0.0713
+INFO:root:step 8800: lr = 0.000859  loss = 0.2293   cl_loss = 0.1678    reward = 0.9281 advantage = 0.0088  baselines_mse = 0.0621
+INFO:root:step 8900: lr = 0.000859  loss = 0.3045   cl_loss = 0.2335    reward = 0.9219 advantage = 0.0229  baselines_mse = 0.0690
+INFO:root:step 9000: lr = 0.000859  loss = 0.3365   cl_loss = 0.2559    reward = 0.9031 advantage = 0.0158  baselines_mse = 0.0812
+INFO:root:step 9100: lr = 0.000859  loss = 0.3792   cl_loss = 0.2646    reward = 0.8844 advantage = -0.0418 baselines_mse = 0.0942
+INFO:root:step 9200: lr = 0.000859  loss = 0.7333   cl_loss = 0.5725    reward = 0.8125 advantage = -0.0788 baselines_mse = 0.1453
+INFO:root:step 9300: lr = 0.000859  loss = 0.3195   cl_loss = 0.2437    reward = 0.9094 advantage = -0.0219 baselines_mse = 0.0768
+INFO:root:step 9400: lr = 0.000859  loss = 0.3728   cl_loss = 0.2833    reward = 0.9062 advantage = -0.0065 baselines_mse = 0.0797
+INFO:root:step 9500: lr = 0.000859  loss = 0.2897   cl_loss = 0.2244    reward = 0.9219 advantage = 0.0124  baselines_mse = 0.0659
+INFO:root:step 9600: lr = 0.000859  loss = 0.3244   cl_loss = 0.2596    reward = 0.9187 advantage = -0.0002 baselines_mse = 0.0683
+INFO:root:step 9700: lr = 0.000859  loss = 0.1696   cl_loss = 0.1308    reward = 0.9625 advantage = 0.0327  baselines_mse = 0.0373
+INFO:root:step 9800: lr = 0.000859  loss = 0.1423   cl_loss = 0.1077    reward = 0.9625 advantage = 0.0428  baselines_mse = 0.0396
+INFO:root:step 9900: lr = 0.000859  loss = 0.5607   cl_loss = 0.4442    reward = 0.8594 advantage = -0.0276 baselines_mse = 0.1137
+INFO:root:step 10000: lr = 0.000859 loss = 0.1828   cl_loss = 0.1490    reward = 0.9563 advantage = 0.0429  baselines_mse = 0.0420
+INFO:root:step 10100: lr = 0.000859 loss = 0.1530   cl_loss = 0.1101    reward = 0.9469 advantage = 0.0114  baselines_mse = 0.0471
+INFO:root:step 10200: lr = 0.000859 loss = 0.4953   cl_loss = 0.3817    reward = 0.8562 advantage = -0.0555 baselines_mse = 0.1151
+INFO:root:step 10300: lr = 0.000859 loss = 0.2307   cl_loss = 0.1885    reward = 0.9500 advantage = 0.0380  baselines_mse = 0.0473
+INFO:root:valid accuracy = 0.9675480769230769
+INFO:root:test accuracy = 0.9652443910256411
+INFO:root:step 10400: lr = 0.000833 loss = 0.3045   cl_loss = 0.2443    reward = 0.9375 advantage = 0.0162  baselines_mse = 0.0579
+INFO:root:step 10500: lr = 0.000833 loss = 0.2877   cl_loss = 0.2269    reward = 0.9312 advantage = 0.0023  baselines_mse = 0.0588
+INFO:root:step 10600: lr = 0.000833 loss = 0.3289   cl_loss = 0.2487    reward = 0.9094 advantage = -0.0071 baselines_mse = 0.0769
+INFO:root:step 10700: lr = 0.000833 loss = 0.1123   cl_loss = 0.0857    reward = 0.9719 advantage = 0.0400  baselines_mse = 0.0298
+INFO:root:step 10800: lr = 0.000833 loss = 0.3669   cl_loss = 0.2818    reward = 0.9094 advantage = 0.0038  baselines_mse = 0.0782
+INFO:root:step 10900: lr = 0.000833 loss = 0.3294   cl_loss = 0.2499    reward = 0.9125 advantage = -0.0076 baselines_mse = 0.0736
+INFO:root:step 11000: lr = 0.000833 loss = 0.5605   cl_loss = 0.4451    reward = 0.8844 advantage = -0.0304 baselines_mse = 0.0963
+INFO:root:step 11100: lr = 0.000833 loss = 0.4559   cl_loss = 0.3242    reward = 0.8687 advantage = -0.0479 baselines_mse = 0.1058
+INFO:root:step 11200: lr = 0.000833 loss = 0.3546   cl_loss = 0.2710    reward = 0.9031 advantage = -0.0073 baselines_mse = 0.0822
+INFO:root:step 11300: lr = 0.000833 loss = 0.2940   cl_loss = 0.2188    reward = 0.9344 advantage = 0.0273  baselines_mse = 0.0608
+INFO:root:step 11400: lr = 0.000833 loss = 0.5205   cl_loss = 0.4161    reward = 0.8938 advantage = -0.0308 baselines_mse = 0.0901
+INFO:root:step 11500: lr = 0.000833 loss = 0.2442   cl_loss = 0.1819    reward = 0.9312 advantage = 0.0093  baselines_mse = 0.0612
+INFO:root:step 11600: lr = 0.000833 loss = 0.1587   cl_loss = 0.1167    reward = 0.9563 advantage = 0.0141  baselines_mse = 0.0423
+INFO:root:step 11700: lr = 0.000833 loss = 0.2996   cl_loss = 0.2158    reward = 0.9156 advantage = -0.0006 baselines_mse = 0.0732
+INFO:root:step 11800: lr = 0.000833 loss = 0.1342   cl_loss = 0.1192    reward = 0.9719 advantage = 0.0709  baselines_mse = 0.0334
+INFO:root:step 11900: lr = 0.000833 loss = 0.3962   cl_loss = 0.3157    reward = 0.9219 advantage = 0.0056  baselines_mse = 0.0759
+INFO:root:step 12000: lr = 0.000833 loss = 0.2530   cl_loss = 0.1949    reward = 0.9344 advantage = -0.0001 baselines_mse = 0.0561
+INFO:root:valid accuracy = 0.9701522435897436
+INFO:root:test accuracy = 0.96875
+INFO:root:step 12100: lr = 0.000808 loss = 0.1605   cl_loss = 0.1181    reward = 0.9500 advantage = 0.0016  baselines_mse = 0.0443
+INFO:root:step 12200: lr = 0.000808 loss = 0.3516   cl_loss = 0.2645    reward = 0.9125 advantage = -0.0132 baselines_mse = 0.0753
+INFO:root:step 12300: lr = 0.000808 loss = 0.2132   cl_loss = 0.1756    reward = 0.9500 advantage = 0.0302  baselines_mse = 0.0473
+INFO:root:step 12400: lr = 0.000808 loss = 0.3157   cl_loss = 0.2283    reward = 0.9156 advantage = -0.0057 baselines_mse = 0.0741
+INFO:root:step 12500: lr = 0.000808 loss = 0.1658   cl_loss = 0.1239    reward = 0.9563 advantage = 0.0088  baselines_mse = 0.0412
+INFO:root:step 12600: lr = 0.000808 loss = 0.6871   cl_loss = 0.5598    reward = 0.8625 advantage = -0.0623 baselines_mse = 0.1131
+INFO:root:step 12700: lr = 0.000808 loss = 0.4488   cl_loss = 0.3589    reward = 0.9094 advantage = -0.0078 baselines_mse = 0.0844
+INFO:root:step 12800: lr = 0.000808 loss = 0.4158   cl_loss = 0.2972    reward = 0.8875 advantage = -0.0372 baselines_mse = 0.0920
+INFO:root:step 12900: lr = 0.000808 loss = 0.3822   cl_loss = 0.2912    reward = 0.8844 advantage = -0.0212 baselines_mse = 0.0923
+INFO:root:step 13000: lr = 0.000808 loss = 0.2377   cl_loss = 0.1709    reward = 0.9375 advantage = 0.0088  baselines_mse = 0.0557
+INFO:root:step 13100: lr = 0.000808 loss = 0.3897   cl_loss = 0.2973    reward = 0.8938 advantage = -0.0281 baselines_mse = 0.0871
+INFO:root:step 13200: lr = 0.000808 loss = 0.2294   cl_loss = 0.1788    reward = 0.9438 advantage = 0.0263  baselines_mse = 0.0537
+INFO:root:step 13300: lr = 0.000808 loss = 0.1513   cl_loss = 0.1170    reward = 0.9656 advantage = 0.0378  baselines_mse = 0.0337
+INFO:root:step 13400: lr = 0.000808 loss = 0.7774   cl_loss = 0.6027    reward = 0.7937 advantage = -0.1092 baselines_mse = 0.1584
+INFO:root:step 13500: lr = 0.000808 loss = 0.2191   cl_loss = 0.1708    reward = 0.9438 advantage = 0.0223  baselines_mse = 0.0508
+INFO:root:step 13600: lr = 0.000808 loss = 0.2611   cl_loss = 0.2027    reward = 0.9344 advantage = 0.0118  baselines_mse = 0.0592
+INFO:root:step 13700: lr = 0.000808 loss = 0.1197   cl_loss = 0.1063    reward = 0.9656 advantage = 0.0354  baselines_mse = 0.0330
+INFO:root:valid accuracy = 0.9667467948717948
+INFO:root:test accuracy = 0.9649439102564102
+INFO:root:step 13800: lr = 0.000784 loss = 0.4058   cl_loss = 0.3034    reward = 0.8938 advantage = -0.0470 baselines_mse = 0.0893
+INFO:root:step 13900: lr = 0.000784 loss = 0.2885   cl_loss = 0.2344    reward = 0.9312 advantage = 0.0218  baselines_mse = 0.0622
+INFO:root:step 14000: lr = 0.000784 loss = 0.4418   cl_loss = 0.3374    reward = 0.8844 advantage = -0.0258 baselines_mse = 0.0959
+INFO:root:step 14100: lr = 0.000784 loss = 0.3811   cl_loss = 0.2891    reward = 0.8938 advantage = -0.0236 baselines_mse = 0.0886
+INFO:root:step 14200: lr = 0.000784 loss = 0.1916   cl_loss = 0.1373    reward = 0.9500 advantage = 0.0226  baselines_mse = 0.0465
+INFO:root:step 14300: lr = 0.000784 loss = 0.1193   cl_loss = 0.0919    reward = 0.9719 advantage = 0.0277  baselines_mse = 0.0288
+INFO:root:step 14400: lr = 0.000784 loss = 0.4544   cl_loss = 0.3341    reward = 0.8687 advantage = -0.0591 baselines_mse = 0.1062
+INFO:root:step 14500: lr = 0.000784 loss = 0.5042   cl_loss = 0.3880    reward = 0.8750 advantage = -0.0299 baselines_mse = 0.1040
+INFO:root:step 14600: lr = 0.000784 loss = 0.1521   cl_loss = 0.1270    reward = 0.9656 advantage = 0.0471  baselines_mse = 0.0341
+INFO:root:step 14700: lr = 0.000784 loss = 0.2009   cl_loss = 0.1597    reward = 0.9438 advantage = 0.0308  baselines_mse = 0.0505
+INFO:root:step 14800: lr = 0.000784 loss = 0.3698   cl_loss = 0.2757    reward = 0.9094 advantage = -0.0186 baselines_mse = 0.0807
+INFO:root:step 14900: lr = 0.000784 loss = 0.3123   cl_loss = 0.2408    reward = 0.9250 advantage = 0.0074  baselines_mse = 0.0649
+INFO:root:step 15000: lr = 0.000784 loss = 0.2912   cl_loss = 0.2065    reward = 0.9094 advantage = -0.0051 baselines_mse = 0.0760
+INFO:root:step 15100: lr = 0.000784 loss = 0.1987   cl_loss = 0.1530    reward = 0.9500 advantage = 0.0130  baselines_mse = 0.0472
+INFO:root:step 15200: lr = 0.000784 loss = 0.4190   cl_loss = 0.3418    reward = 0.9094 advantage = -0.0108 baselines_mse = 0.0789
+INFO:root:step 15300: lr = 0.000784 loss = 0.4197   cl_loss = 0.3239    reward = 0.8906 advantage = -0.0379 baselines_mse = 0.0884
+INFO:root:step 15400: lr = 0.000784 loss = 0.2704   cl_loss = 0.1997    reward = 0.9344 advantage = 0.0113  baselines_mse = 0.0600
+INFO:root:valid accuracy = 0.969551282051282
+INFO:root:test accuracy = 0.9659455128205128
+INFO:root:step 15500: lr = 0.000760 loss = 0.1725   cl_loss = 0.1282    reward = 0.9500 advantage = 0.0224  baselines_mse = 0.0465
+INFO:root:step 15600: lr = 0.000760 loss = 0.2076   cl_loss = 0.1624    reward = 0.9531 advantage = 0.0048  baselines_mse = 0.0437
+INFO:root:step 15700: lr = 0.000760 loss = 0.1530   cl_loss = 0.1202    reward = 0.9594 advantage = 0.0149  baselines_mse = 0.0371
+INFO:root:step 15800: lr = 0.000760 loss = 0.1008   cl_loss = 0.0776    reward = 0.9750 advantage = 0.0427  baselines_mse = 0.0262
+INFO:root:step 15900: lr = 0.000760 loss = 0.1673   cl_loss = 0.1305    reward = 0.9563 advantage = 0.0424  baselines_mse = 0.0428
+INFO:root:step 16000: lr = 0.000760 loss = 0.4432   cl_loss = 0.3378    reward = 0.8813 advantage = -0.0452 baselines_mse = 0.0967
+INFO:root:step 16100: lr = 0.000760 loss = 0.1983   cl_loss = 0.1544    reward = 0.9594 advantage = 0.0317  baselines_mse = 0.0370
+INFO:root:step 16200: lr = 0.000760 loss = 0.6919   cl_loss = 0.5193    reward = 0.8188 advantage = -0.1083 baselines_mse = 0.1460
+INFO:root:step 16300: lr = 0.000760 loss = 0.2071   cl_loss = 0.1741    reward = 0.9531 advantage = 0.0221  baselines_mse = 0.0450
+INFO:root:step 16400: lr = 0.000760 loss = 0.2164   cl_loss = 0.1753    reward = 0.9500 advantage = 0.0111  baselines_mse = 0.0452
+INFO:root:step 16500: lr = 0.000760 loss = 0.3574   cl_loss = 0.2810    reward = 0.9187 advantage = -0.0062 baselines_mse = 0.0701
+INFO:root:step 16600: lr = 0.000760 loss = 0.2078   cl_loss = 0.1529    reward = 0.9406 advantage = -0.0101 baselines_mse = 0.0523
+INFO:root:step 16700: lr = 0.000760 loss = 0.1689   cl_loss = 0.1340    reward = 0.9625 advantage = 0.0250  baselines_mse = 0.0360
+INFO:root:step 16800: lr = 0.000760 loss = 0.4841   cl_loss = 0.3756    reward = 0.8719 advantage = -0.0404 baselines_mse = 0.1054
+INFO:root:step 16900: lr = 0.000760 loss = 0.3104   cl_loss = 0.2377    reward = 0.9219 advantage = 0.0006  baselines_mse = 0.0668
+INFO:root:step 17000: lr = 0.000760 loss = 0.3733   cl_loss = 0.2868    reward = 0.9031 advantage = -0.0252 baselines_mse = 0.0847
+INFO:root:step 17100: lr = 0.000760 loss = 0.3321   cl_loss = 0.2616    reward = 0.9156 advantage = -0.0026 baselines_mse = 0.0746
+INFO:root:valid accuracy = 0.9703525641025641
+INFO:root:test accuracy = 0.9710536858974359
+INFO:root:step 17200: lr = 0.000737 loss = 0.2141   cl_loss = 0.1670    reward = 0.9438 advantage = 0.0081  baselines_mse = 0.0496
+INFO:root:step 17300: lr = 0.000737 loss = 0.1769   cl_loss = 0.1277    reward = 0.9531 advantage = 0.0238  baselines_mse = 0.0445
+INFO:root:step 17400: lr = 0.000737 loss = 0.3406   cl_loss = 0.2574    reward = 0.9062 advantage = -0.0203 baselines_mse = 0.0771
+INFO:root:step 17500: lr = 0.000737 loss = 0.2243   cl_loss = 0.1679    reward = 0.9438 advantage = 0.0134  baselines_mse = 0.0497
+INFO:root:step 17600: lr = 0.000737 loss = 0.2674   cl_loss = 0.2086    reward = 0.9375 advantage = 0.0031  baselines_mse = 0.0567
+INFO:root:step 17700: lr = 0.000737 loss = 0.2588   cl_loss = 0.1911    reward = 0.9281 advantage = -0.0076 baselines_mse = 0.0649
+INFO:root:step 17800: lr = 0.000737 loss = 0.3101   cl_loss = 0.2387    reward = 0.9156 advantage = -0.0127 baselines_mse = 0.0712
+INFO:root:step 17900: lr = 0.000737 loss = 0.1862   cl_loss = 0.1451    reward = 0.9531 advantage = 0.0142  baselines_mse = 0.0436
+INFO:root:step 18000: lr = 0.000737 loss = 0.1947   cl_loss = 0.1405    reward = 0.9469 advantage = 0.0128  baselines_mse = 0.0490
+INFO:root:step 18100: lr = 0.000737 loss = 0.1076   cl_loss = 0.0877    reward = 0.9750 advantage = 0.0423  baselines_mse = 0.0260
+INFO:root:step 18200: lr = 0.000737 loss = 0.2779   cl_loss = 0.2038    reward = 0.9187 advantage = -0.0064 baselines_mse = 0.0715
+INFO:root:step 18300: lr = 0.000737 loss = 0.4322   cl_loss = 0.3288    reward = 0.8844 advantage = -0.0385 baselines_mse = 0.0953
+INFO:root:step 18400: lr = 0.000737 loss = 0.0697   cl_loss = 0.0494    reward = 0.9812 advantage = 0.0272  baselines_mse = 0.0203
+INFO:root:step 18500: lr = 0.000737 loss = 0.3408   cl_loss = 0.2561    reward = 0.9000 advantage = -0.0220 baselines_mse = 0.0840
+INFO:root:step 18600: lr = 0.000737 loss = 0.6032   cl_loss = 0.4861    reward = 0.8687 advantage = -0.0647 baselines_mse = 0.1094
+INFO:root:step 18700: lr = 0.000737 loss = 0.2085   cl_loss = 0.1754    reward = 0.9563 advantage = 0.0268  baselines_mse = 0.0423
+INFO:root:step 18800: lr = 0.000737 loss = 0.2617   cl_loss = 0.2081    reward = 0.9344 advantage = 0.0137  baselines_mse = 0.0555
+INFO:root:valid accuracy = 0.9753605769230769
+INFO:root:test accuracy = 0.9754607371794872
+INFO:root:step 18900: lr = 0.000715 loss = 0.2084   cl_loss = 0.1608    reward = 0.9469 advantage = 0.0182  baselines_mse = 0.0491
+INFO:root:step 19000: lr = 0.000715 loss = 0.3995   cl_loss = 0.3122    reward = 0.9187 advantage = -0.0252 baselines_mse = 0.0738
+INFO:root:step 19100: lr = 0.000715 loss = 0.3255   cl_loss = 0.2552    reward = 0.9156 advantage = -0.0060 baselines_mse = 0.0727
+INFO:root:step 19200: lr = 0.000715 loss = 0.2937   cl_loss = 0.2183    reward = 0.9156 advantage = -0.0112 baselines_mse = 0.0751
+INFO:root:step 19300: lr = 0.000715 loss = 0.2066   cl_loss = 0.1539    reward = 0.9406 advantage = 0.0142  baselines_mse = 0.0530
+INFO:root:step 19400: lr = 0.000715 loss = 0.2129   cl_loss = 0.1712    reward = 0.9531 advantage = 0.0418  baselines_mse = 0.0473
+INFO:root:step 19500: lr = 0.000715 loss = 0.2902   cl_loss = 0.2219    reward = 0.9156 advantage = -0.0047 baselines_mse = 0.0741
+INFO:root:step 19600: lr = 0.000715 loss = 0.1573   cl_loss = 0.1288    reward = 0.9656 advantage = 0.0202  baselines_mse = 0.0333
+INFO:root:step 19700: lr = 0.000715 loss = 0.5331   cl_loss = 0.4119    reward = 0.8687 advantage = -0.0640 baselines_mse = 0.1073
+INFO:root:step 19800: lr = 0.000715 loss = 0.4157   cl_loss = 0.3245    reward = 0.9062 advantage = -0.0289 baselines_mse = 0.0811
+INFO:root:step 19900: lr = 0.000715 loss = 0.1341   cl_loss = 0.0956    reward = 0.9594 advantage = 0.0215  baselines_mse = 0.0366
+INFO:root:step 20000: lr = 0.000715 loss = 0.3124   cl_loss = 0.2465    reward = 0.9187 advantage = -0.0082 baselines_mse = 0.0703
+INFO:root:step 20100: lr = 0.000715 loss = 0.1199   cl_loss = 0.0893    reward = 0.9688 advantage = 0.0255  baselines_mse = 0.0317
+INFO:root:step 20200: lr = 0.000715 loss = 0.4017   cl_loss = 0.3267    reward = 0.9250 advantage = -0.0081 baselines_mse = 0.0674
+INFO:root:step 20300: lr = 0.000715 loss = 0.1436   cl_loss = 0.1063    reward = 0.9594 advantage = 0.0058  baselines_mse = 0.0363
+INFO:root:step 20400: lr = 0.000715 loss = 0.2059   cl_loss = 0.1473    reward = 0.9438 advantage = -0.0140 baselines_mse = 0.0491
+INFO:root:step 20500: lr = 0.000715 loss = 0.1413   cl_loss = 0.1024    reward = 0.9531 advantage = 0.0113  baselines_mse = 0.0439
+INFO:root:step 20600: lr = 0.000715 loss = 0.2576   cl_loss = 0.2012    reward = 0.9500 advantage = -0.0066 baselines_mse = 0.0483
+INFO:root:valid accuracy = 0.9761618589743589
+INFO:root:test accuracy = 0.9743589743589743
+INFO:root:step 20700: lr = 0.000694 loss = 0.1494   cl_loss = 0.1052    reward = 0.9563 advantage = -0.0040 baselines_mse = 0.0401
+INFO:root:step 20800: lr = 0.000694 loss = 0.2836   cl_loss = 0.2229    reward = 0.9312 advantage = -0.0221 baselines_mse = 0.0619
+INFO:root:step 20900: lr = 0.000694 loss = 0.2084   cl_loss = 0.1521    reward = 0.9344 advantage = -0.0138 baselines_mse = 0.0563
+INFO:root:step 21000: lr = 0.000694 loss = 0.2700   cl_loss = 0.2084    reward = 0.9344 advantage = 0.0080  baselines_mse = 0.0557
+INFO:root:step 21100: lr = 0.000694 loss = 0.2053   cl_loss = 0.1549    reward = 0.9500 advantage = 0.0101  baselines_mse = 0.0446
+INFO:root:step 21200: lr = 0.000694 loss = 0.1474   cl_loss = 0.1139    reward = 0.9594 advantage = 0.0049  baselines_mse = 0.0382
+INFO:root:step 21300: lr = 0.000694 loss = 0.2126   cl_loss = 0.1514    reward = 0.9375 advantage = -0.0066 baselines_mse = 0.0568
+INFO:root:step 21400: lr = 0.000694 loss = 0.2363   cl_loss = 0.1975    reward = 0.9594 advantage = 0.0227  baselines_mse = 0.0396
+INFO:root:step 21500: lr = 0.000694 loss = 0.4273   cl_loss = 0.3189    reward = 0.8813 advantage = -0.0532 baselines_mse = 0.1046
+INFO:root:step 21600: lr = 0.000694 loss = 0.2994   cl_loss = 0.2242    reward = 0.9219 advantage = -0.0085 baselines_mse = 0.0686
+INFO:root:step 21700: lr = 0.000694 loss = 0.2815   cl_loss = 0.2143    reward = 0.9281 advantage = -0.0189 baselines_mse = 0.0594
+INFO:root:step 21800: lr = 0.000694 loss = 0.1424   cl_loss = 0.1150    reward = 0.9688 advantage = 0.0420  baselines_mse = 0.0319
+INFO:root:step 21900: lr = 0.000694 loss = 0.3091   cl_loss = 0.2316    reward = 0.9156 advantage = -0.0262 baselines_mse = 0.0751
+INFO:root:step 22000: lr = 0.000694 loss = 0.2142   cl_loss = 0.1667    reward = 0.9500 advantage = 0.0043  baselines_mse = 0.0460
+INFO:root:step 22100: lr = 0.000694 loss = 0.1858   cl_loss = 0.1426    reward = 0.9531 advantage = 0.0054  baselines_mse = 0.0433
+INFO:root:step 22200: lr = 0.000694 loss = 0.2314   cl_loss = 0.1613    reward = 0.9344 advantage = -0.0099 baselines_mse = 0.0582
+INFO:root:step 22300: lr = 0.000694 loss = 0.2143   cl_loss = 0.1559    reward = 0.9406 advantage = -0.0047 baselines_mse = 0.0531
+INFO:root:valid accuracy = 0.9777644230769231
+INFO:root:test accuracy = 0.9764623397435898
+INFO:root:step 22400: lr = 0.000673 loss = 0.2946   cl_loss = 0.2338    reward = 0.9406 advantage = 0.0083  baselines_mse = 0.0538
+INFO:root:step 22500: lr = 0.000673 loss = 0.1638   cl_loss = 0.1417    reward = 0.9594 advantage = 0.0186  baselines_mse = 0.0361
+INFO:root:step 22600: lr = 0.000673 loss = 0.3556   cl_loss = 0.2775    reward = 0.9250 advantage = -0.0240 baselines_mse = 0.0656
+INFO:root:step 22700: lr = 0.000673 loss = 0.3946   cl_loss = 0.3256    reward = 0.9250 advantage = -0.0047 baselines_mse = 0.0652
+INFO:root:step 22800: lr = 0.000673 loss = 0.1313   cl_loss = 0.1082    reward = 0.9719 advantage = 0.0311  baselines_mse = 0.0290
+INFO:root:step 22900: lr = 0.000673 loss = 0.4068   cl_loss = 0.3096    reward = 0.9000 advantage = -0.0527 baselines_mse = 0.0858
+INFO:root:step 23000: lr = 0.000673 loss = 0.2778   cl_loss = 0.2150    reward = 0.9312 advantage = 0.0030  baselines_mse = 0.0607
+INFO:root:step 23100: lr = 0.000673 loss = 0.1760   cl_loss = 0.1233    reward = 0.9563 advantage = 0.0150  baselines_mse = 0.0416
+INFO:root:step 23200: lr = 0.000673 loss = 0.0971   cl_loss = 0.0715    reward = 0.9719 advantage = 0.0202  baselines_mse = 0.0265
+INFO:root:step 23300: lr = 0.000673 loss = 0.1229   cl_loss = 0.0970    reward = 0.9781 advantage = 0.0443  baselines_mse = 0.0249
+INFO:root:step 23400: lr = 0.000673 loss = 0.2102   cl_loss = 0.1593    reward = 0.9438 advantage = 0.0062  baselines_mse = 0.0513
+INFO:root:step 23500: lr = 0.000673 loss = 0.2251   cl_loss = 0.1889    reward = 0.9469 advantage = 0.0063  baselines_mse = 0.0472
+INFO:root:step 23600: lr = 0.000673 loss = 0.1891   cl_loss = 0.1528    reward = 0.9594 advantage = 0.0260  baselines_mse = 0.0395
+INFO:root:step 23700: lr = 0.000673 loss = 0.1404   cl_loss = 0.1081    reward = 0.9625 advantage = 0.0125  baselines_mse = 0.0337
+INFO:root:step 23800: lr = 0.000673 loss = 0.1455   cl_loss = 0.1115    reward = 0.9656 advantage = 0.0190  baselines_mse = 0.0336
+INFO:root:step 23900: lr = 0.000673 loss = 0.3249   cl_loss = 0.2443    reward = 0.9156 advantage = -0.0122 baselines_mse = 0.0751
+INFO:root:step 24000: lr = 0.000673 loss = 0.4695   cl_loss = 0.3751    reward = 0.9000 advantage = -0.0392 baselines_mse = 0.0898
+INFO:root:valid accuracy = 0.9779647435897436
+INFO:root:test accuracy = 0.9752604166666666
+INFO:root:step 24100: lr = 0.000653 loss = 0.3131   cl_loss = 0.2458    reward = 0.9281 advantage = -0.0095 baselines_mse = 0.0636
+INFO:root:step 24200: lr = 0.000653 loss = 0.3474   cl_loss = 0.2515    reward = 0.9062 advantage = -0.0213 baselines_mse = 0.0805
+INFO:root:step 24300: lr = 0.000653 loss = 0.1954   cl_loss = 0.1534    reward = 0.9531 advantage = 0.0160  baselines_mse = 0.0441
+INFO:root:step 24400: lr = 0.000653 loss = 0.1591   cl_loss = 0.1239    reward = 0.9656 advantage = 0.0189  baselines_mse = 0.0336
+INFO:root:step 24500: lr = 0.000653 loss = 0.4137   cl_loss = 0.3150    reward = 0.9031 advantage = -0.0366 baselines_mse = 0.0849
+INFO:root:step 24600: lr = 0.000653 loss = 0.2084   cl_loss = 0.1592    reward = 0.9406 advantage = -0.0011 baselines_mse = 0.0532
+INFO:root:step 24700: lr = 0.000653 loss = 0.0854   cl_loss = 0.0615    reward = 0.9750 advantage = 0.0352  baselines_mse = 0.0263
+INFO:root:step 24800: lr = 0.000653 loss = 0.2388   cl_loss = 0.1877    reward = 0.9375 advantage = -0.0124 baselines_mse = 0.0542
+INFO:root:step 24900: lr = 0.000653 loss = 0.2663   cl_loss = 0.1995    reward = 0.9187 advantage = -0.0225 baselines_mse = 0.0704
+INFO:root:step 25000: lr = 0.000653 loss = 0.3646   cl_loss = 0.2719    reward = 0.9000 advantage = -0.0295 baselines_mse = 0.0857
+INFO:root:step 25100: lr = 0.000653 loss = 0.3549   cl_loss = 0.2692    reward = 0.9156 advantage = -0.0302 baselines_mse = 0.0729
+INFO:root:step 25200: lr = 0.000653 loss = 0.1864   cl_loss = 0.1504    reward = 0.9625 advantage = 0.0156  baselines_mse = 0.0354
+INFO:root:step 25300: lr = 0.000653 loss = 0.1933   cl_loss = 0.1434    reward = 0.9500 advantage = 0.0065  baselines_mse = 0.0462
+INFO:root:step 25400: lr = 0.000653 loss = 0.3846   cl_loss = 0.3055    reward = 0.9156 advantage = -0.0113 baselines_mse = 0.0738
+INFO:root:step 25500: lr = 0.000653 loss = 0.0501   cl_loss = 0.0443    reward = 0.9937 advantage = 0.0451  baselines_mse = 0.0107
+INFO:root:step 25600: lr = 0.000653 loss = 0.2598   cl_loss = 0.1829    reward = 0.9219 advantage = -0.0154 baselines_mse = 0.0685
+INFO:root:step 25700: lr = 0.000653 loss = 0.1684   cl_loss = 0.1362    reward = 0.9625 advantage = 0.0203  baselines_mse = 0.0333
+INFO:root:valid accuracy = 0.9805689102564102
+INFO:root:test accuracy = 0.9790665064102564
+INFO:root:step 25800: lr = 0.000633 loss = 0.3743   cl_loss = 0.2873    reward = 0.9094 advantage = -0.0226 baselines_mse = 0.0791
+INFO:root:step 25900: lr = 0.000633 loss = 0.3849   cl_loss = 0.3186    reward = 0.9187 advantage = -0.0043 baselines_mse = 0.0714
+INFO:root:step 26000: lr = 0.000633 loss = 0.1221   cl_loss = 0.0972    reward = 0.9656 advantage = 0.0196  baselines_mse = 0.0328
+INFO:root:step 26100: lr = 0.000633 loss = 0.1839   cl_loss = 0.1380    reward = 0.9500 advantage = 0.0208  baselines_mse = 0.0470
+INFO:root:step 26200: lr = 0.000633 loss = 0.1184   cl_loss = 0.0912    reward = 0.9719 advantage = 0.0215  baselines_mse = 0.0273
+INFO:root:step 26300: lr = 0.000633 loss = 0.3577   cl_loss = 0.2699    reward = 0.9094 advantage = -0.0290 baselines_mse = 0.0781
+INFO:root:step 26400: lr = 0.000633 loss = 0.0604   cl_loss = 0.0466    reward = 0.9844 advantage = 0.0271  baselines_mse = 0.0171
+INFO:root:step 26500: lr = 0.000633 loss = 0.0867   cl_loss = 0.0738    reward = 0.9781 advantage = 0.0333  baselines_mse = 0.0235
+INFO:root:step 26600: lr = 0.000633 loss = 0.1604   cl_loss = 0.1258    reward = 0.9531 advantage = 0.0098  baselines_mse = 0.0431
+INFO:root:step 26700: lr = 0.000633 loss = 0.1451   cl_loss = 0.1072    reward = 0.9625 advantage = -0.0063 baselines_mse = 0.0343
+INFO:root:step 26800: lr = 0.000633 loss = 0.1442   cl_loss = 0.1025    reward = 0.9594 advantage = 0.0049  baselines_mse = 0.0388
+INFO:root:step 26900: lr = 0.000633 loss = 0.2272   cl_loss = 0.1813    reward = 0.9500 advantage = 0.0076  baselines_mse = 0.0479
+INFO:root:step 27000: lr = 0.000633 loss = 0.0939   cl_loss = 0.0775    reward = 0.9719 advantage = 0.0266  baselines_mse = 0.0284
+INFO:root:step 27100: lr = 0.000633 loss = 0.3535   cl_loss = 0.2821    reward = 0.9375 advantage = -0.0057 baselines_mse = 0.0577
+INFO:root:step 27200: lr = 0.000633 loss = 0.1474   cl_loss = 0.1185    reward = 0.9656 advantage = 0.0091  baselines_mse = 0.0321
+INFO:root:step 27300: lr = 0.000633 loss = 0.1156   cl_loss = 0.0871    reward = 0.9688 advantage = 0.0391  baselines_mse = 0.0314
+INFO:root:step 27400: lr = 0.000633 loss = 0.1667   cl_loss = 0.1282    reward = 0.9563 advantage = 0.0174  baselines_mse = 0.0405
+INFO:root:valid accuracy = 0.9743589743589743
+INFO:root:test accuracy = 0.9738581730769231
+INFO:root:step 27500: lr = 0.000614 loss = 0.1343   cl_loss = 0.1002    reward = 0.9656 advantage = 0.0176  baselines_mse = 0.0332
+INFO:root:step 27600: lr = 0.000614 loss = 0.4049   cl_loss = 0.3073    reward = 0.8938 advantage = -0.0549 baselines_mse = 0.0940
+INFO:root:step 27700: lr = 0.000614 loss = 0.1941   cl_loss = 0.1526    reward = 0.9531 advantage = 0.0013  baselines_mse = 0.0430
+INFO:root:step 27800: lr = 0.000614 loss = 0.1482   cl_loss = 0.1214    reward = 0.9719 advantage = 0.0294  baselines_mse = 0.0271
+INFO:root:step 27900: lr = 0.000614 loss = 0.2149   cl_loss = 0.1642    reward = 0.9406 advantage = -0.0089 baselines_mse = 0.0553
+INFO:root:step 28000: lr = 0.000614 loss = 0.1200   cl_loss = 0.1013    reward = 0.9750 advantage = 0.0356  baselines_mse = 0.0258
+INFO:root:step 28100: lr = 0.000614 loss = 0.1517   cl_loss = 0.1163    reward = 0.9625 advantage = 0.0094  baselines_mse = 0.0361
+INFO:root:step 28200: lr = 0.000614 loss = 0.1450   cl_loss = 0.1003    reward = 0.9531 advantage = 0.0086  baselines_mse = 0.0431
+INFO:root:step 28300: lr = 0.000614 loss = 0.2669   cl_loss = 0.2147    reward = 0.9438 advantage = 0.0010  baselines_mse = 0.0502
+INFO:root:step 28400: lr = 0.000614 loss = 0.1243   cl_loss = 0.0916    reward = 0.9656 advantage = 0.0211  baselines_mse = 0.0326
+INFO:root:step 28500: lr = 0.000614 loss = 0.1585   cl_loss = 0.1193    reward = 0.9563 advantage = 0.0096  baselines_mse = 0.0408
+INFO:root:step 28600: lr = 0.000614 loss = 0.2326   cl_loss = 0.1753    reward = 0.9406 advantage = -0.0193 baselines_mse = 0.0553
+INFO:root:step 28700: lr = 0.000614 loss = 0.1623   cl_loss = 0.1234    reward = 0.9594 advantage = 0.0161  baselines_mse = 0.0385
+INFO:root:step 28800: lr = 0.000614 loss = 0.0851   cl_loss = 0.0719    reward = 0.9781 advantage = 0.0272  baselines_mse = 0.0216
+INFO:root:step 28900: lr = 0.000614 loss = 0.1549   cl_loss = 0.1238    reward = 0.9625 advantage = 0.0189  baselines_mse = 0.0359
+INFO:root:step 29000: lr = 0.000614 loss = 0.0629   cl_loss = 0.0514    reward = 0.9844 advantage = 0.0284  baselines_mse = 0.0170
+INFO:root:step 29100: lr = 0.000614 loss = 0.1540   cl_loss = 0.1082    reward = 0.9531 advantage = -0.0010 baselines_mse = 0.0428
+INFO:root:step 29200: lr = 0.000614 loss = 0.2537   cl_loss = 0.1889    reward = 0.9312 advantage = -0.0184 baselines_mse = 0.0604
+INFO:root:valid accuracy = 0.9813701923076923
+INFO:root:test accuracy = 0.9768629807692307
+INFO:root:step 29300: lr = 0.000596 loss = 0.0955   cl_loss = 0.0767    reward = 0.9781 advantage = 0.0268  baselines_mse = 0.0219
+INFO:root:step 29400: lr = 0.000596 loss = 0.1786   cl_loss = 0.1328    reward = 0.9438 advantage = -0.0053 baselines_mse = 0.0511
+INFO:root:step 29500: lr = 0.000596 loss = 0.1588   cl_loss = 0.1132    reward = 0.9563 advantage = 0.0119  baselines_mse = 0.0416
+INFO:root:step 29600: lr = 0.000596 loss = 0.0760   cl_loss = 0.0621    reward = 0.9875 advantage = 0.0345  baselines_mse = 0.0150
+INFO:root:step 29700: lr = 0.000596 loss = 0.2043   cl_loss = 0.1551    reward = 0.9500 advantage = 0.0032  baselines_mse = 0.0450
+INFO:root:step 29800: lr = 0.000596 loss = 0.1909   cl_loss = 0.1373    reward = 0.9500 advantage = 0.0078  baselines_mse = 0.0450
+INFO:root:step 29900: lr = 0.000596 loss = 0.1162   cl_loss = 0.0960    reward = 0.9750 advantage = 0.0115  baselines_mse = 0.0253
+INFO:root:step 30000: lr = 0.000596 loss = 0.3069   cl_loss = 0.2425    reward = 0.9375 advantage = 0.0030  baselines_mse = 0.0572
+INFO:root:step 30100: lr = 0.000596 loss = 0.1861   cl_loss = 0.1380    reward = 0.9500 advantage = 0.0113  baselines_mse = 0.0466
+INFO:root:step 30200: lr = 0.000596 loss = 0.3026   cl_loss = 0.2250    reward = 0.9156 advantage = -0.0218 baselines_mse = 0.0750
+INFO:root:step 30300: lr = 0.000596 loss = 0.1530   cl_loss = 0.1277    reward = 0.9688 advantage = 0.0099  baselines_mse = 0.0297
+INFO:root:step 30400: lr = 0.000596 loss = 0.1916   cl_loss = 0.1385    reward = 0.9438 advantage = -0.0018 baselines_mse = 0.0490
+INFO:root:step 30500: lr = 0.000596 loss = 0.5414   cl_loss = 0.3992    reward = 0.8562 advantage = -0.0779 baselines_mse = 0.1247
+INFO:root:step 30600: lr = 0.000596 loss = 0.1450   cl_loss = 0.1108    reward = 0.9656 advantage = 0.0197  baselines_mse = 0.0339
+INFO:root:step 30700: lr = 0.000596 loss = 0.2077   cl_loss = 0.1613    reward = 0.9531 advantage = 0.0183  baselines_mse = 0.0427
+INFO:root:step 30800: lr = 0.000596 loss = 0.2139   cl_loss = 0.1524    reward = 0.9312 advantage = 0.0060  baselines_mse = 0.0625
+INFO:root:step 30900: lr = 0.000596 loss = 0.1203   cl_loss = 0.0871    reward = 0.9688 advantage = -0.0031 baselines_mse = 0.0294
+INFO:root:valid accuracy = 0.9761618589743589
+INFO:root:test accuracy = 0.9752604166666666
+INFO:root:step 31000: lr = 0.000578 loss = 0.5249   cl_loss = 0.3968    reward = 0.8719 advantage = -0.0625 baselines_mse = 0.1078
+INFO:root:step 31100: lr = 0.000578 loss = 0.1249   cl_loss = 0.1015    reward = 0.9719 advantage = 0.0308  baselines_mse = 0.0283
+INFO:root:step 31200: lr = 0.000578 loss = 0.1183   cl_loss = 0.1088    reward = 0.9750 advantage = 0.0324  baselines_mse = 0.0246
+INFO:root:step 31300: lr = 0.000578 loss = 0.2420   cl_loss = 0.1875    reward = 0.9406 advantage = -0.0037 baselines_mse = 0.0525
+INFO:root:step 31400: lr = 0.000578 loss = 0.1655   cl_loss = 0.1346    reward = 0.9688 advantage = 0.0237  baselines_mse = 0.0311
+INFO:root:step 31500: lr = 0.000578 loss = 0.1721   cl_loss = 0.1354    reward = 0.9531 advantage = 0.0061  baselines_mse = 0.0426
+INFO:root:step 31600: lr = 0.000578 loss = 0.2568   cl_loss = 0.1832    reward = 0.9312 advantage = -0.0149 baselines_mse = 0.0626
+INFO:root:step 31700: lr = 0.000578 loss = 0.2509   cl_loss = 0.1937    reward = 0.9406 advantage = 0.0021  baselines_mse = 0.0529
+INFO:root:step 31800: lr = 0.000578 loss = 0.2209   cl_loss = 0.1537    reward = 0.9344 advantage = -0.0153 baselines_mse = 0.0571
+INFO:root:step 31900: lr = 0.000578 loss = 0.0862   cl_loss = 0.0669    reward = 0.9781 advantage = 0.0257  baselines_mse = 0.0233
+INFO:root:step 32000: lr = 0.000578 loss = 0.2207   cl_loss = 0.1642    reward = 0.9438 advantage = -0.0047 baselines_mse = 0.0507
+INFO:root:step 32100: lr = 0.000578 loss = 0.3199   cl_loss = 0.2455    reward = 0.9187 advantage = -0.0142 baselines_mse = 0.0706
+INFO:root:step 32200: lr = 0.000578 loss = 0.2220   cl_loss = 0.1662    reward = 0.9438 advantage = -0.0149 baselines_mse = 0.0531
+INFO:root:step 32300: lr = 0.000578 loss = 0.4829   cl_loss = 0.3737    reward = 0.8875 advantage = -0.0368 baselines_mse = 0.0960
+INFO:root:step 32400: lr = 0.000578 loss = 0.1643   cl_loss = 0.1214    reward = 0.9531 advantage = -0.0025 baselines_mse = 0.0431
+INFO:root:step 32500: lr = 0.000578 loss = 0.2978   cl_loss = 0.2244    reward = 0.9219 advantage = -0.0257 baselines_mse = 0.0684
+INFO:root:step 32600: lr = 0.000578 loss = 0.1592   cl_loss = 0.1226    reward = 0.9594 advantage = 0.0025  baselines_mse = 0.0381
+INFO:root:valid accuracy = 0.9817708333333334
+INFO:root:test accuracy = 0.9782652243589743
+INFO:root:step 32700: lr = 0.000561 loss = 0.0958   cl_loss = 0.0780    reward = 0.9719 advantage = 0.0297  baselines_mse = 0.0268
+INFO:root:step 32800: lr = 0.000561 loss = 0.2764   cl_loss = 0.2085    reward = 0.9344 advantage = -0.0001 baselines_mse = 0.0601
+INFO:root:step 32900: lr = 0.000561 loss = 0.1192   cl_loss = 0.0898    reward = 0.9656 advantage = 0.0231  baselines_mse = 0.0338
+INFO:root:step 33000: lr = 0.000561 loss = 0.1387   cl_loss = 0.1149    reward = 0.9719 advantage = 0.0293  baselines_mse = 0.0276
+INFO:root:step 33100: lr = 0.000561 loss = 0.2138   cl_loss = 0.1654    reward = 0.9469 advantage = -0.0060 baselines_mse = 0.0465
+INFO:root:step 33200: lr = 0.000561 loss = 0.3668   cl_loss = 0.2993    reward = 0.9312 advantage = -0.0155 baselines_mse = 0.0635
+INFO:root:step 33300: lr = 0.000561 loss = 0.1350   cl_loss = 0.0952    reward = 0.9656 advantage = 0.0189  baselines_mse = 0.0329
+INFO:root:step 33400: lr = 0.000561 loss = 0.3093   cl_loss = 0.2407    reward = 0.9375 advantage = -0.0149 baselines_mse = 0.0558
+INFO:root:step 33500: lr = 0.000561 loss = 0.3476   cl_loss = 0.2720    reward = 0.9125 advantage = -0.0372 baselines_mse = 0.0768
+INFO:root:step 33600: lr = 0.000561 loss = 0.2186   cl_loss = 0.1696    reward = 0.9469 advantage = -0.0101 baselines_mse = 0.0500
+INFO:root:step 33700: lr = 0.000561 loss = 0.2088   cl_loss = 0.1506    reward = 0.9375 advantage = -0.0276 baselines_mse = 0.0564
+INFO:root:step 33800: lr = 0.000561 loss = 0.2752   cl_loss = 0.2136    reward = 0.9312 advantage = 0.0022  baselines_mse = 0.0599
+INFO:root:step 33900: lr = 0.000561 loss = 0.1040   cl_loss = 0.0788    reward = 0.9719 advantage = 0.0203  baselines_mse = 0.0280
+INFO:root:step 34000: lr = 0.000561 loss = 0.4142   cl_loss = 0.3153    reward = 0.8969 advantage = -0.0503 baselines_mse = 0.0890
+INFO:root:step 34100: lr = 0.000561 loss = 0.2096   cl_loss = 0.1544    reward = 0.9438 advantage = -0.0108 baselines_mse = 0.0498
+INFO:root:step 34200: lr = 0.000561 loss = 0.1085   cl_loss = 0.0904    reward = 0.9719 advantage = 0.0302  baselines_mse = 0.0277
+INFO:root:step 34300: lr = 0.000561 loss = 0.1568   cl_loss = 0.1311    reward = 0.9688 advantage = 0.0285  baselines_mse = 0.0291
+INFO:root:valid accuracy = 0.9811698717948718
+INFO:root:test accuracy = 0.9806690705128205
+INFO:root:step 34400: lr = 0.000544 loss = 0.1756   cl_loss = 0.1312    reward = 0.9563 advantage = 0.0125  baselines_mse = 0.0420
+INFO:root:step 34500: lr = 0.000544 loss = 0.2011   cl_loss = 0.1471    reward = 0.9406 advantage = -0.0049 baselines_mse = 0.0527
+INFO:root:step 34600: lr = 0.000544 loss = 0.1557   cl_loss = 0.1221    reward = 0.9594 advantage = 0.0198  baselines_mse = 0.0379
+INFO:root:step 34700: lr = 0.000544 loss = 0.1677   cl_loss = 0.1255    reward = 0.9563 advantage = -0.0028 baselines_mse = 0.0404
+INFO:root:step 34800: lr = 0.000544 loss = 0.1781   cl_loss = 0.1346    reward = 0.9563 advantage = 0.0066  baselines_mse = 0.0396
+INFO:root:step 34900: lr = 0.000544 loss = 0.0653   cl_loss = 0.0613    reward = 0.9906 advantage = 0.0330  baselines_mse = 0.0116
+INFO:root:step 35000: lr = 0.000544 loss = 0.1083   cl_loss = 0.0754    reward = 0.9719 advantage = 0.0039  baselines_mse = 0.0271
+INFO:root:step 35100: lr = 0.000544 loss = 0.2042   cl_loss = 0.1545    reward = 0.9500 advantage = -0.0050 baselines_mse = 0.0447
+INFO:root:step 35200: lr = 0.000544 loss = 0.1439   cl_loss = 0.1226    reward = 0.9656 advantage = 0.0205  baselines_mse = 0.0343
+INFO:root:step 35300: lr = 0.000544 loss = 0.3555   cl_loss = 0.2494    reward = 0.8938 advantage = -0.0433 baselines_mse = 0.0909
+INFO:root:step 35400: lr = 0.000544 loss = 0.0474   cl_loss = 0.0428    reward = 0.9937 advantage = 0.0359  baselines_mse = 0.0091
+INFO:root:step 35500: lr = 0.000544 loss = 0.3357   cl_loss = 0.2514    reward = 0.9187 advantage = -0.0299 baselines_mse = 0.0707
+INFO:root:step 35600: lr = 0.000544 loss = 0.3413   cl_loss = 0.2733    reward = 0.9219 advantage = -0.0268 baselines_mse = 0.0690
+INFO:root:step 35700: lr = 0.000544 loss = 0.1139   cl_loss = 0.0806    reward = 0.9688 advantage = 0.0174  baselines_mse = 0.0304
+INFO:root:step 35800: lr = 0.000544 loss = 0.1870   cl_loss = 0.1275    reward = 0.9438 advantage = -0.0127 baselines_mse = 0.0508
+INFO:root:step 35900: lr = 0.000544 loss = 0.1980   cl_loss = 0.1597    reward = 0.9563 advantage = 0.0053  baselines_mse = 0.0414
+INFO:root:step 36000: lr = 0.000544 loss = 0.2753   cl_loss = 0.2063    reward = 0.9187 advantage = -0.0274 baselines_mse = 0.0720
+INFO:root:valid accuracy = 0.9827724358974359
+INFO:root:test accuracy = 0.9791666666666666
+INFO:root:step 36100: lr = 0.000527 loss = 0.2443   cl_loss = 0.1835    reward = 0.9406 advantage = -0.0137 baselines_mse = 0.0537
+INFO:root:step 36200: lr = 0.000527 loss = 0.1938   cl_loss = 0.1427    reward = 0.9469 advantage = -0.0138 baselines_mse = 0.0486
+INFO:root:step 36300: lr = 0.000527 loss = 0.2925   cl_loss = 0.2205    reward = 0.9187 advantage = -0.0348 baselines_mse = 0.0736
+INFO:root:step 36400: lr = 0.000527 loss = 0.1030   cl_loss = 0.0780    reward = 0.9719 advantage = 0.0088  baselines_mse = 0.0269
+INFO:root:step 36500: lr = 0.000527 loss = 0.2618   cl_loss = 0.1988    reward = 0.9375 advantage = -0.0070 baselines_mse = 0.0544
+INFO:root:step 36600: lr = 0.000527 loss = 0.0638   cl_loss = 0.0518    reward = 0.9875 advantage = 0.0341  baselines_mse = 0.0154
+INFO:root:step 36700: lr = 0.000527 loss = 0.1485   cl_loss = 0.1143    reward = 0.9531 advantage = -0.0128 baselines_mse = 0.0435
+INFO:root:step 36800: lr = 0.000527 loss = 0.2330   cl_loss = 0.1709    reward = 0.9406 advantage = -0.0060 baselines_mse = 0.0533
+INFO:root:step 36900: lr = 0.000527 loss = 0.0503   cl_loss = 0.0403    reward = 0.9875 advantage = 0.0260  baselines_mse = 0.0135
+INFO:root:step 37000: lr = 0.000527 loss = 0.1932   cl_loss = 0.1494    reward = 0.9563 advantage = 0.0018  baselines_mse = 0.0406
+INFO:root:step 37100: lr = 0.000527 loss = 0.2602   cl_loss = 0.2228    reward = 0.9531 advantage = 0.0011  baselines_mse = 0.0436
+INFO:root:step 37200: lr = 0.000527 loss = 0.3147   cl_loss = 0.2187    reward = 0.9031 advantage = -0.0423 baselines_mse = 0.0849
+INFO:root:step 37300: lr = 0.000527 loss = 0.2004   cl_loss = 0.1585    reward = 0.9531 advantage = 0.0140  baselines_mse = 0.0445
+INFO:root:step 37400: lr = 0.000527 loss = 0.1587   cl_loss = 0.1064    reward = 0.9500 advantage = -0.0109 baselines_mse = 0.0432
+INFO:root:step 37500: lr = 0.000527 loss = 0.1430   cl_loss = 0.1107    reward = 0.9656 advantage = 0.0093  baselines_mse = 0.0313
+INFO:root:step 37600: lr = 0.000527 loss = 0.2091   cl_loss = 0.1671    reward = 0.9594 advantage = 0.0100  baselines_mse = 0.0382
+INFO:root:step 37700: lr = 0.000527 loss = 0.2098   cl_loss = 0.1682    reward = 0.9563 advantage = -0.0029 baselines_mse = 0.0390
+INFO:root:valid accuracy = 0.9811698717948718
+INFO:root:test accuracy = 0.9798677884615384
+INFO:root:step 37800: lr = 0.000512 loss = 0.3091   cl_loss = 0.2344    reward = 0.9312 advantage = -0.0065 baselines_mse = 0.0620
+INFO:root:step 37900: lr = 0.000512 loss = 0.1973   cl_loss = 0.1473    reward = 0.9469 advantage = -0.0174 baselines_mse = 0.0468
+INFO:root:step 38000: lr = 0.000512 loss = 0.3299   cl_loss = 0.2461    reward = 0.9219 advantage = -0.0286 baselines_mse = 0.0680
+INFO:root:step 38100: lr = 0.000512 loss = 0.3332   cl_loss = 0.2495    reward = 0.9062 advantage = -0.0381 baselines_mse = 0.0825
+INFO:root:step 38200: lr = 0.000512 loss = 0.2725   cl_loss = 0.2166    reward = 0.9500 advantage = -0.0020 baselines_mse = 0.0465
+INFO:root:step 38300: lr = 0.000512 loss = 0.0747   cl_loss = 0.0592    reward = 0.9781 advantage = 0.0214  baselines_mse = 0.0221
+INFO:root:step 38400: lr = 0.000512 loss = 0.2793   cl_loss = 0.2090    reward = 0.9250 advantage = -0.0324 baselines_mse = 0.0651
+INFO:root:step 38500: lr = 0.000512 loss = 0.4942   cl_loss = 0.3985    reward = 0.9000 advantage = -0.0482 baselines_mse = 0.0890
+INFO:root:step 38600: lr = 0.000512 loss = 0.1400   cl_loss = 0.1026    reward = 0.9625 advantage = 0.0118  baselines_mse = 0.0351
+INFO:root:step 38700: lr = 0.000512 loss = 0.1837   cl_loss = 0.1365    reward = 0.9438 advantage = -0.0011 baselines_mse = 0.0490
+INFO:root:step 38800: lr = 0.000512 loss = 0.2397   cl_loss = 0.1795    reward = 0.9312 advantage = -0.0212 baselines_mse = 0.0611
+INFO:root:step 38900: lr = 0.000512 loss = 0.1898   cl_loss = 0.1363    reward = 0.9500 advantage = -0.0012 baselines_mse = 0.0450
+INFO:root:step 39000: lr = 0.000512 loss = 0.0510   cl_loss = 0.0373    reward = 0.9875 advantage = 0.0326  baselines_mse = 0.0141
+INFO:root:step 39100: lr = 0.000512 loss = 0.1982   cl_loss = 0.1494    reward = 0.9469 advantage = -0.0119 baselines_mse = 0.0464
+INFO:root:step 39200: lr = 0.000512 loss = 0.4123   cl_loss = 0.3098    reward = 0.8969 advantage = -0.0519 baselines_mse = 0.0921
+INFO:root:step 39300: lr = 0.000512 loss = 0.2095   cl_loss = 0.1610    reward = 0.9500 advantage = -0.0137 baselines_mse = 0.0465
+INFO:root:step 39400: lr = 0.000512 loss = 0.3133   cl_loss = 0.2280    reward = 0.9156 advantage = -0.0423 baselines_mse = 0.0768
+INFO:root:step 39500: lr = 0.000512 loss = 0.1276   cl_loss = 0.1004    reward = 0.9719 advantage = 0.0048  baselines_mse = 0.0271
+INFO:root:valid accuracy = 0.9813701923076923
+INFO:root:test accuracy = 0.9811698717948718
+INFO:root:step 39600: lr = 0.000496 loss = 0.1644   cl_loss = 0.1226    reward = 0.9531 advantage = -0.0023 baselines_mse = 0.0431
+INFO:root:step 39700: lr = 0.000496 loss = 0.3384   cl_loss = 0.2550    reward = 0.9156 advantage = -0.0255 baselines_mse = 0.0736
+INFO:root:step 39800: lr = 0.000496 loss = 0.1505   cl_loss = 0.1146    reward = 0.9625 advantage = 0.0133  baselines_mse = 0.0358
+INFO:root:step 39900: lr = 0.000496 loss = 0.1819   cl_loss = 0.1379    reward = 0.9531 advantage = 0.0083  baselines_mse = 0.0431
+INFO:root:step 40000: lr = 0.000496 loss = 0.2535   cl_loss = 0.1891    reward = 0.9312 advantage = -0.0211 baselines_mse = 0.0618
+INFO:root:step 40100: lr = 0.000496 loss = 0.2618   cl_loss = 0.2092    reward = 0.9438 advantage = -0.0128 baselines_mse = 0.0480
+INFO:root:step 40200: lr = 0.000496 loss = 0.2625   cl_loss = 0.1884    reward = 0.9250 advantage = -0.0263 baselines_mse = 0.0673
+INFO:root:step 40300: lr = 0.000496 loss = 0.1759   cl_loss = 0.1305    reward = 0.9531 advantage = 0.0005  baselines_mse = 0.0427
+INFO:root:step 40400: lr = 0.000496 loss = 0.3226   cl_loss = 0.2218    reward = 0.9094 advantage = -0.0385 baselines_mse = 0.0780
+INFO:root:step 40500: lr = 0.000496 loss = 0.3029   cl_loss = 0.2247    reward = 0.9219 advantage = -0.0288 baselines_mse = 0.0672
+INFO:root:step 40600: lr = 0.000496 loss = 0.1345   cl_loss = 0.0933    reward = 0.9656 advantage = 0.0130  baselines_mse = 0.0326
+INFO:root:step 40700: lr = 0.000496 loss = 0.0881   cl_loss = 0.0642    reward = 0.9750 advantage = 0.0216  baselines_mse = 0.0248
+INFO:root:step 40800: lr = 0.000496 loss = 0.3754   cl_loss = 0.3154    reward = 0.9438 advantage = -0.0059 baselines_mse = 0.0521
+INFO:root:step 40900: lr = 0.000496 loss = 0.4482   cl_loss = 0.3290    reward = 0.8906 advantage = -0.0461 baselines_mse = 0.0970
+INFO:root:step 41000: lr = 0.000496 loss = 0.1353   cl_loss = 0.1083    reward = 0.9656 advantage = 0.0139  baselines_mse = 0.0323
+INFO:root:step 41100: lr = 0.000496 loss = 0.0958   cl_loss = 0.0775    reward = 0.9750 advantage = 0.0283  baselines_mse = 0.0243
+INFO:root:step 41200: lr = 0.000496 loss = 0.3179   cl_loss = 0.2280    reward = 0.9094 advantage = -0.0346 baselines_mse = 0.0805
+INFO:root:valid accuracy = 0.9859775641025641
+INFO:root:test accuracy = 0.9831730769230769
+INFO:root:step 41300: lr = 0.000481 loss = 0.3716   cl_loss = 0.2751    reward = 0.9000 advantage = -0.0467 baselines_mse = 0.0859
+INFO:root:step 41400: lr = 0.000481 loss = 0.1707   cl_loss = 0.1234    reward = 0.9563 advantage = -0.0079 baselines_mse = 0.0400
+INFO:root:step 41500: lr = 0.000481 loss = 0.0363   cl_loss = 0.0332    reward = 0.9937 advantage = 0.0367  baselines_mse = 0.0087
+INFO:root:step 41600: lr = 0.000481 loss = 0.0747   cl_loss = 0.0643    reward = 0.9844 advantage = 0.0331  baselines_mse = 0.0173
+INFO:root:step 41700: lr = 0.000481 loss = 0.1869   cl_loss = 0.1377    reward = 0.9438 advantage = -0.0004 baselines_mse = 0.0492
+INFO:root:step 41800: lr = 0.000481 loss = 0.5635   cl_loss = 0.4321    reward = 0.8781 advantage = -0.0758 baselines_mse = 0.1086
+INFO:root:step 41900: lr = 0.000481 loss = 0.1256   cl_loss = 0.0985    reward = 0.9656 advantage = 0.0094  baselines_mse = 0.0326
+INFO:root:step 42000: lr = 0.000481 loss = 0.3362   cl_loss = 0.2642    reward = 0.9312 advantage = -0.0294 baselines_mse = 0.0623
+INFO:root:step 42100: lr = 0.000481 loss = 0.1163   cl_loss = 0.0808    reward = 0.9719 advantage = 0.0062  baselines_mse = 0.0271
+INFO:root:step 42200: lr = 0.000481 loss = 0.1046   cl_loss = 0.0796    reward = 0.9688 advantage = 0.0162  baselines_mse = 0.0290
+INFO:root:step 42300: lr = 0.000481 loss = 0.0357   cl_loss = 0.0276    reward = 0.9937 advantage = 0.0229  baselines_mse = 0.0082
+INFO:root:step 42400: lr = 0.000481 loss = 0.1980   cl_loss = 0.1477    reward = 0.9406 advantage = -0.0234 baselines_mse = 0.0528
+INFO:root:step 42500: lr = 0.000481 loss = 0.2533   cl_loss = 0.1956    reward = 0.9375 advantage = -0.0068 baselines_mse = 0.0564
+INFO:root:step 42600: lr = 0.000481 loss = 0.0316   cl_loss = 0.0311    reward = 0.9969 advantage = 0.0337  baselines_mse = 0.0057
+INFO:root:step 42700: lr = 0.000481 loss = 0.1622   cl_loss = 0.1240    reward = 0.9594 advantage = 0.0139  baselines_mse = 0.0369
+INFO:root:step 42800: lr = 0.000481 loss = 0.2256   cl_loss = 0.1649    reward = 0.9438 advantage = -0.0137 baselines_mse = 0.0518
+INFO:root:step 42900: lr = 0.000481 loss = 0.0281   cl_loss = 0.0281    reward = 0.9937 advantage = 0.0408  baselines_mse = 0.0103
+INFO:root:valid accuracy = 0.984375
+INFO:root:test accuracy = 0.9820713141025641
+INFO:root:step 43000: lr = 0.000467 loss = 0.3828   cl_loss = 0.2808    reward = 0.9000 advantage = -0.0545 baselines_mse = 0.0866
+INFO:root:step 43100: lr = 0.000467 loss = 0.4048   cl_loss = 0.3054    reward = 0.9000 advantage = -0.0469 baselines_mse = 0.0844
+INFO:root:step 43200: lr = 0.000467 loss = 0.1502   cl_loss = 0.1043    reward = 0.9531 advantage = 0.0050  baselines_mse = 0.0436
+INFO:root:step 43300: lr = 0.000467 loss = 0.3556   cl_loss = 0.2568    reward = 0.9062 advantage = -0.0383 baselines_mse = 0.0826
+INFO:root:step 43400: lr = 0.000467 loss = 0.1275   cl_loss = 0.1035    reward = 0.9688 advantage = 0.0110  baselines_mse = 0.0293
+INFO:root:step 43500: lr = 0.000467 loss = 0.3826   cl_loss = 0.3009    reward = 0.9250 advantage = -0.0349 baselines_mse = 0.0668
+INFO:root:step 43600: lr = 0.000467 loss = 0.2088   cl_loss = 0.1466    reward = 0.9406 advantage = -0.0040 baselines_mse = 0.0536
+INFO:root:step 43700: lr = 0.000467 loss = 0.2452   cl_loss = 0.1966    reward = 0.9500 advantage = 0.0096  baselines_mse = 0.0465
+INFO:root:step 43800: lr = 0.000467 loss = 0.1049   cl_loss = 0.0864    reward = 0.9812 advantage = 0.0298  baselines_mse = 0.0185
+INFO:root:step 43900: lr = 0.000467 loss = 0.0998   cl_loss = 0.0743    reward = 0.9719 advantage = 0.0035  baselines_mse = 0.0267
+INFO:root:step 44000: lr = 0.000467 loss = 0.0648   cl_loss = 0.0588    reward = 0.9906 advantage = 0.0356  baselines_mse = 0.0120
+INFO:root:step 44100: lr = 0.000467 loss = 0.2275   cl_loss = 0.1827    reward = 0.9469 advantage = 0.0069  baselines_mse = 0.0476
+INFO:root:step 44200: lr = 0.000467 loss = 0.2940   cl_loss = 0.2221    reward = 0.9312 advantage = -0.0242 baselines_mse = 0.0631
+INFO:root:step 44300: lr = 0.000467 loss = 0.1615   cl_loss = 0.1205    reward = 0.9531 advantage = 0.0017  baselines_mse = 0.0413
+INFO:root:step 44400: lr = 0.000467 loss = 0.1636   cl_loss = 0.1250    reward = 0.9656 advantage = 0.0036  baselines_mse = 0.0323
+INFO:root:step 44500: lr = 0.000467 loss = 0.1156   cl_loss = 0.0972    reward = 0.9750 advantage = 0.0247  baselines_mse = 0.0250
+INFO:root:step 44600: lr = 0.000467 loss = 0.2555   cl_loss = 0.1939    reward = 0.9375 advantage = -0.0162 baselines_mse = 0.0558
+INFO:root:valid accuracy = 0.9827724358974359
+INFO:root:test accuracy = 0.9830729166666666
+INFO:root:step 44700: lr = 0.000453 loss = 0.1481   cl_loss = 0.1095    reward = 0.9625 advantage = 0.0030  baselines_mse = 0.0343
+INFO:root:step 44800: lr = 0.000453 loss = 0.0814   cl_loss = 0.0645    reward = 0.9844 advantage = 0.0285  baselines_mse = 0.0171
+INFO:root:step 44900: lr = 0.000453 loss = 0.3421   cl_loss = 0.2541    reward = 0.9094 advantage = -0.0466 baselines_mse = 0.0820
+INFO:root:step 45000: lr = 0.000453 loss = 0.1096   cl_loss = 0.0936    reward = 0.9688 advantage = 0.0264  baselines_mse = 0.0302
+INFO:root:step 45100: lr = 0.000453 loss = 0.3856   cl_loss = 0.2880    reward = 0.9031 advantage = -0.0534 baselines_mse = 0.0847
+INFO:root:step 45200: lr = 0.000453 loss = 0.3301   cl_loss = 0.2285    reward = 0.9125 advantage = -0.0392 baselines_mse = 0.0787
+INFO:root:step 45300: lr = 0.000453 loss = 0.1691   cl_loss = 0.1194    reward = 0.9563 advantage = 0.0013  baselines_mse = 0.0411
+INFO:root:step 45400: lr = 0.000453 loss = 0.1423   cl_loss = 0.1147    reward = 0.9656 advantage = 0.0079  baselines_mse = 0.0323
+INFO:root:step 45500: lr = 0.000453 loss = 0.0858   cl_loss = 0.0775    reward = 0.9812 advantage = 0.0276  baselines_mse = 0.0198
+INFO:root:step 45600: lr = 0.000453 loss = 0.2368   cl_loss = 0.1644    reward = 0.9219 advantage = -0.0329 baselines_mse = 0.0673
+INFO:root:step 45700: lr = 0.000453 loss = 0.1440   cl_loss = 0.1106    reward = 0.9531 advantage = 0.0056  baselines_mse = 0.0422
+INFO:root:step 45800: lr = 0.000453 loss = 0.1204   cl_loss = 0.0904    reward = 0.9719 advantage = 0.0078  baselines_mse = 0.0271
+INFO:root:step 45900: lr = 0.000453 loss = 0.2605   cl_loss = 0.1761    reward = 0.9250 advantage = -0.0217 baselines_mse = 0.0673
+INFO:root:step 46000: lr = 0.000453 loss = 0.4200   cl_loss = 0.3068    reward = 0.8813 advantage = -0.0771 baselines_mse = 0.1022
+INFO:root:step 46100: lr = 0.000453 loss = 0.1942   cl_loss = 0.1500    reward = 0.9500 advantage = -0.0022 baselines_mse = 0.0461
+INFO:root:step 46200: lr = 0.000453 loss = 0.1791   cl_loss = 0.1266    reward = 0.9438 advantage = -0.0180 baselines_mse = 0.0514
+INFO:root:step 46300: lr = 0.000453 loss = 0.1342   cl_loss = 0.0979    reward = 0.9656 advantage = 0.0140  baselines_mse = 0.0327
+INFO:root:valid accuracy = 0.9861778846153846
+INFO:root:test accuracy = 0.9830729166666666
+INFO:root:step 46400: lr = 0.000439 loss = 0.0735   cl_loss = 0.0608    reward = 0.9844 advantage = 0.0248  baselines_mse = 0.0163
+INFO:root:step 46500: lr = 0.000439 loss = 0.2640   cl_loss = 0.1966    reward = 0.9375 advantage = -0.0197 baselines_mse = 0.0578
+INFO:root:step 46600: lr = 0.000439 loss = 0.1848   cl_loss = 0.1469    reward = 0.9531 advantage = 0.0034  baselines_mse = 0.0430
+INFO:root:step 46700: lr = 0.000439 loss = 0.1187   cl_loss = 0.0830    reward = 0.9563 advantage = 0.0066  baselines_mse = 0.0393
+INFO:root:step 46800: lr = 0.000439 loss = 0.0716   cl_loss = 0.0573    reward = 0.9812 advantage = 0.0287  baselines_mse = 0.0190
+INFO:root:step 46900: lr = 0.000439 loss = 0.2153   cl_loss = 0.1701    reward = 0.9563 advantage = 0.0090  baselines_mse = 0.0397
+INFO:root:step 47000: lr = 0.000439 loss = 0.1768   cl_loss = 0.1303    reward = 0.9469 advantage = -0.0024 baselines_mse = 0.0491
+INFO:root:step 47100: lr = 0.000439 loss = 0.1115   cl_loss = 0.0881    reward = 0.9688 advantage = 0.0167  baselines_mse = 0.0298
+INFO:root:step 47200: lr = 0.000439 loss = 0.2689   cl_loss = 0.1886    reward = 0.9187 advantage = -0.0360 baselines_mse = 0.0712
+INFO:root:step 47300: lr = 0.000439 loss = 0.1101   cl_loss = 0.0854    reward = 0.9688 advantage = 0.0126  baselines_mse = 0.0289
+INFO:root:step 47400: lr = 0.000439 loss = 0.1432   cl_loss = 0.1157    reward = 0.9625 advantage = 0.0080  baselines_mse = 0.0349
+INFO:root:step 47500: lr = 0.000439 loss = 0.1509   cl_loss = 0.1077    reward = 0.9625 advantage = 0.0090  baselines_mse = 0.0350
+INFO:root:step 47600: lr = 0.000439 loss = 0.1382   cl_loss = 0.0993    reward = 0.9594 advantage = 0.0019  baselines_mse = 0.0374
+INFO:root:step 47700: lr = 0.000439 loss = 0.2152   cl_loss = 0.1788    reward = 0.9469 advantage = -0.0065 baselines_mse = 0.0493
+INFO:root:step 47800: lr = 0.000439 loss = 0.0882   cl_loss = 0.0623    reward = 0.9719 advantage = 0.0062  baselines_mse = 0.0265
+INFO:root:step 47900: lr = 0.000439 loss = 0.1446   cl_loss = 0.1045    reward = 0.9563 advantage = 0.0061  baselines_mse = 0.0408
+INFO:root:step 48000: lr = 0.000439 loss = 0.1117   cl_loss = 0.0858    reward = 0.9719 advantage = 0.0115  baselines_mse = 0.0268
+INFO:root:step 48100: lr = 0.000439 loss = 0.0771   cl_loss = 0.0629    reward = 0.9812 advantage = 0.0211  baselines_mse = 0.0192
+INFO:root:valid accuracy = 0.985176282051282
+INFO:root:test accuracy = 0.9826722756410257
+INFO:root:step 48200: lr = 0.000426 loss = 0.0713   cl_loss = 0.0556    reward = 0.9812 advantage = 0.0282  baselines_mse = 0.0190
+INFO:root:step 48300: lr = 0.000426 loss = 0.1897   cl_loss = 0.1432    reward = 0.9563 advantage = -0.0170 baselines_mse = 0.0412
+INFO:root:step 48400: lr = 0.000426 loss = 0.1111   cl_loss = 0.0794    reward = 0.9688 advantage = 0.0098  baselines_mse = 0.0294
+INFO:root:step 48500: lr = 0.000426 loss = 0.2242   cl_loss = 0.1642    reward = 0.9375 advantage = -0.0039 baselines_mse = 0.0549
+INFO:root:step 48600: lr = 0.000426 loss = 0.1526   cl_loss = 0.1053    reward = 0.9531 advantage = 0.0063  baselines_mse = 0.0426
+INFO:root:step 48700: lr = 0.000426 loss = 0.1305   cl_loss = 0.0974    reward = 0.9719 advantage = 0.0075  baselines_mse = 0.0272
+INFO:root:step 48800: lr = 0.000426 loss = 0.1164   cl_loss = 0.0863    reward = 0.9719 advantage = 0.0122  baselines_mse = 0.0268
+INFO:root:step 48900: lr = 0.000426 loss = 0.1356   cl_loss = 0.0912    reward = 0.9594 advantage = -0.0017 baselines_mse = 0.0388
+INFO:root:step 49000: lr = 0.000426 loss = 0.0994   cl_loss = 0.0734    reward = 0.9750 advantage = 0.0153  baselines_mse = 0.0251
+INFO:root:step 49100: lr = 0.000426 loss = 0.1131   cl_loss = 0.0904    reward = 0.9750 advantage = 0.0134  baselines_mse = 0.0245
+INFO:root:step 49200: lr = 0.000426 loss = 0.4428   cl_loss = 0.3548    reward = 0.9187 advantage = -0.0398 baselines_mse = 0.0769
+INFO:root:step 49300: lr = 0.000426 loss = 0.0821   cl_loss = 0.0681    reward = 0.9812 advantage = 0.0298  baselines_mse = 0.0190
+INFO:root:step 49400: lr = 0.000426 loss = 0.2324   cl_loss = 0.1696    reward = 0.9375 advantage = -0.0197 baselines_mse = 0.0559
+INFO:root:step 49500: lr = 0.000426 loss = 0.3233   cl_loss = 0.2571    reward = 0.9187 advantage = -0.0336 baselines_mse = 0.0752
+INFO:root:step 49600: lr = 0.000426 loss = 0.1288   cl_loss = 0.0872    reward = 0.9656 advantage = 0.0140  baselines_mse = 0.0337
+INFO:root:step 49700: lr = 0.000426 loss = 0.1243   cl_loss = 0.0963    reward = 0.9719 advantage = 0.0094  baselines_mse = 0.0276
+INFO:root:step 49800: lr = 0.000426 loss = 0.2980   cl_loss = 0.2253    reward = 0.9281 advantage = -0.0212 baselines_mse = 0.0659
+INFO:root:valid accuracy = 0.9829727564102564
+INFO:root:test accuracy = 0.98046875
+INFO:root:step 49900: lr = 0.000413 loss = 0.0628   cl_loss = 0.0520    reward = 0.9875 advantage = 0.0240  baselines_mse = 0.0134
+INFO:root:step 50000: lr = 0.000413 loss = 0.1309   cl_loss = 0.0903    reward = 0.9625 advantage = 0.0170  baselines_mse = 0.0352
+INFO:root:step 50100: lr = 0.000413 loss = 0.1884   cl_loss = 0.1428    reward = 0.9563 advantage = 0.0094  baselines_mse = 0.0400
+INFO:root:step 50200: lr = 0.000413 loss = 0.1067   cl_loss = 0.0784    reward = 0.9719 advantage = 0.0132  baselines_mse = 0.0269
+INFO:root:step 50300: lr = 0.000413 loss = 0.2788   cl_loss = 0.2117    reward = 0.9344 advantage = -0.0219 baselines_mse = 0.0596
+INFO:root:step 50400: lr = 0.000413 loss = 0.0871   cl_loss = 0.0616    reward = 0.9719 advantage = 0.0133  baselines_mse = 0.0278
+INFO:root:step 50500: lr = 0.000413 loss = 0.1563   cl_loss = 0.1075    reward = 0.9563 advantage = 0.0077  baselines_mse = 0.0422
+INFO:root:step 50600: lr = 0.000413 loss = 0.2268   cl_loss = 0.1722    reward = 0.9500 advantage = -0.0065 baselines_mse = 0.0459
+INFO:root:step 50700: lr = 0.000413 loss = 0.2443   cl_loss = 0.1877    reward = 0.9438 advantage = -0.0049 baselines_mse = 0.0516
+INFO:root:step 50800: lr = 0.000413 loss = 0.3016   cl_loss = 0.2283    reward = 0.9281 advantage = -0.0266 baselines_mse = 0.0653
+INFO:root:step 50900: lr = 0.000413 loss = 0.1812   cl_loss = 0.1477    reward = 0.9625 advantage = 0.0122  baselines_mse = 0.0341
+INFO:root:step 51000: lr = 0.000413 loss = 0.1586   cl_loss = 0.1163    reward = 0.9656 advantage = -0.0026 baselines_mse = 0.0342
+INFO:root:step 51100: lr = 0.000413 loss = 0.2683   cl_loss = 0.1840    reward = 0.9219 advantage = -0.0346 baselines_mse = 0.0724
+INFO:root:step 51200: lr = 0.000413 loss = 0.1281   cl_loss = 0.1007    reward = 0.9625 advantage = 0.0062  baselines_mse = 0.0343
+INFO:root:step 51300: lr = 0.000413 loss = 0.1110   cl_loss = 0.0883    reward = 0.9750 advantage = 0.0279  baselines_mse = 0.0246
+INFO:root:step 51400: lr = 0.000413 loss = 0.3652   cl_loss = 0.2554    reward = 0.9000 advantage = -0.0561 baselines_mse = 0.0881
+INFO:root:step 51500: lr = 0.000413 loss = 0.1637   cl_loss = 0.1278    reward = 0.9594 advantage = 0.0077  baselines_mse = 0.0371
+INFO:root:valid accuracy = 0.9829727564102564
+INFO:root:test accuracy = 0.9850761217948718
+INFO:root:step 51600: lr = 0.000401 loss = 0.0655   cl_loss = 0.0495    reward = 0.9812 advantage = 0.0289  baselines_mse = 0.0194
+INFO:root:step 51700: lr = 0.000401 loss = 0.1343   cl_loss = 0.0999    reward = 0.9656 advantage = 0.0218  baselines_mse = 0.0335
+INFO:root:step 51800: lr = 0.000401 loss = 0.2947   cl_loss = 0.2265    reward = 0.9281 advantage = -0.0231 baselines_mse = 0.0627
+INFO:root:step 51900: lr = 0.000401 loss = 0.0433   cl_loss = 0.0364    reward = 0.9906 advantage = 0.0292  baselines_mse = 0.0107
+INFO:root:step 52000: lr = 0.000401 loss = 0.0984   cl_loss = 0.0826    reward = 0.9844 advantage = 0.0260  baselines_mse = 0.0166
+INFO:root:step 52100: lr = 0.000401 loss = 0.0637   cl_loss = 0.0475    reward = 0.9812 advantage = 0.0218  baselines_mse = 0.0188
+INFO:root:step 52200: lr = 0.000401 loss = 0.1201   cl_loss = 0.0847    reward = 0.9656 advantage = 0.0066  baselines_mse = 0.0308
+INFO:root:step 52300: lr = 0.000401 loss = 0.1331   cl_loss = 0.1087    reward = 0.9688 advantage = 0.0052  baselines_mse = 0.0284
+INFO:root:step 52400: lr = 0.000401 loss = 0.0376   cl_loss = 0.0318    reward = 0.9906 advantage = 0.0259  baselines_mse = 0.0104
+INFO:root:step 52500: lr = 0.000401 loss = 0.1590   cl_loss = 0.1188    reward = 0.9625 advantage = -0.0044 baselines_mse = 0.0346
+INFO:root:step 52600: lr = 0.000401 loss = 0.1375   cl_loss = 0.1049    reward = 0.9656 advantage = 0.0096  baselines_mse = 0.0327
+INFO:root:step 52700: lr = 0.000401 loss = 0.2013   cl_loss = 0.1459    reward = 0.9500 advantage = -0.0005 baselines_mse = 0.0448
+INFO:root:step 52800: lr = 0.000401 loss = 0.1172   cl_loss = 0.0912    reward = 0.9688 advantage = 0.0074  baselines_mse = 0.0292
+INFO:root:step 52900: lr = 0.000401 loss = 0.2084   cl_loss = 0.1783    reward = 0.9656 advantage = 0.0176  baselines_mse = 0.0338
+INFO:root:step 53000: lr = 0.000401 loss = 0.3393   cl_loss = 0.2493    reward = 0.9094 advantage = -0.0474 baselines_mse = 0.0785
+INFO:root:step 53100: lr = 0.000401 loss = 0.1631   cl_loss = 0.1269    reward = 0.9656 advantage = 0.0097  baselines_mse = 0.0326
+INFO:root:step 53200: lr = 0.000401 loss = 0.1133   cl_loss = 0.0847    reward = 0.9688 advantage = 0.0014  baselines_mse = 0.0288
+INFO:root:valid accuracy = 0.9861778846153846
+INFO:root:test accuracy = 0.9821714743589743
+INFO:root:step 53300: lr = 0.000389 loss = 0.3334   cl_loss = 0.2471    reward = 0.9187 advantage = -0.0328 baselines_mse = 0.0706
+INFO:root:step 53400: lr = 0.000389 loss = 0.1157   cl_loss = 0.0961    reward = 0.9781 advantage = 0.0182  baselines_mse = 0.0208
+INFO:root:step 53500: lr = 0.000389 loss = 0.1718   cl_loss = 0.1272    reward = 0.9594 advantage = 0.0045  baselines_mse = 0.0379
+INFO:root:step 53600: lr = 0.000389 loss = 0.1521   cl_loss = 0.1134    reward = 0.9625 advantage = 0.0030  baselines_mse = 0.0358
+INFO:root:step 53700: lr = 0.000389 loss = 0.1111   cl_loss = 0.0807    reward = 0.9688 advantage = 0.0233  baselines_mse = 0.0300
+INFO:root:step 53800: lr = 0.000389 loss = 0.1309   cl_loss = 0.0969    reward = 0.9594 advantage = 0.0089  baselines_mse = 0.0372
+INFO:root:step 53900: lr = 0.000389 loss = 0.0418   cl_loss = 0.0359    reward = 0.9906 advantage = 0.0242  baselines_mse = 0.0108
+INFO:root:step 54000: lr = 0.000389 loss = 0.1589   cl_loss = 0.1198    reward = 0.9625 advantage = 0.0040  baselines_mse = 0.0340
+INFO:root:step 54100: lr = 0.000389 loss = 0.0891   cl_loss = 0.0762    reward = 0.9781 advantage = 0.0196  baselines_mse = 0.0220
+INFO:root:step 54200: lr = 0.000389 loss = 0.2044   cl_loss = 0.1528    reward = 0.9469 advantage = -0.0006 baselines_mse = 0.0486
+INFO:root:step 54300: lr = 0.000389 loss = 0.0652   cl_loss = 0.0486    reward = 0.9844 advantage = 0.0150  baselines_mse = 0.0160
+INFO:root:step 54400: lr = 0.000389 loss = 0.2225   cl_loss = 0.1675    reward = 0.9469 advantage = -0.0214 baselines_mse = 0.0482
+INFO:root:step 54500: lr = 0.000389 loss = 0.0908   cl_loss = 0.0661    reward = 0.9750 advantage = 0.0138  baselines_mse = 0.0241
+INFO:root:step 54600: lr = 0.000389 loss = 0.3646   cl_loss = 0.2637    reward = 0.9156 advantage = -0.0483 baselines_mse = 0.0756
+INFO:root:step 54700: lr = 0.000389 loss = 0.1080   cl_loss = 0.0861    reward = 0.9750 advantage = 0.0125  baselines_mse = 0.0236
+INFO:root:step 54800: lr = 0.000389 loss = 0.0828   cl_loss = 0.0624    reward = 0.9812 advantage = 0.0132  baselines_mse = 0.0185
+INFO:root:step 54900: lr = 0.000389 loss = 0.2613   cl_loss = 0.2141    reward = 0.9438 advantage = -0.0095 baselines_mse = 0.0496
+INFO:root:valid accuracy = 0.9841746794871795
+INFO:root:test accuracy = 0.9832732371794872
+INFO:root:step 55000: lr = 0.000377 loss = 0.0936   cl_loss = 0.0722    reward = 0.9781 advantage = 0.0101  baselines_mse = 0.0224
+INFO:root:step 55100: lr = 0.000377 loss = 0.1225   cl_loss = 0.0858    reward = 0.9563 advantage = -0.0097 baselines_mse = 0.0405
+INFO:root:step 55200: lr = 0.000377 loss = 0.2872   cl_loss = 0.2106    reward = 0.9281 advantage = -0.0220 baselines_mse = 0.0674
+INFO:root:step 55300: lr = 0.000377 loss = 0.0510   cl_loss = 0.0380    reward = 0.9875 advantage = 0.0276  baselines_mse = 0.0141
+INFO:root:step 55400: lr = 0.000377 loss = 0.4305   cl_loss = 0.3259    reward = 0.9094 advantage = -0.0375 baselines_mse = 0.0818
+INFO:root:step 55500: lr = 0.000377 loss = 0.0625   cl_loss = 0.0516    reward = 0.9875 advantage = 0.0219  baselines_mse = 0.0134
+INFO:root:step 55600: lr = 0.000377 loss = 0.1727   cl_loss = 0.1224    reward = 0.9531 advantage = 0.0008  baselines_mse = 0.0434
+INFO:root:step 55700: lr = 0.000377 loss = 0.0505   cl_loss = 0.0402    reward = 0.9844 advantage = 0.0275  baselines_mse = 0.0159
+INFO:root:step 55800: lr = 0.000377 loss = 0.0545   cl_loss = 0.0429    reward = 0.9875 advantage = 0.0258  baselines_mse = 0.0132
+INFO:root:step 55900: lr = 0.000377 loss = 0.2048   cl_loss = 0.1477    reward = 0.9500 advantage = -0.0132 baselines_mse = 0.0460
+INFO:root:step 56000: lr = 0.000377 loss = 0.0825   cl_loss = 0.0663    reward = 0.9750 advantage = 0.0134  baselines_mse = 0.0247
+INFO:root:step 56100: lr = 0.000377 loss = 0.0934   cl_loss = 0.0673    reward = 0.9750 advantage = 0.0088  baselines_mse = 0.0239
+INFO:root:step 56200: lr = 0.000377 loss = 0.1481   cl_loss = 0.1125    reward = 0.9656 advantage = 0.0099  baselines_mse = 0.0319
+INFO:root:step 56300: lr = 0.000377 loss = 0.0974   cl_loss = 0.0751    reward = 0.9781 advantage = 0.0137  baselines_mse = 0.0221
+INFO:root:step 56400: lr = 0.000377 loss = 0.1277   cl_loss = 0.1063    reward = 0.9750 advantage = 0.0195  baselines_mse = 0.0244
+INFO:root:step 56500: lr = 0.000377 loss = 0.1881   cl_loss = 0.1513    reward = 0.9563 advantage = 0.0050  baselines_mse = 0.0395
+INFO:root:step 56600: lr = 0.000377 loss = 0.2525   cl_loss = 0.1771    reward = 0.9344 advantage = -0.0215 baselines_mse = 0.0589
+INFO:root:valid accuracy = 0.9875801282051282
+INFO:root:test accuracy = 0.9825721153846154
+INFO:root:step 56700: lr = 0.000366 loss = 0.2479   cl_loss = 0.1741    reward = 0.9281 advantage = -0.0237 baselines_mse = 0.0620
+INFO:root:step 56800: lr = 0.000366 loss = 0.0657   cl_loss = 0.0540    reward = 0.9875 advantage = 0.0356  baselines_mse = 0.0140
+INFO:root:step 56900: lr = 0.000366 loss = 0.2501   cl_loss = 0.1897    reward = 0.9406 advantage = -0.0260 baselines_mse = 0.0545
+INFO:root:step 57000: lr = 0.000366 loss = 0.0949   cl_loss = 0.0747    reward = 0.9750 advantage = 0.0125  baselines_mse = 0.0237
+INFO:root:step 57100: lr = 0.000366 loss = 0.2637   cl_loss = 0.2013    reward = 0.9375 advantage = -0.0228 baselines_mse = 0.0571
+INFO:root:step 57200: lr = 0.000366 loss = 0.2498   cl_loss = 0.1809    reward = 0.9281 advantage = -0.0307 baselines_mse = 0.0646
+INFO:root:step 57300: lr = 0.000366 loss = 0.0726   cl_loss = 0.0595    reward = 0.9844 advantage = 0.0280  baselines_mse = 0.0168
+INFO:root:step 57400: lr = 0.000366 loss = 0.0921   cl_loss = 0.0670    reward = 0.9719 advantage = 0.0053  baselines_mse = 0.0260
+INFO:root:step 57500: lr = 0.000366 loss = 0.1598   cl_loss = 0.1231    reward = 0.9594 advantage = -0.0009 baselines_mse = 0.0359
+INFO:root:step 57600: lr = 0.000366 loss = 0.3635   cl_loss = 0.2652    reward = 0.8969 advantage = -0.0504 baselines_mse = 0.0909
+INFO:root:step 57700: lr = 0.000366 loss = 0.0901   cl_loss = 0.0639    reward = 0.9750 advantage = 0.0166  baselines_mse = 0.0239
+INFO:root:step 57800: lr = 0.000366 loss = 0.1865   cl_loss = 0.1396    reward = 0.9438 advantage = -0.0113 baselines_mse = 0.0508
+INFO:root:step 57900: lr = 0.000366 loss = 0.0226   cl_loss = 0.0210    reward = 0.9969 advantage = 0.0269  baselines_mse = 0.0047
+INFO:root:step 58000: lr = 0.000366 loss = 0.1894   cl_loss = 0.1458    reward = 0.9594 advantage = -0.0040 baselines_mse = 0.0377
+INFO:root:step 58100: lr = 0.000366 loss = 0.1646   cl_loss = 0.1290    reward = 0.9625 advantage = 0.0055  baselines_mse = 0.0356
+INFO:root:step 58200: lr = 0.000366 loss = 0.0976   cl_loss = 0.0770    reward = 0.9750 advantage = 0.0110  baselines_mse = 0.0254
+INFO:root:step 58300: lr = 0.000366 loss = 0.2494   cl_loss = 0.1830    reward = 0.9375 advantage = -0.0064 baselines_mse = 0.0570
+INFO:root:step 58400: lr = 0.000366 loss = 0.2303   cl_loss = 0.1705    reward = 0.9406 advantage = -0.0097 baselines_mse = 0.0542
+INFO:root:valid accuracy = 0.9859775641025641
+INFO:root:test accuracy = 0.9827724358974359
+INFO:root:step 58500: lr = 0.000355 loss = 0.1581   cl_loss = 0.1158    reward = 0.9563 advantage = 0.0048  baselines_mse = 0.0400
+INFO:root:step 58600: lr = 0.000355 loss = 0.4972   cl_loss = 0.3813    reward = 0.8875 advantage = -0.0668 baselines_mse = 0.0973
+INFO:root:step 58700: lr = 0.000355 loss = 0.1647   cl_loss = 0.1188    reward = 0.9594 advantage = -0.0111 baselines_mse = 0.0369
+INFO:root:step 58800: lr = 0.000355 loss = 0.0317   cl_loss = 0.0267    reward = 0.9937 advantage = 0.0227  baselines_mse = 0.0074
+INFO:root:step 58900: lr = 0.000355 loss = 0.2279   cl_loss = 0.1862    reward = 0.9500 advantage = -0.0046 baselines_mse = 0.0463
+INFO:root:step 59000: lr = 0.000355 loss = 0.0313   cl_loss = 0.0300    reward = 0.9937 advantage = 0.0270  baselines_mse = 0.0080
+INFO:root:step 59100: lr = 0.000355 loss = 0.1571   cl_loss = 0.1075    reward = 0.9531 advantage = -0.0068 baselines_mse = 0.0433
+INFO:root:step 59200: lr = 0.000355 loss = 0.1315   cl_loss = 0.0994    reward = 0.9594 advantage = 0.0106  baselines_mse = 0.0370
+INFO:root:step 59300: lr = 0.000355 loss = 0.0937   cl_loss = 0.0684    reward = 0.9750 advantage = 0.0147  baselines_mse = 0.0247
+INFO:root:step 59400: lr = 0.000355 loss = 0.0447   cl_loss = 0.0403    reward = 0.9937 advantage = 0.0351  baselines_mse = 0.0086
+INFO:root:step 59500: lr = 0.000355 loss = 0.1221   cl_loss = 0.0922    reward = 0.9688 advantage = 0.0231  baselines_mse = 0.0310
+INFO:root:step 59600: lr = 0.000355 loss = 0.1728   cl_loss = 0.1279    reward = 0.9563 advantage = -0.0083 baselines_mse = 0.0402
+INFO:root:step 59700: lr = 0.000355 loss = 0.0597   cl_loss = 0.0452    reward = 0.9812 advantage = 0.0144  baselines_mse = 0.0188
+INFO:root:step 59800: lr = 0.000355 loss = 0.4962   cl_loss = 0.3545    reward = 0.8531 advantage = -0.1119 baselines_mse = 0.1286
+INFO:root:step 59900: lr = 0.000355 loss = 0.1180   cl_loss = 0.0893    reward = 0.9688 advantage = 0.0143  baselines_mse = 0.0300
+INFO:root:step 60000: lr = 0.000355 loss = 0.1363   cl_loss = 0.1028    reward = 0.9688 advantage = 0.0027  baselines_mse = 0.0289
+INFO:root:step 60100: lr = 0.000355 loss = 0.0994   cl_loss = 0.0843    reward = 0.9750 advantage = 0.0159  baselines_mse = 0.0240
+INFO:root:valid accuracy = 0.9853766025641025
+INFO:root:test accuracy = 0.9834735576923077
+INFO:root:step 60200: lr = 0.000344 loss = 0.0649   cl_loss = 0.0491    reward = 0.9812 advantage = 0.0250  baselines_mse = 0.0191
+INFO:root:step 60300: lr = 0.000344 loss = 0.1842   cl_loss = 0.1388    reward = 0.9531 advantage = -0.0089 baselines_mse = 0.0438
+INFO:root:step 60400: lr = 0.000344 loss = 0.1618   cl_loss = 0.1243    reward = 0.9563 advantage = -0.0004 baselines_mse = 0.0393
+INFO:root:step 60500: lr = 0.000344 loss = 0.0651   cl_loss = 0.0541    reward = 0.9875 advantage = 0.0307  baselines_mse = 0.0139
+INFO:root:step 60600: lr = 0.000344 loss = 0.0743   cl_loss = 0.0549    reward = 0.9812 advantage = 0.0212  baselines_mse = 0.0188
+INFO:root:step 60700: lr = 0.000344 loss = 0.1328   cl_loss = 0.1005    reward = 0.9625 advantage = -0.0018 baselines_mse = 0.0343
+INFO:root:step 60800: lr = 0.000344 loss = 0.1372   cl_loss = 0.1064    reward = 0.9688 advantage = 0.0089  baselines_mse = 0.0296
+INFO:root:step 60900: lr = 0.000344 loss = 0.2015   cl_loss = 0.1452    reward = 0.9469 advantage = -0.0114 baselines_mse = 0.0489
+INFO:root:step 61000: lr = 0.000344 loss = 0.1414   cl_loss = 0.1063    reward = 0.9625 advantage = 0.0125  baselines_mse = 0.0356
+INFO:root:step 61100: lr = 0.000344 loss = 0.1119   cl_loss = 0.0778    reward = 0.9688 advantage = 0.0108  baselines_mse = 0.0295
+INFO:root:step 61200: lr = 0.000344 loss = 0.0317   cl_loss = 0.0275    reward = 0.9937 advantage = 0.0277  baselines_mse = 0.0075
+INFO:root:step 61300: lr = 0.000344 loss = 0.1695   cl_loss = 0.1253    reward = 0.9563 advantage = 0.0006  baselines_mse = 0.0402
+INFO:root:step 61400: lr = 0.000344 loss = 0.0773   cl_loss = 0.0667    reward = 0.9844 advantage = 0.0222  baselines_mse = 0.0162
+INFO:root:step 61500: lr = 0.000344 loss = 0.1177   cl_loss = 0.0919    reward = 0.9719 advantage = 0.0185  baselines_mse = 0.0267
+INFO:root:step 61600: lr = 0.000344 loss = 0.3743   cl_loss = 0.2909    reward = 0.9062 advantage = -0.0269 baselines_mse = 0.0823
+INFO:root:step 61700: lr = 0.000344 loss = 0.1113   cl_loss = 0.0771    reward = 0.9688 advantage = -0.0027 baselines_mse = 0.0287
+INFO:root:step 61800: lr = 0.000344 loss = 0.0506   cl_loss = 0.0452    reward = 0.9906 advantage = 0.0302  baselines_mse = 0.0107
+INFO:root:valid accuracy = 0.9859775641025641
+INFO:root:test accuracy = 0.9854767628205128
+INFO:root:step 61900: lr = 0.000334 loss = 0.0973   cl_loss = 0.0658    reward = 0.9719 advantage = 0.0048  baselines_mse = 0.0270
+INFO:root:step 62000: lr = 0.000334 loss = 0.1349   cl_loss = 0.1064    reward = 0.9688 advantage = 0.0117  baselines_mse = 0.0307
+INFO:root:step 62100: lr = 0.000334 loss = 0.1135   cl_loss = 0.0974    reward = 0.9688 advantage = 0.0158  baselines_mse = 0.0301
+INFO:root:step 62200: lr = 0.000334 loss = 0.2564   cl_loss = 0.1968    reward = 0.9469 advantage = -0.0078 baselines_mse = 0.0479
+INFO:root:step 62300: lr = 0.000334 loss = 0.0484   cl_loss = 0.0412    reward = 0.9875 advantage = 0.0270  baselines_mse = 0.0133
+INFO:root:step 62400: lr = 0.000334 loss = 0.1259   cl_loss = 0.0932    reward = 0.9688 advantage = 0.0061  baselines_mse = 0.0304
+INFO:root:step 62500: lr = 0.000334 loss = 0.1052   cl_loss = 0.0855    reward = 0.9781 advantage = 0.0207  baselines_mse = 0.0217
+INFO:root:step 62600: lr = 0.000334 loss = 0.0720   cl_loss = 0.0547    reward = 0.9812 advantage = 0.0233  baselines_mse = 0.0192
+INFO:root:step 62700: lr = 0.000334 loss = 0.1799   cl_loss = 0.1344    reward = 0.9500 advantage = -0.0059 baselines_mse = 0.0458
+INFO:root:step 62800: lr = 0.000334 loss = 0.2267   cl_loss = 0.1747    reward = 0.9375 advantage = -0.0112 baselines_mse = 0.0553
+INFO:root:step 62900: lr = 0.000334 loss = 0.2380   cl_loss = 0.1664    reward = 0.9281 advantage = -0.0302 baselines_mse = 0.0661
+INFO:root:step 63000: lr = 0.000334 loss = 0.1572   cl_loss = 0.1161    reward = 0.9563 advantage = 0.0001  baselines_mse = 0.0394
+INFO:root:step 63100: lr = 0.000334 loss = 0.0696   cl_loss = 0.0531    reward = 0.9844 advantage = 0.0243  baselines_mse = 0.0164
+INFO:root:step 63200: lr = 0.000334 loss = 0.0985   cl_loss = 0.0761    reward = 0.9719 advantage = 0.0167  baselines_mse = 0.0275
+INFO:root:step 63300: lr = 0.000334 loss = 0.2236   cl_loss = 0.1664    reward = 0.9438 advantage = -0.0150 baselines_mse = 0.0508
+INFO:root:step 63400: lr = 0.000334 loss = 0.1310   cl_loss = 0.1057    reward = 0.9719 advantage = 0.0113  baselines_mse = 0.0262
+INFO:root:step 63500: lr = 0.000334 loss = 0.3151   cl_loss = 0.2383    reward = 0.9187 advantage = -0.0410 baselines_mse = 0.0707
+INFO:root:valid accuracy = 0.9853766025641025
+INFO:root:test accuracy = 0.9841746794871795
+INFO:root:step 63600: lr = 0.000324 loss = 0.2214   cl_loss = 0.1722    reward = 0.9531 advantage = -0.0162 baselines_mse = 0.0417
+INFO:root:step 63700: lr = 0.000324 loss = 0.2383   cl_loss = 0.1867    reward = 0.9375 advantage = -0.0192 baselines_mse = 0.0576
+INFO:root:step 63800: lr = 0.000324 loss = 0.2171   cl_loss = 0.1533    reward = 0.9406 advantage = -0.0214 baselines_mse = 0.0536
+INFO:root:step 63900: lr = 0.000324 loss = 0.2769   cl_loss = 0.2031    reward = 0.9281 advantage = -0.0326 baselines_mse = 0.0642
+INFO:root:step 64000: lr = 0.000324 loss = 0.1155   cl_loss = 0.0802    reward = 0.9688 advantage = -0.0040 baselines_mse = 0.0302
+INFO:root:step 64100: lr = 0.000324 loss = 0.2105   cl_loss = 0.1552    reward = 0.9469 advantage = -0.0125 baselines_mse = 0.0484
+INFO:root:step 64200: lr = 0.000324 loss = 0.0732   cl_loss = 0.0517    reward = 0.9781 advantage = 0.0184  baselines_mse = 0.0219
+INFO:root:step 64300: lr = 0.000324 loss = 0.2033   cl_loss = 0.1562    reward = 0.9500 advantage = -0.0075 baselines_mse = 0.0451
+INFO:root:step 64400: lr = 0.000324 loss = 0.1910   cl_loss = 0.1404    reward = 0.9406 advantage = -0.0201 baselines_mse = 0.0522
+INFO:root:step 64500: lr = 0.000324 loss = 0.0598   cl_loss = 0.0521    reward = 0.9844 advantage = 0.0251  baselines_mse = 0.0158
+INFO:root:step 64600: lr = 0.000324 loss = 0.1549   cl_loss = 0.1176    reward = 0.9563 advantage = 0.0039  baselines_mse = 0.0400
+INFO:root:step 64700: lr = 0.000324 loss = 0.1275   cl_loss = 0.0917    reward = 0.9719 advantage = 0.0066  baselines_mse = 0.0259
+INFO:root:step 64800: lr = 0.000324 loss = 0.1505   cl_loss = 0.1065    reward = 0.9625 advantage = -0.0001 baselines_mse = 0.0351
+INFO:root:step 64900: lr = 0.000324 loss = 0.2683   cl_loss = 0.2076    reward = 0.9312 advantage = -0.0278 baselines_mse = 0.0624
+INFO:root:step 65000: lr = 0.000324 loss = 0.1624   cl_loss = 0.1277    reward = 0.9594 advantage = 0.0078  baselines_mse = 0.0373
+INFO:root:step 65100: lr = 0.000324 loss = 0.2757   cl_loss = 0.2291    reward = 0.9469 advantage = -0.0154 baselines_mse = 0.0504
+INFO:root:step 65200: lr = 0.000324 loss = 0.2441   cl_loss = 0.1909    reward = 0.9438 advantage = -0.0146 baselines_mse = 0.0514
+INFO:root:valid accuracy = 0.9857772435897436
+INFO:root:test accuracy = 0.9855769230769231
+INFO:root:step 65300: lr = 0.000314 loss = 0.0791   cl_loss = 0.0647    reward = 0.9812 advantage = 0.0193  baselines_mse = 0.0183
+INFO:root:step 65400: lr = 0.000314 loss = 0.1800   cl_loss = 0.1352    reward = 0.9594 advantage = -0.0063 baselines_mse = 0.0375
+INFO:root:step 65500: lr = 0.000314 loss = 0.1107   cl_loss = 0.0765    reward = 0.9625 advantage = 0.0021  baselines_mse = 0.0344
+INFO:root:step 65600: lr = 0.000314 loss = 0.2251   cl_loss = 0.1643    reward = 0.9438 advantage = -0.0209 baselines_mse = 0.0520
+INFO:root:step 65700: lr = 0.000314 loss = 0.0643   cl_loss = 0.0484    reward = 0.9844 advantage = 0.0182  baselines_mse = 0.0158
+INFO:root:step 65800: lr = 0.000314 loss = 0.1200   cl_loss = 0.0834    reward = 0.9625 advantage = -0.0008 baselines_mse = 0.0351
+INFO:root:step 65900: lr = 0.000314 loss = 0.2053   cl_loss = 0.1646    reward = 0.9594 advantage = -0.0051 baselines_mse = 0.0368
+INFO:root:step 66000: lr = 0.000314 loss = 0.1733   cl_loss = 0.1274    reward = 0.9531 advantage = -0.0021 baselines_mse = 0.0431
+INFO:root:step 66100: lr = 0.000314 loss = 0.1348   cl_loss = 0.0974    reward = 0.9656 advantage = -0.0028 baselines_mse = 0.0326
+INFO:root:step 66200: lr = 0.000314 loss = 0.0389   cl_loss = 0.0308    reward = 0.9906 advantage = 0.0301  baselines_mse = 0.0111
+INFO:root:step 66300: lr = 0.000314 loss = 0.2063   cl_loss = 0.1557    reward = 0.9531 advantage = -0.0013 baselines_mse = 0.0429
+INFO:root:step 66400: lr = 0.000314 loss = 0.3070   cl_loss = 0.2365    reward = 0.9312 advantage = -0.0256 baselines_mse = 0.0640
+INFO:root:step 66500: lr = 0.000314 loss = 0.0885   cl_loss = 0.0687    reward = 0.9750 advantage = 0.0149  baselines_mse = 0.0241
+INFO:root:step 66600: lr = 0.000314 loss = 0.1386   cl_loss = 0.0995    reward = 0.9656 advantage = 0.0097  baselines_mse = 0.0319
+INFO:root:step 66700: lr = 0.000314 loss = 0.2518   cl_loss = 0.1945    reward = 0.9438 advantage = -0.0090 baselines_mse = 0.0516
+INFO:root:step 66800: lr = 0.000314 loss = 0.1672   cl_loss = 0.1251    reward = 0.9563 advantage = -0.0011 baselines_mse = 0.0407
+INFO:root:step 66900: lr = 0.000314 loss = 0.3096   cl_loss = 0.2317    reward = 0.9219 advantage = -0.0251 baselines_mse = 0.0687
+INFO:root:step 67000: lr = 0.000314 loss = 0.1130   cl_loss = 0.0806    reward = 0.9656 advantage = 0.0043  baselines_mse = 0.0330
+INFO:root:valid accuracy = 0.985176282051282
+INFO:root:test accuracy = 0.9868790064102564
+INFO:root:step 67100: lr = 0.000305 loss = 0.2471   cl_loss = 0.1712    reward = 0.9344 advantage = -0.0236 baselines_mse = 0.0604
+INFO:root:step 67200: lr = 0.000305 loss = 0.2058   cl_loss = 0.1523    reward = 0.9469 advantage = -0.0085 baselines_mse = 0.0480
+INFO:root:step 67300: lr = 0.000305 loss = 0.1567   cl_loss = 0.1136    reward = 0.9531 advantage = 0.0026  baselines_mse = 0.0434
+INFO:root:step 67400: lr = 0.000305 loss = 0.0894   cl_loss = 0.0743    reward = 0.9812 advantage = 0.0259  baselines_mse = 0.0196
+INFO:root:step 67500: lr = 0.000305 loss = 0.0890   cl_loss = 0.0653    reward = 0.9781 advantage = 0.0185  baselines_mse = 0.0221
+INFO:root:step 67600: lr = 0.000305 loss = 0.1074   cl_loss = 0.0827    reward = 0.9688 advantage = 0.0032  baselines_mse = 0.0298
+INFO:root:step 67700: lr = 0.000305 loss = 0.1741   cl_loss = 0.1411    reward = 0.9594 advantage = -0.0010 baselines_mse = 0.0386
+INFO:root:step 67800: lr = 0.000305 loss = 0.2440   cl_loss = 0.1747    reward = 0.9344 advantage = -0.0222 baselines_mse = 0.0584
+INFO:root:step 67900: lr = 0.000305 loss = 0.1614   cl_loss = 0.1040    reward = 0.9469 advantage = -0.0178 baselines_mse = 0.0477
+INFO:root:step 68000: lr = 0.000305 loss = 0.1952   cl_loss = 0.1352    reward = 0.9438 advantage = -0.0102 baselines_mse = 0.0515
+INFO:root:step 68100: lr = 0.000305 loss = 0.2327   cl_loss = 0.1599    reward = 0.9344 advantage = -0.0316 baselines_mse = 0.0613
+INFO:root:step 68200: lr = 0.000305 loss = 0.1209   cl_loss = 0.0920    reward = 0.9688 advantage = 0.0054  baselines_mse = 0.0301
+INFO:root:step 68300: lr = 0.000305 loss = 0.1073   cl_loss = 0.0826    reward = 0.9719 advantage = 0.0116  baselines_mse = 0.0284
+INFO:root:step 68400: lr = 0.000305 loss = 0.2566   cl_loss = 0.1906    reward = 0.9375 advantage = -0.0228 baselines_mse = 0.0563
+INFO:root:step 68500: lr = 0.000305 loss = 0.1607   cl_loss = 0.1114    reward = 0.9531 advantage = 0.0021  baselines_mse = 0.0441
+INFO:root:step 68600: lr = 0.000305 loss = 0.0812   cl_loss = 0.0566    reward = 0.9750 advantage = 0.0091  baselines_mse = 0.0237
+INFO:root:step 68700: lr = 0.000305 loss = 0.1737   cl_loss = 0.1251    reward = 0.9531 advantage = -0.0079 baselines_mse = 0.0411
+INFO:root:valid accuracy = 0.9855769230769231
+INFO:root:test accuracy = 0.983573717948718
+INFO:root:step 68800: lr = 0.000296 loss = 0.1557   cl_loss = 0.1186    reward = 0.9563 advantage = -0.0001 baselines_mse = 0.0404
+INFO:root:step 68900: lr = 0.000296 loss = 0.1786   cl_loss = 0.1376    reward = 0.9563 advantage = -0.0066 baselines_mse = 0.0401
+INFO:root:step 69000: lr = 0.000296 loss = 0.2442   cl_loss = 0.1921    reward = 0.9469 advantage = -0.0104 baselines_mse = 0.0484
+INFO:root:step 69100: lr = 0.000296 loss = 0.0527   cl_loss = 0.0398    reward = 0.9875 advantage = 0.0240  baselines_mse = 0.0131
+INFO:root:step 69200: lr = 0.000296 loss = 0.1306   cl_loss = 0.1009    reward = 0.9719 advantage = 0.0070  baselines_mse = 0.0263
+INFO:root:step 69300: lr = 0.000296 loss = 0.1290   cl_loss = 0.1033    reward = 0.9688 advantage = 0.0076  baselines_mse = 0.0292
+INFO:root:step 69400: lr = 0.000296 loss = 0.1852   cl_loss = 0.1364    reward = 0.9531 advantage = -0.0159 baselines_mse = 0.0427
+INFO:root:step 69500: lr = 0.000296 loss = 0.0691   cl_loss = 0.0568    reward = 0.9812 advantage = 0.0361  baselines_mse = 0.0191
+INFO:root:step 69600: lr = 0.000296 loss = 0.3062   cl_loss = 0.2291    reward = 0.9250 advantage = -0.0378 baselines_mse = 0.0685
+INFO:root:step 69700: lr = 0.000296 loss = 0.1087   cl_loss = 0.0789    reward = 0.9688 advantage = 0.0070  baselines_mse = 0.0290
+INFO:root:step 69800: lr = 0.000296 loss = 0.1620   cl_loss = 0.1274    reward = 0.9594 advantage = 0.0056  baselines_mse = 0.0370
+INFO:root:step 69900: lr = 0.000296 loss = 0.2434   cl_loss = 0.1878    reward = 0.9406 advantage = -0.0158 baselines_mse = 0.0528
+INFO:root:step 70000: lr = 0.000296 loss = 0.2385   cl_loss = 0.1627    reward = 0.9250 advantage = -0.0340 baselines_mse = 0.0683
+INFO:root:step 70100: lr = 0.000296 loss = 0.1361   cl_loss = 0.1032    reward = 0.9594 advantage = 0.0029  baselines_mse = 0.0381
+INFO:root:step 70200: lr = 0.000296 loss = 0.2256   cl_loss = 0.1638    reward = 0.9406 advantage = -0.0157 baselines_mse = 0.0516
+INFO:root:step 70300: lr = 0.000296 loss = 0.2370   cl_loss = 0.1694    reward = 0.9312 advantage = -0.0258 baselines_mse = 0.0602
+INFO:root:step 70400: lr = 0.000296 loss = 0.3011   cl_loss = 0.2244    reward = 0.9281 advantage = -0.0230 baselines_mse = 0.0636
+INFO:root:valid accuracy = 0.9879807692307693
+INFO:root:test accuracy = 0.9852764423076923
+INFO:root:step 70500: lr = 0.000287 loss = 0.0246   cl_loss = 0.0244    reward = 0.9937 advantage = 0.0293  baselines_mse = 0.0079
+INFO:root:step 70600: lr = 0.000287 loss = 0.0895   cl_loss = 0.0610    reward = 0.9750 advantage = 0.0086  baselines_mse = 0.0234
+INFO:root:step 70700: lr = 0.000287 loss = 0.3771   cl_loss = 0.2759    reward = 0.8969 advantage = -0.0624 baselines_mse = 0.0898
+INFO:root:step 70800: lr = 0.000287 loss = 0.0978   cl_loss = 0.0718    reward = 0.9750 advantage = 0.0183  baselines_mse = 0.0244
+INFO:root:step 70900: lr = 0.000287 loss = 0.2667   cl_loss = 0.1958    reward = 0.9281 advantage = -0.0280 baselines_mse = 0.0652
+INFO:root:step 71000: lr = 0.000287 loss = 0.0605   cl_loss = 0.0494    reward = 0.9875 advantage = 0.0304  baselines_mse = 0.0137
+INFO:root:step 71100: lr = 0.000287 loss = 0.1440   cl_loss = 0.0978    reward = 0.9594 advantage = -0.0012 baselines_mse = 0.0384
+INFO:root:step 71200: lr = 0.000287 loss = 0.2818   cl_loss = 0.2054    reward = 0.9250 advantage = -0.0394 baselines_mse = 0.0676
+INFO:root:step 71300: lr = 0.000287 loss = 0.1568   cl_loss = 0.1235    reward = 0.9656 advantage = 0.0033  baselines_mse = 0.0329
+INFO:root:step 71400: lr = 0.000287 loss = 0.2390   cl_loss = 0.1780    reward = 0.9469 advantage = -0.0076 baselines_mse = 0.0478
+INFO:root:step 71500: lr = 0.000287 loss = 0.0724   cl_loss = 0.0557    reward = 0.9812 advantage = 0.0287  baselines_mse = 0.0198
+INFO:root:step 71600: lr = 0.000287 loss = 0.1548   cl_loss = 0.1157    reward = 0.9594 advantage = 0.0065  baselines_mse = 0.0383
+INFO:root:step 71700: lr = 0.000287 loss = 0.2215   cl_loss = 0.1658    reward = 0.9438 advantage = -0.0136 baselines_mse = 0.0508
+INFO:root:step 71800: lr = 0.000287 loss = 0.2233   cl_loss = 0.1552    reward = 0.9344 advantage = -0.0270 baselines_mse = 0.0599
+INFO:root:step 71900: lr = 0.000287 loss = 0.0943   cl_loss = 0.0779    reward = 0.9781 advantage = 0.0245  baselines_mse = 0.0218
+INFO:root:step 72000: lr = 0.000287 loss = 0.2320   cl_loss = 0.1637    reward = 0.9469 advantage = -0.0178 baselines_mse = 0.0493
+INFO:root:step 72100: lr = 0.000287 loss = 0.2304   cl_loss = 0.1626    reward = 0.9344 advantage = -0.0239 baselines_mse = 0.0572
+INFO:root:valid accuracy = 0.9863782051282052
+INFO:root:test accuracy = 0.9846754807692307
+INFO:root:step 72200: lr = 0.000278 loss = 0.1425   cl_loss = 0.1073    reward = 0.9656 advantage = 0.0103  baselines_mse = 0.0305
+INFO:root:step 72300: lr = 0.000278 loss = 0.1133   cl_loss = 0.0800    reward = 0.9719 advantage = 0.0111  baselines_mse = 0.0267
+INFO:root:step 72400: lr = 0.000278 loss = 0.1030   cl_loss = 0.0832    reward = 0.9719 advantage = 0.0065  baselines_mse = 0.0269
+INFO:root:step 72500: lr = 0.000278 loss = 0.2291   cl_loss = 0.1706    reward = 0.9438 advantage = -0.0144 baselines_mse = 0.0513
+INFO:root:step 72600: lr = 0.000278 loss = 0.1557   cl_loss = 0.1130    reward = 0.9531 advantage = -0.0146 baselines_mse = 0.0427
+INFO:root:step 72700: lr = 0.000278 loss = 0.0883   cl_loss = 0.0657    reward = 0.9750 advantage = 0.0112  baselines_mse = 0.0237
+INFO:root:step 72800: lr = 0.000278 loss = 0.2357   cl_loss = 0.1711    reward = 0.9406 advantage = -0.0166 baselines_mse = 0.0531
+INFO:root:step 72900: lr = 0.000278 loss = 0.1737   cl_loss = 0.1238    reward = 0.9563 advantage = -0.0099 baselines_mse = 0.0409
+INFO:root:step 73000: lr = 0.000278 loss = 0.1347   cl_loss = 0.1053    reward = 0.9688 advantage = 0.0070  baselines_mse = 0.0290
+INFO:root:step 73100: lr = 0.000278 loss = 0.1365   cl_loss = 0.1124    reward = 0.9688 advantage = 0.0116  baselines_mse = 0.0304
+INFO:root:step 73200: lr = 0.000278 loss = 0.2331   cl_loss = 0.1661    reward = 0.9438 advantage = -0.0241 baselines_mse = 0.0507
+INFO:root:step 73300: lr = 0.000278 loss = 0.1508   cl_loss = 0.1222    reward = 0.9625 advantage = 0.0105  baselines_mse = 0.0364
+INFO:root:step 73400: lr = 0.000278 loss = 0.1575   cl_loss = 0.1165    reward = 0.9563 advantage = -0.0019 baselines_mse = 0.0415
+INFO:root:step 73500: lr = 0.000278 loss = 0.0823   cl_loss = 0.0589    reward = 0.9781 advantage = 0.0089  baselines_mse = 0.0202
+INFO:root:step 73600: lr = 0.000278 loss = 0.1788   cl_loss = 0.1380    reward = 0.9531 advantage = -0.0145 baselines_mse = 0.0438
+INFO:root:step 73700: lr = 0.000278 loss = 0.2047   cl_loss = 0.1525    reward = 0.9500 advantage = -0.0126 baselines_mse = 0.0458
+INFO:root:step 73800: lr = 0.000278 loss = 0.1890   cl_loss = 0.1531    reward = 0.9594 advantage = -0.0010 baselines_mse = 0.0365
+INFO:root:valid accuracy = 0.9853766025641025
+INFO:root:test accuracy = 0.9849759615384616
+INFO:root:step 73900: lr = 0.000270 loss = 0.1635   cl_loss = 0.1245    reward = 0.9625 advantage = -0.0016 baselines_mse = 0.0370
+INFO:root:step 74000: lr = 0.000270 loss = 0.1890   cl_loss = 0.1392    reward = 0.9563 advantage = -0.0057 baselines_mse = 0.0392
+INFO:root:step 74100: lr = 0.000270 loss = 0.1186   cl_loss = 0.0889    reward = 0.9688 advantage = 0.0071  baselines_mse = 0.0288
+INFO:root:step 74200: lr = 0.000270 loss = 0.1266   cl_loss = 0.0969    reward = 0.9688 advantage = 0.0012  baselines_mse = 0.0278
+INFO:root:step 74300: lr = 0.000270 loss = 0.1056   cl_loss = 0.0813    reward = 0.9750 advantage = 0.0217  baselines_mse = 0.0246
+INFO:root:step 74400: lr = 0.000270 loss = 0.0996   cl_loss = 0.0835    reward = 0.9781 advantage = 0.0181  baselines_mse = 0.0214
+INFO:root:step 74500: lr = 0.000270 loss = 0.0542   cl_loss = 0.0464    reward = 0.9906 advantage = 0.0264  baselines_mse = 0.0107
+INFO:root:step 74600: lr = 0.000270 loss = 0.0927   cl_loss = 0.0763    reward = 0.9781 advantage = 0.0127  baselines_mse = 0.0211
+INFO:root:step 74700: lr = 0.000270 loss = 0.0305   cl_loss = 0.0303    reward = 0.9969 advantage = 0.0333  baselines_mse = 0.0052
+INFO:root:step 74800: lr = 0.000270 loss = 0.1306   cl_loss = 0.1006    reward = 0.9594 advantage = 0.0026  baselines_mse = 0.0385
+INFO:root:step 74900: lr = 0.000270 loss = 0.0646   cl_loss = 0.0548    reward = 0.9875 advantage = 0.0256  baselines_mse = 0.0132
+INFO:root:step 75000: lr = 0.000270 loss = 0.2601   cl_loss = 0.1873    reward = 0.9312 advantage = -0.0189 baselines_mse = 0.0631
+INFO:root:step 75100: lr = 0.000270 loss = 0.0289   cl_loss = 0.0193    reward = 0.9937 advantage = 0.0149  baselines_mse = 0.0073
+INFO:root:step 75200: lr = 0.000270 loss = 0.2790   cl_loss = 0.2109    reward = 0.9312 advantage = -0.0220 baselines_mse = 0.0617
+INFO:root:step 75300: lr = 0.000270 loss = 0.0719   cl_loss = 0.0608    reward = 0.9812 advantage = 0.0117  baselines_mse = 0.0175
+INFO:root:step 75400: lr = 0.000270 loss = 0.1991   cl_loss = 0.1628    reward = 0.9594 advantage = -0.0062 baselines_mse = 0.0378
+INFO:root:step 75500: lr = 0.000270 loss = 0.0569   cl_loss = 0.0478    reward = 0.9875 advantage = 0.0192  baselines_mse = 0.0127
+INFO:root:valid accuracy = 0.9863782051282052
+INFO:root:test accuracy = 0.9862780448717948
+INFO:root:step 75600: lr = 0.000262 loss = 0.0868   cl_loss = 0.0657    reward = 0.9688 advantage = 0.0026  baselines_mse = 0.0286
+INFO:root:step 75700: lr = 0.000262 loss = 0.1458   cl_loss = 0.1042    reward = 0.9594 advantage = -0.0097 baselines_mse = 0.0373
+INFO:root:step 75800: lr = 0.000262 loss = 0.0607   cl_loss = 0.0412    reward = 0.9844 advantage = 0.0213  baselines_mse = 0.0153
+INFO:root:step 75900: lr = 0.000262 loss = 0.0815   cl_loss = 0.0584    reward = 0.9750 advantage = 0.0156  baselines_mse = 0.0235
+INFO:root:step 76000: lr = 0.000262 loss = 0.1346   cl_loss = 0.0952    reward = 0.9625 advantage = -0.0033 baselines_mse = 0.0346
+INFO:root:step 76100: lr = 0.000262 loss = 0.1612   cl_loss = 0.1141    reward = 0.9531 advantage = -0.0060 baselines_mse = 0.0429
+INFO:root:step 76200: lr = 0.000262 loss = 0.1476   cl_loss = 0.1243    reward = 0.9563 advantage = 0.0008  baselines_mse = 0.0388
+INFO:root:step 76300: lr = 0.000262 loss = 0.3749   cl_loss = 0.2891    reward = 0.9125 advantage = -0.0535 baselines_mse = 0.0778
+INFO:root:step 76400: lr = 0.000262 loss = 0.0996   cl_loss = 0.0699    reward = 0.9719 advantage = 0.0058  baselines_mse = 0.0264
+INFO:root:step 76500: lr = 0.000262 loss = 0.0723   cl_loss = 0.0529    reward = 0.9781 advantage = 0.0098  baselines_mse = 0.0213
+INFO:root:step 76600: lr = 0.000262 loss = 0.0951   cl_loss = 0.0745    reward = 0.9781 advantage = 0.0045  baselines_mse = 0.0209
+INFO:root:step 76700: lr = 0.000262 loss = 0.0764   cl_loss = 0.0597    reward = 0.9812 advantage = 0.0154  baselines_mse = 0.0187
+INFO:root:step 76800: lr = 0.000262 loss = 0.2564   cl_loss = 0.1972    reward = 0.9281 advantage = -0.0350 baselines_mse = 0.0640
+INFO:root:step 76900: lr = 0.000262 loss = 0.0520   cl_loss = 0.0405    reward = 0.9844 advantage = 0.0242  baselines_mse = 0.0161
+INFO:root:step 77000: lr = 0.000262 loss = 0.0610   cl_loss = 0.0541    reward = 0.9906 advantage = 0.0267  baselines_mse = 0.0108
+INFO:root:step 77100: lr = 0.000262 loss = 0.0654   cl_loss = 0.0505    reward = 0.9844 advantage = 0.0247  baselines_mse = 0.0161
+INFO:root:step 77200: lr = 0.000262 loss = 0.1456   cl_loss = 0.1091    reward = 0.9656 advantage = -0.0057 baselines_mse = 0.0321
+INFO:root:step 77300: lr = 0.000262 loss = 0.0827   cl_loss = 0.0660    reward = 0.9812 advantage = 0.0205  baselines_mse = 0.0188
+INFO:root:valid accuracy = 0.9869791666666666
+INFO:root:test accuracy = 0.9849759615384616
+INFO:root:step 77400: lr = 0.000254 loss = 0.0789   cl_loss = 0.0635    reward = 0.9844 advantage = 0.0316  baselines_mse = 0.0166
+INFO:root:step 77500: lr = 0.000254 loss = 0.1688   cl_loss = 0.1307    reward = 0.9625 advantage = 0.0058  baselines_mse = 0.0351
+INFO:root:step 77600: lr = 0.000254 loss = 0.1904   cl_loss = 0.1315    reward = 0.9469 advantage = -0.0149 baselines_mse = 0.0495
+INFO:root:step 77700: lr = 0.000254 loss = 0.0732   cl_loss = 0.0539    reward = 0.9812 advantage = 0.0107  baselines_mse = 0.0182
+INFO:root:step 77800: lr = 0.000254 loss = 0.0579   cl_loss = 0.0386    reward = 0.9844 advantage = 0.0184  baselines_mse = 0.0166
+INFO:root:step 77900: lr = 0.000254 loss = 0.0990   cl_loss = 0.0764    reward = 0.9750 advantage = 0.0206  baselines_mse = 0.0252
+INFO:root:step 78000: lr = 0.000254 loss = 0.2110   cl_loss = 0.1583    reward = 0.9438 advantage = -0.0163 baselines_mse = 0.0521
+INFO:root:step 78100: lr = 0.000254 loss = 0.0696   cl_loss = 0.0502    reward = 0.9844 advantage = 0.0209  baselines_mse = 0.0164
+INFO:root:step 78200: lr = 0.000254 loss = 0.0753   cl_loss = 0.0583    reward = 0.9781 advantage = 0.0129  baselines_mse = 0.0215
+INFO:root:step 78300: lr = 0.000254 loss = 0.1624   cl_loss = 0.1201    reward = 0.9594 advantage = -0.0138 baselines_mse = 0.0366
+INFO:root:step 78400: lr = 0.000254 loss = 0.1824   cl_loss = 0.1366    reward = 0.9469 advantage = -0.0204 baselines_mse = 0.0481
+INFO:root:step 78500: lr = 0.000254 loss = 0.1010   cl_loss = 0.0835    reward = 0.9781 advantage = 0.0060  baselines_mse = 0.0217
+INFO:root:step 78600: lr = 0.000254 loss = 0.3044   cl_loss = 0.2294    reward = 0.9344 advantage = -0.0265 baselines_mse = 0.0604
+INFO:root:step 78700: lr = 0.000254 loss = 0.0957   cl_loss = 0.0706    reward = 0.9750 advantage = 0.0003  baselines_mse = 0.0236
+INFO:root:step 78800: lr = 0.000254 loss = 0.1511   cl_loss = 0.1190    reward = 0.9688 advantage = 0.0052  baselines_mse = 0.0291
+INFO:root:step 78900: lr = 0.000254 loss = 0.3228   cl_loss = 0.2422    reward = 0.9187 advantage = -0.0368 baselines_mse = 0.0761
+INFO:root:step 79000: lr = 0.000254 loss = 0.0711   cl_loss = 0.0571    reward = 0.9844 advantage = 0.0127  baselines_mse = 0.0149
+INFO:root:valid accuracy = 0.9853766025641025
+INFO:root:test accuracy = 0.9852764423076923
+INFO:root:step 79100: lr = 0.000246 loss = 0.2248   cl_loss = 0.1724    reward = 0.9438 advantage = -0.0139 baselines_mse = 0.0494
+INFO:root:step 79200: lr = 0.000246 loss = 0.0750   cl_loss = 0.0616    reward = 0.9812 advantage = 0.0124  baselines_mse = 0.0183
+INFO:root:step 79300: lr = 0.000246 loss = 0.1891   cl_loss = 0.1363    reward = 0.9438 advantage = -0.0217 baselines_mse = 0.0503
+INFO:root:step 79400: lr = 0.000246 loss = 0.0323   cl_loss = 0.0327    reward = 0.9937 advantage = 0.0339  baselines_mse = 0.0081
+INFO:root:step 79500: lr = 0.000246 loss = 0.0912   cl_loss = 0.0768    reward = 0.9781 advantage = 0.0242  baselines_mse = 0.0214
+INFO:root:step 79600: lr = 0.000246 loss = 0.1177   cl_loss = 0.0893    reward = 0.9656 advantage = 0.0005  baselines_mse = 0.0333
+INFO:root:step 79700: lr = 0.000246 loss = 0.1565   cl_loss = 0.1071    reward = 0.9531 advantage = -0.0099 baselines_mse = 0.0437
+INFO:root:step 79800: lr = 0.000246 loss = 0.0687   cl_loss = 0.0530    reward = 0.9812 advantage = 0.0128  baselines_mse = 0.0183
+INFO:root:step 79900: lr = 0.000246 loss = 0.1211   cl_loss = 0.0897    reward = 0.9688 advantage = 0.0049  baselines_mse = 0.0287
+INFO:root:step 80000: lr = 0.000246 loss = 0.1445   cl_loss = 0.1137    reward = 0.9656 advantage = 0.0068  baselines_mse = 0.0324
+INFO:root:step 80100: lr = 0.000246 loss = 0.1070   cl_loss = 0.0797    reward = 0.9719 advantage = 0.0178  baselines_mse = 0.0265
+INFO:root:step 80200: lr = 0.000246 loss = 0.0541   cl_loss = 0.0451    reward = 0.9875 advantage = 0.0180  baselines_mse = 0.0126
+INFO:root:step 80300: lr = 0.000246 loss = 0.1788   cl_loss = 0.1322    reward = 0.9500 advantage = -0.0129 baselines_mse = 0.0450
+INFO:root:step 80400: lr = 0.000246 loss = 0.1567   cl_loss = 0.1102    reward = 0.9500 advantage = -0.0136 baselines_mse = 0.0471
+INFO:root:step 80500: lr = 0.000246 loss = 0.1675   cl_loss = 0.1164    reward = 0.9500 advantage = -0.0134 baselines_mse = 0.0464
+INFO:root:step 80600: lr = 0.000246 loss = 0.1108   cl_loss = 0.0823    reward = 0.9750 advantage = 0.0007  baselines_mse = 0.0248
+INFO:root:step 80700: lr = 0.000246 loss = 0.0724   cl_loss = 0.0594    reward = 0.9812 advantage = 0.0280  baselines_mse = 0.0184
+INFO:root:valid accuracy = 0.9881810897435898
+INFO:root:test accuracy = 0.9858774038461539
+INFO:root:step 80800: lr = 0.000239 loss = 0.0492   cl_loss = 0.0377    reward = 0.9875 advantage = 0.0247  baselines_mse = 0.0132
+INFO:root:step 80900: lr = 0.000239 loss = 0.0447   cl_loss = 0.0331    reward = 0.9875 advantage = 0.0236  baselines_mse = 0.0135
+INFO:root:step 81000: lr = 0.000239 loss = 0.1156   cl_loss = 0.0875    reward = 0.9656 advantage = 0.0007  baselines_mse = 0.0316
+INFO:root:step 81100: lr = 0.000239 loss = 0.1317   cl_loss = 0.0898    reward = 0.9656 advantage = 0.0003  baselines_mse = 0.0329
+INFO:root:step 81200: lr = 0.000239 loss = 0.1917   cl_loss = 0.1376    reward = 0.9469 advantage = -0.0214 baselines_mse = 0.0496
+INFO:root:step 81300: lr = 0.000239 loss = 0.1468   cl_loss = 0.1187    reward = 0.9656 advantage = 0.0033  baselines_mse = 0.0326
+INFO:root:step 81400: lr = 0.000239 loss = 0.0626   cl_loss = 0.0413    reward = 0.9812 advantage = 0.0149  baselines_mse = 0.0182
+INFO:root:step 81500: lr = 0.000239 loss = 0.3650   cl_loss = 0.2926    reward = 0.9281 advantage = -0.0343 baselines_mse = 0.0666
+INFO:root:step 81600: lr = 0.000239 loss = 0.2487   cl_loss = 0.1873    reward = 0.9406 advantage = -0.0212 baselines_mse = 0.0542
+INFO:root:step 81700: lr = 0.000239 loss = 0.1013   cl_loss = 0.0653    reward = 0.9688 advantage = -0.0042 baselines_mse = 0.0307
+INFO:root:step 81800: lr = 0.000239 loss = 0.1337   cl_loss = 0.1054    reward = 0.9750 advantage = 0.0099  baselines_mse = 0.0250
+INFO:root:step 81900: lr = 0.000239 loss = 0.1764   cl_loss = 0.1352    reward = 0.9656 advantage = 0.0023  baselines_mse = 0.0326
+INFO:root:step 82000: lr = 0.000239 loss = 0.1071   cl_loss = 0.0809    reward = 0.9688 advantage = 0.0042  baselines_mse = 0.0289
+INFO:root:step 82100: lr = 0.000239 loss = 0.1619   cl_loss = 0.1298    reward = 0.9656 advantage = 0.0055  baselines_mse = 0.0328
+INFO:root:step 82200: lr = 0.000239 loss = 0.1238   cl_loss = 0.0882    reward = 0.9688 advantage = 0.0013  baselines_mse = 0.0298
+INFO:root:step 82300: lr = 0.000239 loss = 0.3890   cl_loss = 0.2813    reward = 0.8938 advantage = -0.0662 baselines_mse = 0.0944
+INFO:root:step 82400: lr = 0.000239 loss = 0.1309   cl_loss = 0.0979    reward = 0.9656 advantage = 0.0011  baselines_mse = 0.0317
+INFO:root:valid accuracy = 0.985176282051282
+INFO:root:test accuracy = 0.9863782051282052
+INFO:root:step 82500: lr = 0.000232 loss = 0.2268   cl_loss = 0.1709    reward = 0.9406 advantage = -0.0182 baselines_mse = 0.0532
+INFO:root:step 82600: lr = 0.000232 loss = 0.1831   cl_loss = 0.1260    reward = 0.9500 advantage = -0.0151 baselines_mse = 0.0447
+INFO:root:step 82700: lr = 0.000232 loss = 0.1589   cl_loss = 0.1117    reward = 0.9563 advantage = -0.0093 baselines_mse = 0.0394
+INFO:root:step 82800: lr = 0.000232 loss = 0.1432   cl_loss = 0.1156    reward = 0.9688 advantage = 0.0061  baselines_mse = 0.0302
+INFO:root:step 82900: lr = 0.000232 loss = 0.1638   cl_loss = 0.1165    reward = 0.9531 advantage = -0.0101 baselines_mse = 0.0434
+INFO:root:step 83000: lr = 0.000232 loss = 0.1887   cl_loss = 0.1505    reward = 0.9531 advantage = -0.0055 baselines_mse = 0.0430
+INFO:root:step 83100: lr = 0.000232 loss = 0.0371   cl_loss = 0.0289    reward = 0.9906 advantage = 0.0262  baselines_mse = 0.0103
+INFO:root:step 83200: lr = 0.000232 loss = 0.1090   cl_loss = 0.0757    reward = 0.9656 advantage = 0.0033  baselines_mse = 0.0315
+INFO:root:step 83300: lr = 0.000232 loss = 0.0667   cl_loss = 0.0551    reward = 0.9844 advantage = 0.0253  baselines_mse = 0.0165
+INFO:root:step 83400: lr = 0.000232 loss = 0.2640   cl_loss = 0.1997    reward = 0.9344 advantage = -0.0186 baselines_mse = 0.0583
+INFO:root:step 83500: lr = 0.000232 loss = 0.1433   cl_loss = 0.1105    reward = 0.9625 advantage = 0.0008  baselines_mse = 0.0343
+INFO:root:step 83600: lr = 0.000232 loss = 0.0478   cl_loss = 0.0399    reward = 0.9875 advantage = 0.0192  baselines_mse = 0.0127
+INFO:root:step 83700: lr = 0.000232 loss = 0.1129   cl_loss = 0.0911    reward = 0.9781 advantage = 0.0138  baselines_mse = 0.0217
+INFO:root:step 83800: lr = 0.000232 loss = 0.1338   cl_loss = 0.1069    reward = 0.9688 advantage = 0.0083  baselines_mse = 0.0303
+INFO:root:step 83900: lr = 0.000232 loss = 0.1144   cl_loss = 0.0868    reward = 0.9719 advantage = 0.0097  baselines_mse = 0.0265
+INFO:root:step 84000: lr = 0.000232 loss = 0.1350   cl_loss = 0.1052    reward = 0.9656 advantage = 0.0021  baselines_mse = 0.0323
+INFO:root:step 84100: lr = 0.000232 loss = 0.0762   cl_loss = 0.0579    reward = 0.9750 advantage = 0.0132  baselines_mse = 0.0230
+INFO:root:valid accuracy = 0.9867788461538461
+INFO:root:test accuracy = 0.9864783653846154
+INFO:root:step 84200: lr = 0.000225 loss = 0.0943   cl_loss = 0.0740    reward = 0.9750 advantage = 0.0104  baselines_mse = 0.0231
+INFO:root:step 84300: lr = 0.000225 loss = 0.2410   cl_loss = 0.1801    reward = 0.9438 advantage = -0.0190 baselines_mse = 0.0513
+INFO:root:step 84400: lr = 0.000225 loss = 0.1598   cl_loss = 0.1157    reward = 0.9531 advantage = -0.0042 baselines_mse = 0.0425
+INFO:root:step 84500: lr = 0.000225 loss = 0.0844   cl_loss = 0.0638    reward = 0.9750 advantage = 0.0169  baselines_mse = 0.0238
+INFO:root:step 84600: lr = 0.000225 loss = 0.1093   cl_loss = 0.0929    reward = 0.9781 advantage = 0.0220  baselines_mse = 0.0218
+INFO:root:step 84700: lr = 0.000225 loss = 0.0921   cl_loss = 0.0628    reward = 0.9688 advantage = 0.0183  baselines_mse = 0.0290
+INFO:root:step 84800: lr = 0.000225 loss = 0.0568   cl_loss = 0.0468    reward = 0.9875 advantage = 0.0211  baselines_mse = 0.0132
+INFO:root:step 84900: lr = 0.000225 loss = 0.2866   cl_loss = 0.2127    reward = 0.9312 advantage = -0.0401 baselines_mse = 0.0658
+INFO:root:step 85000: lr = 0.000225 loss = 0.0506   cl_loss = 0.0367    reward = 0.9875 advantage = 0.0180  baselines_mse = 0.0130
+INFO:root:step 85100: lr = 0.000225 loss = 0.1188   cl_loss = 0.0943    reward = 0.9750 advantage = -0.0009 baselines_mse = 0.0249
+INFO:root:step 85200: lr = 0.000225 loss = 0.1793   cl_loss = 0.1315    reward = 0.9563 advantage = -0.0083 baselines_mse = 0.0398
+INFO:root:step 85300: lr = 0.000225 loss = 0.0502   cl_loss = 0.0371    reward = 0.9844 advantage = 0.0200  baselines_mse = 0.0159
+INFO:root:step 85400: lr = 0.000225 loss = 0.1196   cl_loss = 0.0918    reward = 0.9719 advantage = 0.0041  baselines_mse = 0.0267
+INFO:root:step 85500: lr = 0.000225 loss = 0.4383   cl_loss = 0.3489    reward = 0.9031 advantage = -0.0622 baselines_mse = 0.0866
+INFO:root:step 85600: lr = 0.000225 loss = 0.0220   cl_loss = 0.0184    reward = 0.9969 advantage = 0.0198  baselines_mse = 0.0043
+INFO:root:step 85700: lr = 0.000225 loss = 0.0798   cl_loss = 0.0611    reward = 0.9750 advantage = 0.0196  baselines_mse = 0.0245
+INFO:root:step 85800: lr = 0.000225 loss = 0.1179   cl_loss = 0.0912    reward = 0.9719 advantage = 0.0063  baselines_mse = 0.0270
+INFO:root:step 85900: lr = 0.000218 loss = 0.1813   cl_loss = 0.1271    reward = 0.9531 advantage = -0.0122 baselines_mse = 0.0440
+INFO:root:valid accuracy = 0.9871794871794872
+INFO:root:test accuracy = 0.985176282051282
+INFO:root:step 86000: lr = 0.000218 loss = 0.1185   cl_loss = 0.0880    reward = 0.9719 advantage = 0.0037  baselines_mse = 0.0264
+INFO:root:step 86100: lr = 0.000218 loss = 0.1310   cl_loss = 0.0955    reward = 0.9656 advantage = 0.0002  baselines_mse = 0.0313
+INFO:root:step 86200: lr = 0.000218 loss = 0.1022   cl_loss = 0.0782    reward = 0.9719 advantage = 0.0137  baselines_mse = 0.0271
+INFO:root:step 86300: lr = 0.000218 loss = 0.1952   cl_loss = 0.1351    reward = 0.9406 advantage = -0.0209 baselines_mse = 0.0544
+INFO:root:step 86400: lr = 0.000218 loss = 0.1707   cl_loss = 0.1273    reward = 0.9531 advantage = -0.0097 baselines_mse = 0.0419
+INFO:root:step 86500: lr = 0.000218 loss = 0.2882   cl_loss = 0.2201    reward = 0.9219 advantage = -0.0270 baselines_mse = 0.0706
+INFO:root:step 86600: lr = 0.000218 loss = 0.1062   cl_loss = 0.0759    reward = 0.9719 advantage = 0.0088  baselines_mse = 0.0267
+INFO:root:step 86700: lr = 0.000218 loss = 0.0956   cl_loss = 0.0734    reward = 0.9750 advantage = 0.0042  baselines_mse = 0.0240
+INFO:root:step 86800: lr = 0.000218 loss = 0.1928   cl_loss = 0.1454    reward = 0.9531 advantage = -0.0038 baselines_mse = 0.0427
+INFO:root:step 86900: lr = 0.000218 loss = 0.0577   cl_loss = 0.0528    reward = 0.9906 advantage = 0.0283  baselines_mse = 0.0105
+INFO:root:step 87000: lr = 0.000218 loss = 0.1572   cl_loss = 0.1102    reward = 0.9594 advantage = -0.0118 baselines_mse = 0.0382
+INFO:root:step 87100: lr = 0.000218 loss = 0.0800   cl_loss = 0.0585    reward = 0.9781 advantage = 0.0107  baselines_mse = 0.0210
+INFO:root:step 87200: lr = 0.000218 loss = 0.1012   cl_loss = 0.0760    reward = 0.9719 advantage = 0.0046  baselines_mse = 0.0257
+INFO:root:step 87300: lr = 0.000218 loss = 0.1522   cl_loss = 0.1220    reward = 0.9594 advantage = -0.0073 baselines_mse = 0.0369
+INFO:root:step 87400: lr = 0.000218 loss = 0.2074   cl_loss = 0.1592    reward = 0.9594 advantage = -0.0122 baselines_mse = 0.0369
+INFO:root:step 87500: lr = 0.000218 loss = 0.0642   cl_loss = 0.0535    reward = 0.9875 advantage = 0.0194  baselines_mse = 0.0130
+INFO:root:step 87600: lr = 0.000218 loss = 0.2281   cl_loss = 0.1636    reward = 0.9312 advantage = -0.0257 baselines_mse = 0.0608
+INFO:root:valid accuracy = 0.9871794871794872
+INFO:root:test accuracy = 0.984375
+INFO:root:step 87700: lr = 0.000212 loss = 0.1867   cl_loss = 0.1436    reward = 0.9531 advantage = -0.0121 baselines_mse = 0.0436
+INFO:root:step 87800: lr = 0.000212 loss = 0.0524   cl_loss = 0.0407    reward = 0.9875 advantage = 0.0220  baselines_mse = 0.0132
+INFO:root:step 87900: lr = 0.000212 loss = 0.1806   cl_loss = 0.1354    reward = 0.9563 advantage = -0.0112 baselines_mse = 0.0391
+INFO:root:step 88000: lr = 0.000212 loss = 0.1918   cl_loss = 0.1318    reward = 0.9438 advantage = -0.0136 baselines_mse = 0.0506
+INFO:root:step 88100: lr = 0.000212 loss = 0.2676   cl_loss = 0.1816    reward = 0.9219 advantage = -0.0423 baselines_mse = 0.0718
+INFO:root:step 88200: lr = 0.000212 loss = 0.1536   cl_loss = 0.1126    reward = 0.9594 advantage = -0.0020 baselines_mse = 0.0377
+INFO:root:step 88300: lr = 0.000212 loss = 0.1324   cl_loss = 0.0965    reward = 0.9656 advantage = -0.0081 baselines_mse = 0.0317
+INFO:root:step 88400: lr = 0.000212 loss = 0.0595   cl_loss = 0.0423    reward = 0.9812 advantage = 0.0094  baselines_mse = 0.0184
+INFO:root:step 88500: lr = 0.000212 loss = 0.1289   cl_loss = 0.0898    reward = 0.9656 advantage = -0.0006 baselines_mse = 0.0326
+INFO:root:step 88600: lr = 0.000212 loss = 0.1503   cl_loss = 0.1144    reward = 0.9656 advantage = 0.0071  baselines_mse = 0.0329
+INFO:root:step 88700: lr = 0.000212 loss = 0.1580   cl_loss = 0.1168    reward = 0.9563 advantage = -0.0072 baselines_mse = 0.0405
+INFO:root:step 88800: lr = 0.000212 loss = 0.1891   cl_loss = 0.1512    reward = 0.9594 advantage = -0.0094 baselines_mse = 0.0369
+INFO:root:step 88900: lr = 0.000212 loss = 0.1234   cl_loss = 0.0849    reward = 0.9625 advantage = -0.0010 baselines_mse = 0.0368
+INFO:root:step 89000: lr = 0.000212 loss = 0.1883   cl_loss = 0.1359    reward = 0.9375 advantage = -0.0267 baselines_mse = 0.0568
+INFO:root:step 89100: lr = 0.000212 loss = 0.1349   cl_loss = 0.1134    reward = 0.9750 advantage = 0.0107  baselines_mse = 0.0242
+INFO:root:step 89200: lr = 0.000212 loss = 0.0721   cl_loss = 0.0551    reward = 0.9781 advantage = 0.0079  baselines_mse = 0.0212
+INFO:root:step 89300: lr = 0.000212 loss = 0.0753   cl_loss = 0.0665    reward = 0.9844 advantage = 0.0257  baselines_mse = 0.0150
+INFO:root:valid accuracy = 0.9859775641025641
+INFO:root:test accuracy = 0.9860777243589743
+INFO:root:step 89400: lr = 0.000205 loss = 0.1377   cl_loss = 0.1002    reward = 0.9656 advantage = 0.0006  baselines_mse = 0.0311
+INFO:root:step 89500: lr = 0.000205 loss = 0.1517   cl_loss = 0.1091    reward = 0.9563 advantage = -0.0069 baselines_mse = 0.0398
+INFO:root:step 89600: lr = 0.000205 loss = 0.0353   cl_loss = 0.0295    reward = 0.9875 advantage = 0.0254  baselines_mse = 0.0134
+INFO:root:step 89700: lr = 0.000205 loss = 0.1394   cl_loss = 0.1011    reward = 0.9563 advantage = -0.0099 baselines_mse = 0.0396
+INFO:root:step 89800: lr = 0.000205 loss = 0.1764   cl_loss = 0.1325    reward = 0.9531 advantage = -0.0167 baselines_mse = 0.0431
+INFO:root:step 89900: lr = 0.000205 loss = 0.3499   cl_loss = 0.2635    reward = 0.9156 advantage = -0.0463 baselines_mse = 0.0760
+INFO:root:step 90000: lr = 0.000205 loss = 0.2321   cl_loss = 0.1582    reward = 0.9406 advantage = -0.0303 baselines_mse = 0.0543
+INFO:root:step 90100: lr = 0.000205 loss = 0.0822   cl_loss = 0.0689    reward = 0.9844 advantage = 0.0265  baselines_mse = 0.0164
+INFO:root:step 90200: lr = 0.000205 loss = 0.0792   cl_loss = 0.0543    reward = 0.9750 advantage = 0.0084  baselines_mse = 0.0238
+INFO:root:step 90300: lr = 0.000205 loss = 0.1189   cl_loss = 0.0852    reward = 0.9688 advantage = 0.0128  baselines_mse = 0.0292
+INFO:root:step 90400: lr = 0.000205 loss = 0.0922   cl_loss = 0.0727    reward = 0.9812 advantage = 0.0132  baselines_mse = 0.0190
+INFO:root:step 90500: lr = 0.000205 loss = 0.1911   cl_loss = 0.1438    reward = 0.9563 advantage = -0.0074 baselines_mse = 0.0404
+INFO:root:step 90600: lr = 0.000205 loss = 0.0982   cl_loss = 0.0731    reward = 0.9719 advantage = 0.0066  baselines_mse = 0.0265
+INFO:root:step 90700: lr = 0.000205 loss = 0.0976   cl_loss = 0.0677    reward = 0.9719 advantage = 0.0006  baselines_mse = 0.0258
+INFO:root:step 90800: lr = 0.000205 loss = 0.1250   cl_loss = 0.0906    reward = 0.9625 advantage = -0.0079 baselines_mse = 0.0351
+INFO:root:step 90900: lr = 0.000205 loss = 0.2087   cl_loss = 0.1426    reward = 0.9375 advantage = -0.0277 baselines_mse = 0.0563
+INFO:root:step 91000: lr = 0.000205 loss = 0.0748   cl_loss = 0.0570    reward = 0.9812 advantage = 0.0148  baselines_mse = 0.0181
+INFO:root:valid accuracy = 0.9863782051282052
+INFO:root:test accuracy = 0.9866786858974359
+INFO:root:step 91100: lr = 0.000199 loss = 0.1869   cl_loss = 0.1450    reward = 0.9500 advantage = -0.0154 baselines_mse = 0.0471
+INFO:root:step 91200: lr = 0.000199 loss = 0.1909   cl_loss = 0.1398    reward = 0.9531 advantage = -0.0115 baselines_mse = 0.0434
+INFO:root:step 91300: lr = 0.000199 loss = 0.3592   cl_loss = 0.2654    reward = 0.9156 advantage = -0.0417 baselines_mse = 0.0752
+INFO:root:step 91400: lr = 0.000199 loss = 0.0898   cl_loss = 0.0770    reward = 0.9812 advantage = 0.0130  baselines_mse = 0.0182
+INFO:root:step 91500: lr = 0.000199 loss = 0.4025   cl_loss = 0.2993    reward = 0.9000 advantage = -0.0580 baselines_mse = 0.0884
+INFO:root:step 91600: lr = 0.000199 loss = 0.1933   cl_loss = 0.1447    reward = 0.9500 advantage = -0.0152 baselines_mse = 0.0447
+INFO:root:step 91700: lr = 0.000199 loss = 0.0650   cl_loss = 0.0548    reward = 0.9812 advantage = 0.0096  baselines_mse = 0.0180
+INFO:root:step 91800: lr = 0.000199 loss = 0.0118   cl_loss = 0.0145    reward = 0.9969 advantage = 0.0259  baselines_mse = 0.0046
+INFO:root:step 91900: lr = 0.000199 loss = 0.1419   cl_loss = 0.1049    reward = 0.9563 advantage = -0.0017 baselines_mse = 0.0400
+INFO:root:step 92000: lr = 0.000199 loss = 0.2832   cl_loss = 0.2237    reward = 0.9500 advantage = -0.0212 baselines_mse = 0.0472
+INFO:root:step 92100: lr = 0.000199 loss = 0.3259   cl_loss = 0.2187    reward = 0.9094 advantage = -0.0551 baselines_mse = 0.0825
+INFO:root:step 92200: lr = 0.000199 loss = 0.0503   cl_loss = 0.0389    reward = 0.9875 advantage = 0.0183  baselines_mse = 0.0130
+INFO:root:step 92300: lr = 0.000199 loss = 0.2111   cl_loss = 0.1547    reward = 0.9531 advantage = -0.0142 baselines_mse = 0.0429
+INFO:root:step 92400: lr = 0.000199 loss = 0.1128   cl_loss = 0.0829    reward = 0.9656 advantage = 0.0011  baselines_mse = 0.0316
+INFO:root:step 92500: lr = 0.000199 loss = 0.1111   cl_loss = 0.0740    reward = 0.9688 advantage = 0.0101  baselines_mse = 0.0295
+INFO:root:step 92600: lr = 0.000199 loss = 0.0655   cl_loss = 0.0591    reward = 0.9875 advantage = 0.0247  baselines_mse = 0.0128
+INFO:root:step 92700: lr = 0.000199 loss = 0.1800   cl_loss = 0.1342    reward = 0.9500 advantage = -0.0112 baselines_mse = 0.0453
+INFO:root:valid accuracy = 0.9879807692307693
+INFO:root:test accuracy = 0.9875801282051282
+INFO:root:step 92800: lr = 0.000193 loss = 0.1594   cl_loss = 0.1157    reward = 0.9594 advantage = -0.0092 baselines_mse = 0.0372
+INFO:root:step 92900: lr = 0.000193 loss = 0.1931   cl_loss = 0.1446    reward = 0.9469 advantage = -0.0072 baselines_mse = 0.0488
+INFO:root:step 93000: lr = 0.000193 loss = 0.1291   cl_loss = 0.0950    reward = 0.9594 advantage = -0.0039 baselines_mse = 0.0375
+INFO:root:step 93100: lr = 0.000193 loss = 0.2060   cl_loss = 0.1560    reward = 0.9531 advantage = -0.0156 baselines_mse = 0.0437
+INFO:root:step 93200: lr = 0.000193 loss = 0.1139   cl_loss = 0.0876    reward = 0.9656 advantage = -0.0020 baselines_mse = 0.0329
+INFO:root:step 93300: lr = 0.000193 loss = 0.2167   cl_loss = 0.1675    reward = 0.9469 advantage = -0.0208 baselines_mse = 0.0491
+INFO:root:step 93400: lr = 0.000193 loss = 0.0630   cl_loss = 0.0487    reward = 0.9844 advantage = 0.0215  baselines_mse = 0.0160
+INFO:root:step 93500: lr = 0.000193 loss = 0.0909   cl_loss = 0.0687    reward = 0.9719 advantage = 0.0075  baselines_mse = 0.0257
+INFO:root:step 93600: lr = 0.000193 loss = 0.1828   cl_loss = 0.1365    reward = 0.9594 advantage = -0.0031 baselines_mse = 0.0374
+INFO:root:step 93700: lr = 0.000193 loss = 0.1790   cl_loss = 0.1299    reward = 0.9531 advantage = -0.0066 baselines_mse = 0.0431
+INFO:root:step 93800: lr = 0.000193 loss = 0.1481   cl_loss = 0.1058    reward = 0.9625 advantage = -0.0063 baselines_mse = 0.0349
+INFO:root:step 93900: lr = 0.000193 loss = 0.1656   cl_loss = 0.1107    reward = 0.9469 advantage = -0.0259 baselines_mse = 0.0488
+INFO:root:step 94000: lr = 0.000193 loss = 0.1425   cl_loss = 0.1114    reward = 0.9625 advantage = 0.0051  baselines_mse = 0.0349
+INFO:root:step 94100: lr = 0.000193 loss = 0.1773   cl_loss = 0.1356    reward = 0.9563 advantage = -0.0087 baselines_mse = 0.0412
+INFO:root:step 94200: lr = 0.000193 loss = 0.1415   cl_loss = 0.1058    reward = 0.9625 advantage = -0.0037 baselines_mse = 0.0337
+INFO:root:step 94300: lr = 0.000193 loss = 0.0563   cl_loss = 0.0460    reward = 0.9875 advantage = 0.0256  baselines_mse = 0.0129
+INFO:root:step 94400: lr = 0.000193 loss = 0.2495   cl_loss = 0.1843    reward = 0.9375 advantage = -0.0200 baselines_mse = 0.0561
+INFO:root:valid accuracy = 0.9871794871794872
+INFO:root:test accuracy = 0.9870793269230769
+INFO:root:step 94500: lr = 0.000187 loss = 0.0827   cl_loss = 0.0606    reward = 0.9750 advantage = 0.0057  baselines_mse = 0.0243
+INFO:root:step 94600: lr = 0.000187 loss = 0.0802   cl_loss = 0.0631    reward = 0.9812 advantage = 0.0104  baselines_mse = 0.0190
+INFO:root:step 94700: lr = 0.000187 loss = 0.0446   cl_loss = 0.0384    reward = 0.9937 advantage = 0.0221  baselines_mse = 0.0074
+INFO:root:step 94800: lr = 0.000187 loss = 0.3418   cl_loss = 0.2466    reward = 0.9125 advantage = -0.0510 baselines_mse = 0.0795
+INFO:root:step 94900: lr = 0.000187 loss = 0.1257   cl_loss = 0.0867    reward = 0.9688 advantage = 0.0033  baselines_mse = 0.0300
+INFO:root:step 95000: lr = 0.000187 loss = 0.0834   cl_loss = 0.0709    reward = 0.9812 advantage = 0.0194  baselines_mse = 0.0187
+INFO:root:step 95100: lr = 0.000187 loss = 0.0539   cl_loss = 0.0431    reward = 0.9875 advantage = 0.0214  baselines_mse = 0.0129
+INFO:root:step 95200: lr = 0.000187 loss = 0.1906   cl_loss = 0.1438    reward = 0.9531 advantage = -0.0037 baselines_mse = 0.0432
+INFO:root:step 95300: lr = 0.000187 loss = 0.1229   cl_loss = 0.0917    reward = 0.9688 advantage = 0.0002  baselines_mse = 0.0290
+INFO:root:step 95400: lr = 0.000187 loss = 0.1793   cl_loss = 0.1295    reward = 0.9531 advantage = -0.0125 baselines_mse = 0.0423
+INFO:root:step 95500: lr = 0.000187 loss = 0.1046   cl_loss = 0.0767    reward = 0.9719 advantage = 0.0052  baselines_mse = 0.0272
+INFO:root:step 95600: lr = 0.000187 loss = 0.1504   cl_loss = 0.1114    reward = 0.9656 advantage = -0.0008 baselines_mse = 0.0326
+INFO:root:step 95700: lr = 0.000187 loss = 0.1008   cl_loss = 0.0712    reward = 0.9688 advantage = 0.0033  baselines_mse = 0.0284
+INFO:root:step 95800: lr = 0.000187 loss = 0.1007   cl_loss = 0.0834    reward = 0.9750 advantage = 0.0116  baselines_mse = 0.0241
+INFO:root:step 95900: lr = 0.000187 loss = 0.0715   cl_loss = 0.0498    reward = 0.9812 advantage = 0.0123  baselines_mse = 0.0183
+INFO:root:step 96000: lr = 0.000187 loss = 0.0864   cl_loss = 0.0690    reward = 0.9781 advantage = 0.0077  baselines_mse = 0.0209
+INFO:root:step 96100: lr = 0.000187 loss = 0.2763   cl_loss = 0.2004    reward = 0.9281 advantage = -0.0341 baselines_mse = 0.0651
+INFO:root:step 96200: lr = 0.000187 loss = 0.1576   cl_loss = 0.1151    reward = 0.9563 advantage = -0.0107 baselines_mse = 0.0412
+INFO:root:valid accuracy = 0.9871794871794872
+INFO:root:test accuracy = 0.9867788461538461
+INFO:root:step 96300: lr = 0.000182 loss = 0.1089   cl_loss = 0.0838    reward = 0.9719 advantage = 0.0069  baselines_mse = 0.0278
+INFO:root:step 96400: lr = 0.000182 loss = 0.1156   cl_loss = 0.0845    reward = 0.9719 advantage = -0.0010 baselines_mse = 0.0266
+INFO:root:step 96500: lr = 0.000182 loss = 0.3499   cl_loss = 0.2672    reward = 0.9219 advantage = -0.0366 baselines_mse = 0.0707
+INFO:root:step 96600: lr = 0.000182 loss = 0.0610   cl_loss = 0.0529    reward = 0.9906 advantage = 0.0228  baselines_mse = 0.0101
+INFO:root:step 96700: lr = 0.000182 loss = 0.1939   cl_loss = 0.1348    reward = 0.9469 advantage = -0.0159 baselines_mse = 0.0488
+INFO:root:step 96800: lr = 0.000182 loss = 0.1954   cl_loss = 0.1484    reward = 0.9469 advantage = -0.0126 baselines_mse = 0.0480
+INFO:root:step 96900: lr = 0.000182 loss = 0.0778   cl_loss = 0.0635    reward = 0.9812 advantage = 0.0161  baselines_mse = 0.0183
+INFO:root:step 97000: lr = 0.000182 loss = 0.1326   cl_loss = 0.0966    reward = 0.9563 advantage = -0.0058 baselines_mse = 0.0407
+INFO:root:step 97100: lr = 0.000182 loss = 0.1215   cl_loss = 0.0889    reward = 0.9688 advantage = 0.0039  baselines_mse = 0.0294
+INFO:root:step 97200: lr = 0.000182 loss = 0.0822   cl_loss = 0.0659    reward = 0.9812 advantage = 0.0207  baselines_mse = 0.0190
+INFO:root:step 97300: lr = 0.000182 loss = 0.2550   cl_loss = 0.1793    reward = 0.9250 advantage = -0.0428 baselines_mse = 0.0666
+INFO:root:step 97400: lr = 0.000182 loss = 0.1056   cl_loss = 0.0788    reward = 0.9750 advantage = 0.0132  baselines_mse = 0.0242
+INFO:root:step 97500: lr = 0.000182 loss = 0.0791   cl_loss = 0.0555    reward = 0.9781 advantage = 0.0199  baselines_mse = 0.0218
+INFO:root:step 97600: lr = 0.000182 loss = 0.0836   cl_loss = 0.0638    reward = 0.9781 advantage = 0.0119  baselines_mse = 0.0204
+INFO:root:step 97700: lr = 0.000182 loss = 0.1010   cl_loss = 0.0696    reward = 0.9719 advantage = 0.0008  baselines_mse = 0.0265
+INFO:root:step 97800: lr = 0.000182 loss = 0.1911   cl_loss = 0.1386    reward = 0.9500 advantage = -0.0117 baselines_mse = 0.0464
+INFO:root:step 97900: lr = 0.000182 loss = 0.2112   cl_loss = 0.1568    reward = 0.9500 advantage = -0.0108 baselines_mse = 0.0450
+INFO:root:valid accuracy = 0.9857772435897436
+INFO:root:test accuracy = 0.9867788461538461
+INFO:root:step 98000: lr = 0.000176 loss = 0.1960   cl_loss = 0.1381    reward = 0.9438 advantage = -0.0224 baselines_mse = 0.0508
+INFO:root:step 98100: lr = 0.000176 loss = 0.1741   cl_loss = 0.1327    reward = 0.9594 advantage = -0.0014 baselines_mse = 0.0383
+INFO:root:step 98200: lr = 0.000176 loss = 0.1807   cl_loss = 0.1374    reward = 0.9469 advantage = -0.0155 baselines_mse = 0.0470
+INFO:root:step 98300: lr = 0.000176 loss = 0.0962   cl_loss = 0.0773    reward = 0.9781 advantage = 0.0044  baselines_mse = 0.0213
+INFO:root:step 98400: lr = 0.000176 loss = 0.0479   cl_loss = 0.0429    reward = 0.9906 advantage = 0.0261  baselines_mse = 0.0101
+INFO:root:step 98500: lr = 0.000176 loss = 0.1546   cl_loss = 0.1131    reward = 0.9594 advantage = -0.0032 baselines_mse = 0.0379
+INFO:root:step 98600: lr = 0.000176 loss = 0.1342   cl_loss = 0.0870    reward = 0.9531 advantage = -0.0164 baselines_mse = 0.0442
+INFO:root:step 98700: lr = 0.000176 loss = 0.2146   cl_loss = 0.1557    reward = 0.9312 advantage = -0.0279 baselines_mse = 0.0614
+INFO:root:step 98800: lr = 0.000176 loss = 0.2724   cl_loss = 0.1947    reward = 0.9250 advantage = -0.0443 baselines_mse = 0.0700
+INFO:root:step 98900: lr = 0.000176 loss = 0.1657   cl_loss = 0.1231    reward = 0.9563 advantage = -0.0042 baselines_mse = 0.0406
+INFO:root:step 99000: lr = 0.000176 loss = 0.0744   cl_loss = 0.0565    reward = 0.9844 advantage = 0.0252  baselines_mse = 0.0164
+INFO:root:step 99100: lr = 0.000176 loss = 0.0968   cl_loss = 0.0748    reward = 0.9719 advantage = 0.0196  baselines_mse = 0.0258
+INFO:root:step 99200: lr = 0.000176 loss = 0.2414   cl_loss = 0.1747    reward = 0.9344 advantage = -0.0366 baselines_mse = 0.0592
+INFO:root:step 99300: lr = 0.000176 loss = 0.1099   cl_loss = 0.0830    reward = 0.9719 advantage = 0.0022  baselines_mse = 0.0262
+INFO:root:step 99400: lr = 0.000176 loss = 0.1512   cl_loss = 0.1116    reward = 0.9625 advantage = -0.0023 baselines_mse = 0.0353
+INFO:root:step 99500: lr = 0.000176 loss = 0.0581   cl_loss = 0.0501    reward = 0.9844 advantage = 0.0240  baselines_mse = 0.0154
+INFO:root:step 99600: lr = 0.000176 loss = 0.2127   cl_loss = 0.1607    reward = 0.9438 advantage = -0.0197 baselines_mse = 0.0517
+INFO:root:valid accuracy = 0.9875801282051282
+INFO:root:test accuracy = 0.9855769230769231
+INFO:root:step 99700: lr = 0.000171 loss = 0.0874   cl_loss = 0.0704    reward = 0.9812 advantage = 0.0169  baselines_mse = 0.0181
+INFO:root:step 99800: lr = 0.000171 loss = 0.0720   cl_loss = 0.0573    reward = 0.9844 advantage = 0.0208  baselines_mse = 0.0155
+INFO:root:step 99900: lr = 0.000171 loss = 0.3049   cl_loss = 0.2340    reward = 0.9312 advantage = -0.0394 baselines_mse = 0.0633
