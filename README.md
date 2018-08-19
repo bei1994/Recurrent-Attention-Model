@@ -72,6 +72,11 @@ Notes:
 ## Run the code
  
 Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
- 
+
+```
+cd lib/model/
+python3 ram.py --train=True --center=True 
+```
+
  
 
