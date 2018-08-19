@@ -77,12 +77,7 @@ Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention
 
 ```
 cd lib/model/
-
-Training for centered MNIST data
 python3 ram.py --train=True --center=True
-
-Testing for centered MNIST data
-python3 ram.py --test=True --center=True
 ```
 
 There are 3 supported model parameters configurations: 'center', 'translated' adnd 'custom'. You can set different hyperparameters to train your model using the same syntax in terminal. Details of hyperparameters can be found [here](lib/model/ram.py).
