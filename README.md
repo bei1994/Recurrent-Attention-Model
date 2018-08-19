@@ -84,11 +84,12 @@ There are 3 supported model parameters configurations: 'center', 'translated' an
 
 ## Results
 
-I experiment two different dataset: MNIST center dataset and MNIST translated dataset. After getting results, I use [code](lib/helper/) to generate whole image gif and glimpse gif for model testing process.For center MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 8. The final valid error rate is 0.86%, test error rate is 0.84% which is much better than 1.29% in the original paper. For translated MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 12, glimpse scale is 3. The final valid error rate is 1.24%, test error rate is 1.44% which is also much better than 1.84% in the original paper. The result data can be found [here](/results/). The gifs are as follows:
+I experiment two different dataset: MNIST center dataset and MNIST translated dataset. After getting results, I use [code](lib/helper/) to generate whole image gif and glimpse gif for model testing process.For center MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 8. The final valid error rate is 0.86%, test error rate is 0.84% which is much better than 1.29% in the original paper. For translated MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 12, glimpse scale is 3. The final valid error rate is 1.24%, test error rate is 1.44% which is also much better than 1.84% in the original paper. The result data can be found [here](/results/). One test batch size is 32, I use first 30 to make gifs. These gifs are as follows:
 
 
 #### Centered MNIST
 
+![test image center](/images/gif/center/center.gif)
 
 #### Translated MNIST
 
