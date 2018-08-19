@@ -98,6 +98,7 @@ I experiment two different dataset: MNIST center dataset and MNIST translated da
 
 ![glimpse center](/images/gif/center/glimpse_scale_1.gif)
 
+
 ### Translated MNIST
 
 ---
