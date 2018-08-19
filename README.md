@@ -70,7 +70,16 @@ Notes:
  * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
  * I implement center MNIST data and translated MNIST data. Due to the time constraint, I don't experiment with cluttered MNIST data.
+
+## Requirements
+
+* Python 3.3+
+* Tensorflow 1.8+
+* Tensorboard 1.8+
+* Matlab R2017a+
  
+Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
+
 ## Run the code
  
 Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands:
