@@ -53,9 +53,9 @@ Notes:
 
 * Action network, LSTM network and glimpse network are trained through classification cross entropy error, not through location network and critic network. Thus, you need stopping gradient from location network and critic network when training.
 
-* Location network is trained through [Actor-Critic Algorithm Based on Policy Gradient](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf). According to policy gradient expression, we can just treat it as a classic classification problem to train location network practically. Details can be found [here](https://www.youtube.com/watch?v=y8UPGr36ccI&t=0s&list=PLvSdMJxMoHLtRjW2QFp3mRfzU02TgzrSV&index=3) (Apologies for no english substitles in this video :( ).
+* Location network is trained through [Actor-Critic Algorithm Based on Policy Gradient](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf). According to policy gradient expression, we can just treat it as a classic classification problem to train location network practically. Details can be found [here](https://www.youtube.com/watch?v=y8UPGr36ccI&t=0s&list=PLvSdMJxMoHLtRjW2QFp3mRfzU02TgzrSV&index=3) (Apologies for no english subtitles in this video :( ).
 
-* Critic network is trained through mean square error between reward and baseline. Baseline is value function ![value function](https://latex.codecogs.com/gif.latex?V%5E%5Cpi%28s%29). In this implementation reward is estimated by just one trajectory reward, which is not accurate though. But it is enough for MNIST dataset. For more complicated tasks, you should choose more fancier methods to estimate reward. These are some choices: 
+* Critic network is trained through mean square error between reward and baseline. Baseline is state value function ![value function](https://latex.codecogs.com/gif.latex?V%5E%5Cpi%28s%29), which is scalar output of critic network. In this implementation one trajectory total reward is used to estimate baseline, which is not accurate. But it is enough for MNIST dataset. For other complicated tasks, you should choose much fancier methods to estimate reward. These are some choices: 
 
    - [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
    - [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952?context=cs)
@@ -69,7 +69,7 @@ Notes:
  
  * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
- * I implement center MNIST data and translated MNIST data. Due to the time constraint, I don't experiment with cluttered MNIST data.
+ * I implement center MNIST data and translated MNIST data. Due to the time constraint, I did't experiment with cluttered MNIST data.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ Notes:
 
 ## Run the code
  
-Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands for example:
+Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands for one example:
 
 ### Training Center MNIST
 
