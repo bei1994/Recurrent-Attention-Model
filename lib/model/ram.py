@@ -1,3 +1,42 @@
+"""RAM Model
+
+Implement model described in:
+(Volodymyr Mnih, et. al.) Recurrent Models of Visual Attention
+https://arxiv.org/abs/1406.6247
+
+
+There are 3 supported model configurations: center, translate, custom.
+
+
+The hyperparameters used in the model:
+- test - use trained models to test
+- train - train the RAM model
+- center - use center MINST data
+- translate - use translated MNIST data
+- custom - customize hyperparas and use translated MINST data
+
+- learning_rate - initial learning rate
+- decay_factor - learning rate decays by this much
+- min_learning_rate - minimum learning rate
+- max_gradient_norm - clip gradients to this norm
+- batch_size - batch size to use during training
+- patch_base_size - size of glimpse patch window
+- num_scales - num of scales per glimpse
+- unit_pixel - num of pixels for patch center to be most far
+- g_size - size of theta_g^0
+- l_size - size of theta_g^1
+- glimpse_output_size - output size of Glimpse Network
+- cell_size - size of LSTM cell
+- num_glimpses - number of glimpses
+- variance - gaussian variance for Location Network
+- M - monte Carlo sampling
+- load - load pretrained parameters with id
+
+To run:
+
+python3 ram.py --train=True --center=True
+
+"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -25,8 +64,9 @@ logging.getLogger().setLevel(logging.INFO)
 flags = tf.flags
 flags.DEFINE_bool("test", False, "Use trained models to test.")
 flags.DEFINE_bool("train", False, "Train the RAM model.")
-flags.DEFINE_bool("translate", False, "Use translated MNIST data.")
 flags.DEFINE_bool("center", False, "Use center MINST data")
+flags.DEFINE_bool("translate", False, "Use translated MNIST data.")
+flags.DEFINE_bool("custom", False, "Customize hyperparas and use translated MINST data.")
 
 flags.DEFINE_float("learning_rate", 1e-3, "Learning rate.")
 flags.DEFINE_float("decay_factor", 0.97, "Learning rate decays by this much.")
@@ -43,7 +83,7 @@ flags.DEFINE_integer("glimpse_output_size", 256, "Output size of Glimpse Network
 flags.DEFINE_integer("cell_size", 256, "Size of LSTM cell.")
 flags.DEFINE_integer("num_glimpses", 6, "Number of glimpses.")
 flags.DEFINE_float("variance", 0.22, "Gaussian variance for Location Network.")
-flags.DEFINE_integer("M", 10, "Monte Carlo sampling, see Eq(2).")
+flags.DEFINE_integer("M", 10, "Monte Carlo sampling number.")
 flags.DEFINE_integer("load", 100, "Load pretrained parameters with id.")
 FLAGS = flags.FLAGS
 
@@ -784,11 +824,12 @@ def get_config():
   elif FLAGS.translate:
     name = 'translated'
     config = TranslatedConfig()
-  else:
+  elif FLAGS.custom:
     name = 'custom'
     FLAGS.translate = True
     config = CustomConfig()
-
+  else:
+    raise ValueError('Must set one of (center, translate, custom) to be true.')
   return config, name
 
 
