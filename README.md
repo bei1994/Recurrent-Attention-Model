@@ -80,7 +80,7 @@ Notes:
 
 ## Run the code
  
-Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands for one example:
+Clone [Recurrent-Attention-Model](https://github.com/bei1994/Recurrent-Attention-Model) from Github into your local machine. Running the following commands for example:
 
 ### Training Center MNIST
 
