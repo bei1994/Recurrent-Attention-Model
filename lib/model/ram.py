@@ -32,6 +32,7 @@ The hyperparameters used in the model:
 - M - monte Carlo sampling
 - load - load pretrained parameters with id
 
+
 To run:
 
 python3 ram.py --train=True --center=True
