@@ -162,6 +162,12 @@ I used trained models to test and generate images. Generated images are [center_
 
 According to my results and statements in the original paper, it has been shown that we can apply actor-critic algorithm to achieve attention mechanism with good performance in image classification. I also believe that RAM can be applied to other tasks. In effect, attention models have been a hot topic in deep learning including visual attention and text attention. The key component is the combination of traditional neural network and reinforcement learning. With the rapid development of deep reinforcement learning, much fancier methods and algorithms hve come into handy just as mentioned [above](https://github.com/bei1994/Recurrent-Attention-Model#implemenation). Perhaps we can make use of them to accomplish much complicated problems.
 
-
-
+## Paper Readings
+1. [Recurrent Models of Visual Attention](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
+2. [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+3. [CRAM: Clued Recurrent Aattentionttention Model](https://arxiv.org/pdf/1804.10844.pdf)
+4. [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
+5. [Look Closer to See Better: Recurrent Attention Convolutional Neural Network
+for Fine-grained Image Recognition](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf)
+6. [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
 
