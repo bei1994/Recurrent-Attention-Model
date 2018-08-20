@@ -119,7 +119,7 @@ I experimented with two different datasets: MNIST center dataset and MNIST trans
 ![scalars translated](/images/tensorboard/scalars_translated.png)
 
 
-I used trained models to test and generate images. Generated images are [center_test images](/results/center/test/) and [translated test images](/results/translated/test/). If you want, you can directly download my log files to load my trained models for [center model](/results/center/logs/saver/) and [traslated model](/results/translated/logs/saver/). One test batch size is 32, prediction accuracy is 100%. I use first 30 generated images to make gifs. These gifs are as follows:
+I used trained models to test and generate images. Generated images are [center test images](/results/center/test/) and [translated test images](/results/translated/test/). If you want, you can directly download my log files to reload my trained models for [center model](/results/center/logs/saver/) and [traslated model](/results/translated/logs/saver/). One test batch size is 32, prediction accuracy is 100%. I use first 30 generated images to make gifs. These gifs are as follows:
 
 ### Testing
 
