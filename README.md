@@ -102,7 +102,10 @@ There are 3 supported model parameters configurations: 'center', 'translated' an
 
 |                  | training step | batch size  | glimpse number | glimpse scale | patch size | valid error |  test error |
 | ---------------- | ------------- | ----------- | -------------- | ------------- | ---------- | ----------- | ----------- | 
-|     my result    |               |             |                |               |            |             |             |
+| ***my results*** |               |             |                |               |            |             |             |
+| center MNIST     |  100000       |      32     |       6        |       1       |     8      |    0.88%    |     0.78%   |
+| translated MNIST |  100000       |      32     |       6        |       3       |     12     |    1.08%    |     1.19%   |
+| ***paper results***|               |             |                |               |            |             |             |
 | center MNIST     |  100000       |      32     |       6        |       1       |     8      |    0.88%    |     0.78%   |
 | translated MNIST |  100000       |      32     |       6        |       3       |     12     |    1.08%    |     1.19%   |
 
