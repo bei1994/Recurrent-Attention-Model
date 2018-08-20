@@ -44,7 +44,7 @@ lib/helper/glimpse_gif.m
 lib/helper/image_gif.m
 ```
 
-## Implemenation
+## Implementation
 
 * The RAM mdoel is defined in [lib/model/ram.py](lib/model/ram.py).
 * The gif generator is defined in [lib/helper/](lib/helper/).
