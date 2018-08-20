@@ -172,7 +172,7 @@ for Fine-grained Image Recognition](http://openaccess.thecvf.com/content_cvpr_20
 6. [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
 
 ## Reference Implemenation
-1. [](https://github.com/hehefan/Recurrent-Attention-Model)
-2. [](https://github.com/conan7882/recurrent-attention-model-tensorflow)
-3. [](https://github.com/zhongwen/RAM)
-4. [](http://torch.ch/blog/2015/09/21/rmva.html)
+1. [https://github.com/hehefan/Recurrent-Attention-Model](https://github.com/hehefan/Recurrent-Attention-Model)
+2. [https://github.com/conan7882/recurrent-attention-model-tensorflow](https://github.com/conan7882/recurrent-attention-model-tensorflow)
+3. [https://github.com/zhongwen/RAM](https://github.com/zhongwen/RAM)
+4. [http://torch.ch/blog/2015/09/21/rmva.html](http://torch.ch/blog/2015/09/21/rmva.html)
