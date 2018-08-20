@@ -107,7 +107,7 @@ There are 3 supported model parameters configurations: 'center', 'translated' an
 | translated MNIST |  100000       |      32     |       6        |       3       |     12     |    1.08%    |     1.19%   |
 | ***paper results***|               |             |                |               |            |             |             |
 | center MNIST     |     -         |      -     |       6        |       1       |     8      |        -     |     1.29%   |
-| translated MNIST |     -         |      -     |       6        |       3       |     12     |        -     |     1.84%   |
+| translated MNIST |     -         |      -     |       6        |       3       |     12     |        -     |     1.86%   |
 
 I experimented with two different datasets: MNIST center dataset and MNIST translated dataset. After getting results, I used [code](lib/helper/) to generate whole image gif and glimpse gif for model testing process. For center MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 8. The final valid error rate is 0.88%, test error rate is 0.78%, which are much better than 1.29% in the original paper. For translated MNIST dataset, training step is 100000, batch size is 32, glimpse number is 6, patch size is 12, glimpse scale is 3. The final valid error rate is 1.08%, test error rate is 1.19%, which are much better than 1.84% in the original paper as well. The training log files can be found [here](/results/), including saver and summary_writter. The tensorboard visualizations are as follows:
 
