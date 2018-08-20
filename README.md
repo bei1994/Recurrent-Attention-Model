@@ -171,7 +171,7 @@ According to my results and statements in the original paper, it has been shown 
 for Fine-grained Image Recognition](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf)
 6. [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
 
-## Reference Implemenation
+## Reference Implementation
 1. [https://github.com/hehefan/Recurrent-Attention-Model](https://github.com/hehefan/Recurrent-Attention-Model)
 2. [https://github.com/conan7882/recurrent-attention-model-tensorflow](https://github.com/conan7882/recurrent-attention-model-tensorflow)
 3. [https://github.com/zhongwen/RAM](https://github.com/zhongwen/RAM)
