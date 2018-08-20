@@ -69,7 +69,7 @@ Notes:
  
  * To estimate reward, I use Monte Carlo methond to sample different trajectories.
  
- * I implemented center MNIST data and translated MNIST data. Due to the time constraint, I did't experiment with cluttered MNIST data.
+ * I implemented center MNIST data and translated MNIST data. Due to the time constraint, I didn't experiment with cluttered MNIST data.
 
 ## Requirements
 
