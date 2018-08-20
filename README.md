@@ -111,7 +111,7 @@ I experimented with two different datasets: MNIST center and MNIST translated da
 | center MNIST     |     -         |      -     |       6        |       1       |     8      |        -     |     1.29%   |
 | translated MNIST |     -         |      -     |       6        |       3       |     12     |        -     |     1.86%   |
 
-The training log files can be found [here](/results/), including saver and summary_writter. After training, I used trained model to test and then generated whole image gif and glimpse gif for model testing process by means of [code](lib/helper/). The tensorboard visualizations are as follows:
+The training log files can be found [here](/results/), including saver and summary_writter. If you want, you can directly download my log files to reload my trained models for [center model](/results/center/logs/saver/) and [translated model](/results/translated/logs/saver/). The tensorboard visualizations are as follows:
 
 ### Training
 
@@ -130,7 +130,7 @@ The training log files can be found [here](/results/), including saver and summa
 ![scalars translated](/images/tensorboard/scalars_translated.png)
 
 
-I used trained models to test and generate images. Generated images are [center test images](/results/center/test/) and [translated test images](/results/translated/test/). If you want, you can directly download my log files to reload my trained models for [center model](/results/center/logs/saver/) and [translated model](/results/translated/logs/saver/). One test batch size is 32, prediction accuracy is 100%. I use first 30 generated images to make gifs. These gifs are as follows:
+I used trained models to test and generate images. Generated images are [center test images](/results/center/test/) and [translated test images](/results/translated/test/). One test batch size is 32, prediction accuracy is 100%. I used first 30 generated images to make gifs by means of [code](lib/helper/). These gifs are as follows:
 
 ### Testing
 
